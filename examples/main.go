@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	goews "github.com/beorereleverion/go-ews"
-	"github.com/beorereleverion/go-ews/elements"
+	goews "github.com/Teddy-Kun/go-ews"
+	"github.com/Teddy-Kun/go-ews/elements"
 	log "github.com/sirupsen/logrus"
 )
 
