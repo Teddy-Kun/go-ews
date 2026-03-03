@@ -8,7 +8,7 @@ type EndDateRecurrence struct {
 	XMLName xml.Name
 
 	// The EndDate element represents the end date of a recurring task or a calendar item that has the EndDateRecurrence pattern type.
-	EndDate *EndDateRecurrence `xml:"EndDate"`
+	EndDate string `xml:"EndDate"`
 	// The StartDate element represents the start date of a recurring task or calendar item.
 	StartDate *StartDateRecurrence `xml:"StartDate"`
 }
