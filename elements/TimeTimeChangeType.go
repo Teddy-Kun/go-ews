@@ -7,11 +7,20 @@ import (
 	"time"
 )
 
-type ClockTime struct {
-	Time time.Time `xml:",chardata"`
+type TimeTimeChangeType struct {
+	XMLName xml.Name
+	TEXT    time.Time `xml:",chardata"`
 }
 
-func (c *ClockTime) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (T *TimeTimeChangeType) SetForMarshal() {
+	T.XMLName.Local = "t:Time"
+}
+
+func (T *TimeTimeChangeType) GetSchema() *Schema {
+	return &SchemaTypes
+}
+
+func (T *TimeTimeChangeType) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	var s string
 
 	if err := d.DecodeElement(&s, &start); err != nil {
@@ -24,20 +33,7 @@ func (c *ClockTime) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		return err
 	}
 
-	*c = ClockTime{Time: t}
+	T.TEXT = t
 
 	return nil
-}
-
-type TimeTimeChangeType struct {
-	XMLName xml.Name
-	TEXT    ClockTime `xml:",chardata"`
-}
-
-func (T *TimeTimeChangeType) SetForMarshal() {
-	T.XMLName.Local = "t:Time"
-}
-
-func (T *TimeTimeChangeType) GetSchema() *Schema {
-	return &SchemaTypes
 }
