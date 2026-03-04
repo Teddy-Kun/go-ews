@@ -20,3 +20,11 @@ type SyncFolderItems struct {
 	// The SyncState element contains a base64-encoded form of the synchronization data that is updated after each successful request. This is used to identify the synchronization state.
 	SyncState *SyncState `xml:"SyncState"`
 }
+
+func (G *SyncFolderItems) SetForMarshal() {
+	G.XMLName.Local = "m:SyncFolderItems"
+}
+
+func (G *SyncFolderItems) GetSchema() *Schema {
+	return &SchemaMessages
+}
