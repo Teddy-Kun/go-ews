@@ -21,7 +21,7 @@ const (
 )
 
 func (D *DisableReason) SetForMarshal() {
-	D.XMLName.Local = "DisableReason"
+	D.XMLName.Local = "t:DisableReason"
 }
 
 func (D *DisableReason) GetSchema() *Schema {

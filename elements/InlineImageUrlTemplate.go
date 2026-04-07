@@ -10,7 +10,7 @@ type InlineImageUrlTemplate struct {
 }
 
 func (I *InlineImageUrlTemplate) SetForMarshal() {
-	I.XMLName.Local = "InlineImageUrlTemplate"
+	I.XMLName.Local = "t:InlineImageUrlTemplate"
 }
 
 func (I *InlineImageUrlTemplate) GetSchema() *Schema {

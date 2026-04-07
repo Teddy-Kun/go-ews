@@ -12,7 +12,7 @@ type ContainsBodyStrings struct {
 }
 
 func (C *ContainsBodyStrings) SetForMarshal() {
-	C.XMLName.Local = "ContainsBodyStrings"
+	C.XMLName.Local = "m:ContainsBodyStrings"
 }
 
 func (C *ContainsBodyStrings) GetSchema() *Schema {

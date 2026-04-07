@@ -22,7 +22,7 @@ type FindMailboxStatisticsByKeywordsResponseMessage struct {
 }
 
 func (F *FindMailboxStatisticsByKeywordsResponseMessage) SetForMarshal() {
-	F.XMLName.Local = "FindMailboxStatisticsByKeywordsResponseMessage"
+	F.XMLName.Local = "m:FindMailboxStatisticsByKeywordsResponseMessage"
 }
 
 func (F *FindMailboxStatisticsByKeywordsResponseMessage) GetSchema() *Schema {

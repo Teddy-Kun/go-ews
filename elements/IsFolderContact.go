@@ -10,7 +10,7 @@ type IsFolderContact struct {
 }
 
 func (I *IsFolderContact) SetForMarshal() {
-	I.XMLName.Local = "IsFolderContact"
+	I.XMLName.Local = "t:IsFolderContact"
 }
 
 func (I *IsFolderContact) GetSchema() *Schema {

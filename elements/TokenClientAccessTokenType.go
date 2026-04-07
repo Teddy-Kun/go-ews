@@ -18,7 +18,7 @@ type TokenClientAccessTokenType struct {
 }
 
 func (T *TokenClientAccessTokenType) SetForMarshal() {
-	T.XMLName.Local = "Token"
+	T.XMLName.Local = "t:Token"
 }
 
 func (T *TokenClientAccessTokenType) GetSchema() *Schema {

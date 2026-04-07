@@ -16,7 +16,7 @@ type Member struct {
 }
 
 func (M *Member) SetForMarshal() {
-	M.XMLName.Local = "Member"
+	M.XMLName.Local = "t:Member"
 }
 
 func (M *Member) GetSchema() *Schema {

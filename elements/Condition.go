@@ -22,7 +22,7 @@ type Condition struct {
 }
 
 func (C *Condition) SetForMarshal() {
-	C.XMLName.Local = "Condition"
+	C.XMLName.Local = "t:Condition"
 }
 
 func (C *Condition) GetSchema() *Schema {

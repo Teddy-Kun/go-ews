@@ -18,7 +18,7 @@ type Error struct {
 }
 
 func (E *Error) SetForMarshal() {
-	E.XMLName.Local = "Error"
+	E.XMLName.Local = "m:Error"
 }
 
 func (E *Error) GetSchema() *Schema {

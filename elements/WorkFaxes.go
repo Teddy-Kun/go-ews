@@ -12,7 +12,7 @@ type WorkFaxes struct {
 }
 
 func (W *WorkFaxes) SetForMarshal() {
-	W.XMLName.Local = "WorkFaxes"
+	W.XMLName.Local = "t:WorkFaxes"
 }
 
 func (W *WorkFaxes) GetSchema() *Schema {

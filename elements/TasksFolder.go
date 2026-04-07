@@ -32,7 +32,7 @@ type TasksFolder struct {
 }
 
 func (T *TasksFolder) SetForMarshal() {
-	T.XMLName.Local = "TasksFolder"
+	T.XMLName.Local = "t:TasksFolder"
 }
 
 func (T *TasksFolder) GetSchema() *Schema {

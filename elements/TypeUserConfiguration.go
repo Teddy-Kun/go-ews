@@ -33,7 +33,7 @@ const (
 )
 
 func (T *TypeUserConfiguration) SetForMarshal() {
-	T.XMLName.Local = "Type"
+	T.XMLName.Local = "t:Type"
 }
 
 func (T *TypeUserConfiguration) GetSchema() *Schema {

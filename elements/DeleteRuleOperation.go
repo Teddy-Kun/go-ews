@@ -12,7 +12,7 @@ type DeleteRuleOperation struct {
 }
 
 func (D *DeleteRuleOperation) SetForMarshal() {
-	D.XMLName.Local = "DeleteRuleOperation"
+	D.XMLName.Local = "t:DeleteRuleOperation"
 }
 
 func (D *DeleteRuleOperation) GetSchema() *Schema {

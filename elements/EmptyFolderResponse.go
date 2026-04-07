@@ -12,7 +12,7 @@ type EmptyFolderResponse struct {
 }
 
 func (E *EmptyFolderResponse) SetForMarshal() {
-	E.XMLName.Local = "EmptyFolderResponse"
+	E.XMLName.Local = "m:EmptyFolderResponse"
 }
 
 func (E *EmptyFolderResponse) GetSchema() *Schema {

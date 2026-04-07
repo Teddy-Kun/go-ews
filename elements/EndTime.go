@@ -2,10 +2,9 @@ package elements
 
 // The EndTime element represents the end of a time span.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/endtime
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type EndTime struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type EndTime struct {
 }
 
 func (E *EndTime) SetForMarshal() {
-	E.XMLName.Local = "EndTime"
+	E.XMLName.Local = "t:EndTime"
 }
 
 func (E *EndTime) GetSchema() *Schema {

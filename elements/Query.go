@@ -10,7 +10,7 @@ type Query struct {
 }
 
 func (Q *Query) SetForMarshal() {
-	Q.XMLName.Local = "Query"
+	Q.XMLName.Local = "m:Query"
 }
 
 func (Q *Query) GetSchema() *Schema {

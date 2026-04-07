@@ -2,10 +2,9 @@ package elements
 
 // The StartDateTime element specifies the start date and time for a rule or a search.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/startdatetime
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type StartDateTime struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type StartDateTime struct {
 }
 
 func (S *StartDateTime) SetForMarshal() {
-	S.XMLName.Local = "StartDateTime"
+	S.XMLName.Local = "m:StartDateTime"
 }
 
 func (S *StartDateTime) GetSchema() *Schema {

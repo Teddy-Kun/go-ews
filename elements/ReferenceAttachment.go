@@ -14,7 +14,7 @@ type ReferenceAttachment struct {
 }
 
 func (R *ReferenceAttachment) SetForMarshal() {
-	R.XMLName.Local = "ReferenceAttachment"
+	R.XMLName.Local = "t:ReferenceAttachment"
 }
 
 func (R *ReferenceAttachment) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type WorkingPeriodArray struct {
 }
 
 func (W *WorkingPeriodArray) SetForMarshal() {
-	W.XMLName.Local = "WorkingPeriodArray"
+	W.XMLName.Local = "t:WorkingPeriodArray"
 }
 
 func (W *WorkingPeriodArray) GetSchema() *Schema {

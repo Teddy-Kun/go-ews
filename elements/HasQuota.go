@@ -10,7 +10,7 @@ type HasQuota struct {
 }
 
 func (H *HasQuota) SetForMarshal() {
-	H.XMLName.Local = "HasQuota"
+	H.XMLName.Local = "t:HasQuota"
 }
 
 func (H *HasQuota) GetSchema() *Schema {

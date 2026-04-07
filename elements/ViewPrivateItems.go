@@ -17,7 +17,7 @@ const (
 )
 
 func (V *ViewPrivateItems) SetForMarshal() {
-	V.XMLName.Local = "ViewPrivateItems"
+	V.XMLName.Local = "t:ViewPrivateItems"
 }
 
 func (V *ViewPrivateItems) GetSchema() *Schema {

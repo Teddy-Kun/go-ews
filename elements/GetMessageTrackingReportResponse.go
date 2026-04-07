@@ -37,7 +37,7 @@ const (
 )
 
 func (G *GetMessageTrackingReportResponse) SetForMarshal() {
-	G.XMLName.Local = "GetMessageTrackingReportResponse"
+	G.XMLName.Local = "m:GetMessageTrackingReportResponse"
 }
 
 func (G *GetMessageTrackingReportResponse) GetSchema() *Schema {

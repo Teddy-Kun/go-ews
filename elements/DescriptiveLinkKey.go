@@ -10,7 +10,7 @@ type DescriptiveLinkKey struct {
 }
 
 func (D *DescriptiveLinkKey) SetForMarshal() {
-	D.XMLName.Local = "DescriptiveLinkKey"
+	D.XMLName.Local = "m:DescriptiveLinkKey"
 }
 
 func (D *DescriptiveLinkKey) GetSchema() *Schema {

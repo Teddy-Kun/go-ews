@@ -12,7 +12,7 @@ type ContactsArrayOfContactsType struct {
 }
 
 func (C *ContactsArrayOfContactsType) SetForMarshal() {
-	C.XMLName.Local = "Contacts"
+	C.XMLName.Local = "t:Contacts"
 }
 
 func (C *ContactsArrayOfContactsType) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type ValuePersonaPhoneNumberType struct {
 }
 
 func (V *ValuePersonaPhoneNumberType) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValuePersonaPhoneNumberType) GetSchema() *Schema {

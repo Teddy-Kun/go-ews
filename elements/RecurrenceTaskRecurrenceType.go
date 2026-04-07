@@ -36,7 +36,7 @@ type RecurrenceTaskRecurrenceType struct {
 }
 
 func (R *RecurrenceTaskRecurrenceType) SetForMarshal() {
-	R.XMLName.Local = "Recurrence"
+	R.XMLName.Local = "t:Recurrence"
 }
 
 func (R *RecurrenceTaskRecurrenceType) GetSchema() *Schema {

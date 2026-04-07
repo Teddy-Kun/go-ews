@@ -41,7 +41,7 @@ const (
 )
 
 func (R *ResolveNames) SetForMarshal() {
-	R.XMLName.Local = "ResolveNames"
+	R.XMLName.Local = "m:ResolveNames"
 }
 
 func (R *ResolveNames) GetSchema() *Schema {

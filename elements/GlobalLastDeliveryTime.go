@@ -2,10 +2,9 @@ package elements
 
 // The GlobalLastDeliveryTime element contains the delivery time of the message that was last received in this conversation across all folders in the mailbox.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/globallastdeliverytime
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type GlobalLastDeliveryTime struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type GlobalLastDeliveryTime struct {
 }
 
 func (G *GlobalLastDeliveryTime) SetForMarshal() {
-	G.XMLName.Local = "GlobalLastDeliveryTime"
+	G.XMLName.Local = "t:GlobalLastDeliveryTime"
 }
 
 func (G *GlobalLastDeliveryTime) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (O *OptedInto) SetForMarshal() {
-	O.XMLName.Local = "OptedInto"
+	O.XMLName.Local = "t:OptedInto"
 }
 
 func (O *OptedInto) GetSchema() *Schema {

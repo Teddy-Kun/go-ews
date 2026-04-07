@@ -10,7 +10,7 @@ type Size struct {
 }
 
 func (S *Size) SetForMarshal() {
-	S.XMLName.Local = "Size"
+	S.XMLName.Local = "t:Size"
 }
 
 func (S *Size) GetSchema() *Schema {

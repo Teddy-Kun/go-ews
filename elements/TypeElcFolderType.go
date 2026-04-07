@@ -51,7 +51,7 @@ const (
 )
 
 func (T *TypeElcFolderType) SetForMarshal() {
-	T.XMLName.Local = "Type"
+	T.XMLName.Local = "t:Type"
 }
 
 func (T *TypeElcFolderType) GetSchema() *Schema {

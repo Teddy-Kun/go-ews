@@ -14,7 +14,7 @@ type GetUserAvailabilityResponse struct {
 }
 
 func (G *GetUserAvailabilityResponse) SetForMarshal() {
-	G.XMLName.Local = "GetUserAvailabilityResponse"
+	G.XMLName.Local = "m:GetUserAvailabilityResponse"
 }
 
 func (G *GetUserAvailabilityResponse) GetSchema() *Schema {

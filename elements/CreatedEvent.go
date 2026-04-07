@@ -20,7 +20,7 @@ type CreatedEvent struct {
 }
 
 func (C *CreatedEvent) SetForMarshal() {
-	C.XMLName.Local = "CreatedEvent"
+	C.XMLName.Local = "t:CreatedEvent"
 }
 
 func (C *CreatedEvent) GetSchema() *Schema {

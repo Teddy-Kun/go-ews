@@ -19,7 +19,7 @@ const (
 )
 
 func (E *EditItems) SetForMarshal() {
-	E.XMLName.Local = "EditItems"
+	E.XMLName.Local = "t:EditItems"
 }
 
 func (E *EditItems) GetSchema() *Schema {

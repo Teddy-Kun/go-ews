@@ -16,7 +16,7 @@ type ChangesHierarchy struct {
 }
 
 func (C *ChangesHierarchy) SetForMarshal() {
-	C.XMLName.Local = "Changes"
+	C.XMLName.Local = "m:Changes"
 }
 
 func (C *ChangesHierarchy) GetSchema() *Schema {

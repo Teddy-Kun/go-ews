@@ -10,7 +10,7 @@ type StartTimeInMinutes struct {
 }
 
 func (S *StartTimeInMinutes) SetForMarshal() {
-	S.XMLName.Local = "StartTimeInMinutes"
+	S.XMLName.Local = "t:StartTimeInMinutes"
 }
 
 func (S *StartTimeInMinutes) GetSchema() *Schema {

@@ -31,7 +31,7 @@ const (
 )
 
 func (A *AlternatePublicFolderItemId) SetForMarshal() {
-	A.XMLName.Local = "AlternatePublicFolderItemId"
+	A.XMLName.Local = "t:AlternatePublicFolderItemId"
 }
 
 func (A *AlternatePublicFolderItemId) GetSchema() *Schema {

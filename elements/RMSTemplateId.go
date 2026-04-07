@@ -10,7 +10,7 @@ type RMSTemplateId struct {
 }
 
 func (R *RMSTemplateId) SetForMarshal() {
-	R.XMLName.Local = "RMSTemplateId"
+	R.XMLName.Local = "t:RMSTemplateId"
 }
 
 func (R *RMSTemplateId) GetSchema() *Schema {

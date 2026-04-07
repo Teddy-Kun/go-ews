@@ -16,7 +16,7 @@ type SearchParameters struct {
 }
 
 func (S *SearchParameters) SetForMarshal() {
-	S.XMLName.Local = "SearchParameters"
+	S.XMLName.Local = "t:SearchParameters"
 }
 
 func (S *SearchParameters) GetSchema() *Schema {

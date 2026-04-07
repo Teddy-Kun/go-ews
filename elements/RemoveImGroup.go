@@ -12,7 +12,7 @@ type RemoveImGroup struct {
 }
 
 func (R *RemoveImGroup) SetForMarshal() {
-	R.XMLName.Local = "RemoveImGroup"
+	R.XMLName.Local = "m:RemoveImGroup"
 }
 
 func (R *RemoveImGroup) GetSchema() *Schema {

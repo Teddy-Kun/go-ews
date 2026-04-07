@@ -10,7 +10,7 @@ type CompanyName struct {
 }
 
 func (C *CompanyName) SetForMarshal() {
-	C.XMLName.Local = "CompanyName"
+	C.XMLName.Local = "t:CompanyName"
 }
 
 func (C *CompanyName) GetSchema() *Schema {

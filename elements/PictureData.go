@@ -10,7 +10,7 @@ type PictureData struct {
 }
 
 func (P *PictureData) SetForMarshal() {
-	P.XMLName.Local = "PictureData"
+	P.XMLName.Local = "m:PictureData"
 }
 
 func (P *PictureData) GetSchema() *Schema {

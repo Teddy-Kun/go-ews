@@ -10,7 +10,7 @@ type TTL struct {
 }
 
 func (T *TTL) SetForMarshal() {
-	T.XMLName.Local = "TTL"
+	T.XMLName.Local = "t:TTL"
 }
 
 func (T *TTL) GetSchema() *Schema {

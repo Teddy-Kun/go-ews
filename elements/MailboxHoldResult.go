@@ -16,7 +16,7 @@ type MailboxHoldResult struct {
 }
 
 func (M *MailboxHoldResult) SetForMarshal() {
-	M.XMLName.Local = "MailboxHoldResult"
+	M.XMLName.Local = "m:MailboxHoldResult"
 }
 
 func (M *MailboxHoldResult) GetSchema() *Schema {

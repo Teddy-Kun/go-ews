@@ -10,7 +10,7 @@ type GlobalHasAttachments struct {
 }
 
 func (G *GlobalHasAttachments) SetForMarshal() {
-	G.XMLName.Local = "GlobalHasAttachments"
+	G.XMLName.Local = "t:GlobalHasAttachments"
 }
 
 func (G *GlobalHasAttachments) GetSchema() *Schema {

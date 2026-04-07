@@ -12,7 +12,7 @@ type AcceptSharingInvitation struct {
 }
 
 func (A *AcceptSharingInvitation) SetForMarshal() {
-	A.XMLName.Local = "AcceptSharingInvitation"
+	A.XMLName.Local = "t:AcceptSharingInvitation"
 }
 
 func (A *AcceptSharingInvitation) GetSchema() *Schema {

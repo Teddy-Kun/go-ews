@@ -22,7 +22,7 @@ type EmailAddressGetPersonaType struct {
 }
 
 func (E *EmailAddressGetPersonaType) SetForMarshal() {
-	E.XMLName.Local = "EmailAddress"
+	E.XMLName.Local = "m:EmailAddress"
 }
 
 func (E *EmailAddressGetPersonaType) GetSchema() *Schema {

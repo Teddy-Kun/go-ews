@@ -10,7 +10,7 @@ type AppointmentState struct {
 }
 
 func (A *AppointmentState) SetForMarshal() {
-	A.XMLName.Local = "AppointmentState"
+	A.XMLName.Local = "t:AppointmentState"
 }
 
 func (A *AppointmentState) GetSchema() *Schema {

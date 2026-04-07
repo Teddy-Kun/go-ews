@@ -16,7 +16,7 @@ type Operations struct {
 }
 
 func (O *Operations) SetForMarshal() {
-	O.XMLName.Local = "Operations"
+	O.XMLName.Local = "t:Operations"
 }
 
 func (O *Operations) GetSchema() *Schema {

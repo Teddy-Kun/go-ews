@@ -12,7 +12,7 @@ type UnknownEntries struct {
 }
 
 func (U *UnknownEntries) SetForMarshal() {
-	U.XMLName.Local = "UnknownEntries"
+	U.XMLName.Local = "t:UnknownEntries"
 }
 
 func (U *UnknownEntries) GetSchema() *Schema {

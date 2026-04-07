@@ -35,7 +35,7 @@ const (
 )
 
 func (S *SyncFolderHierarchyResponseMessage) SetForMarshal() {
-	S.XMLName.Local = "SyncFolderHierarchyResponseMessage"
+	S.XMLName.Local = "m:SyncFolderHierarchyResponseMessage"
 }
 
 func (S *SyncFolderHierarchyResponseMessage) GetSchema() *Schema {

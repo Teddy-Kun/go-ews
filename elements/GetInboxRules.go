@@ -12,7 +12,7 @@ type GetInboxRules struct {
 }
 
 func (G *GetInboxRules) SetForMarshal() {
-	G.XMLName.Local = "GetInboxRules"
+	G.XMLName.Local = "m:GetInboxRules"
 }
 
 func (G *GetInboxRules) GetSchema() *Schema {

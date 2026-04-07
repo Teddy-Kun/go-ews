@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReportTemplate) SetForMarshal() {
-	R.XMLName.Local = "ReportTemplate"
+	R.XMLName.Local = "m:ReportTemplate"
 }
 
 func (R *ReportTemplate) GetSchema() *Schema {

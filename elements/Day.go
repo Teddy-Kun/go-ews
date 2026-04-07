@@ -10,7 +10,7 @@ type Day struct {
 }
 
 func (D *Day) SetForMarshal() {
-	D.XMLName.Local = "Day"
+	D.XMLName.Local = "t:Day"
 }
 
 func (D *Day) GetSchema() *Schema {

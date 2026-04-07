@@ -16,7 +16,7 @@ type UpdateInboxRules struct {
 }
 
 func (U *UpdateInboxRules) SetForMarshal() {
-	U.XMLName.Local = "UpdateInboxRules"
+	U.XMLName.Local = "m:UpdateInboxRules"
 }
 
 func (U *UpdateInboxRules) GetSchema() *Schema {

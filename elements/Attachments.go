@@ -14,7 +14,7 @@ type Attachments struct {
 }
 
 func (A *Attachments) SetForMarshal() {
-	A.XMLName.Local = "Attachments"
+	A.XMLName.Local = "t:Attachments"
 }
 
 func (A *Attachments) GetSchema() *Schema {

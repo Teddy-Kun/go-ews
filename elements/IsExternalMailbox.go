@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsExternalMailbox) SetForMarshal() {
-	I.XMLName.Local = "IsExternalMailbox"
+	I.XMLName.Local = "t:IsExternalMailbox"
 }
 
 func (I *IsExternalMailbox) GetSchema() *Schema {

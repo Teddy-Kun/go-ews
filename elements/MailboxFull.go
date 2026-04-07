@@ -17,7 +17,7 @@ const (
 )
 
 func (M *MailboxFull) SetForMarshal() {
-	M.XMLName.Local = "MailboxFull"
+	M.XMLName.Local = "t:MailboxFull"
 }
 
 func (M *MailboxFull) GetSchema() *Schema {

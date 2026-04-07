@@ -18,7 +18,7 @@ type SetClientExtensionResponseMessage struct {
 }
 
 func (S *SetClientExtensionResponseMessage) SetForMarshal() {
-	S.XMLName.Local = "SetClientExtensionResponseMessage"
+	S.XMLName.Local = "t:SetClientExtensionResponseMessage"
 }
 
 func (S *SetClientExtensionResponseMessage) GetSchema() *Schema {

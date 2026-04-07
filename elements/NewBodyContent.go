@@ -12,7 +12,7 @@ type NewBodyContent struct {
 }
 
 func (N *NewBodyContent) SetForMarshal() {
-	N.XMLName.Local = "NewBodyContent"
+	N.XMLName.Local = "t:NewBodyContent"
 }
 
 func (N *NewBodyContent) GetSchema() *Schema {

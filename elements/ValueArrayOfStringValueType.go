@@ -10,7 +10,7 @@ type ValueArrayOfStringValueType struct {
 }
 
 func (V *ValueArrayOfStringValueType) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValueArrayOfStringValueType) GetSchema() *Schema {

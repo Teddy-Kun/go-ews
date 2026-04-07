@@ -23,7 +23,7 @@ const (
 )
 
 func (D *DeliveryStatus) SetForMarshal() {
-	D.XMLName.Local = "DeliveryStatus"
+	D.XMLName.Local = "t:DeliveryStatus"
 }
 
 func (D *DeliveryStatus) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type IsLessThan struct {
 }
 
 func (I *IsLessThan) SetForMarshal() {
-	I.XMLName.Local = "IsLessThan"
+	I.XMLName.Local = "t:IsLessThan"
 }
 
 func (I *IsLessThan) GetSchema() *Schema {

@@ -2,10 +2,9 @@ package elements
 
 // The ReminderNextTime element specifies the date and time for the next reminder.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/remindernexttime
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type ReminderNextTime struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type ReminderNextTime struct {
 }
 
 func (R *ReminderNextTime) SetForMarshal() {
-	R.XMLName.Local = "ReminderNextTime"
+	R.XMLName.Local = "t:ReminderNextTime"
 }
 
 func (R *ReminderNextTime) GetSchema() *Schema {

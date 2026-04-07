@@ -19,7 +19,7 @@ const (
 )
 
 func (M *MailboxScope) SetForMarshal() {
-	M.XMLName.Local = "MailboxScope"
+	M.XMLName.Local = "m:MailboxScope"
 }
 
 func (M *MailboxScope) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type MessageId struct {
 }
 
 func (M *MessageId) SetForMarshal() {
-	M.XMLName.Local = "MessageId"
+	M.XMLName.Local = "m:MessageId"
 }
 
 func (M *MessageId) GetSchema() *Schema {

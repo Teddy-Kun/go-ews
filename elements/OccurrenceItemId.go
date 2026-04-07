@@ -16,7 +16,7 @@ type OccurrenceItemId struct {
 }
 
 func (O *OccurrenceItemId) SetForMarshal() {
-	O.XMLName.Local = "OccurrenceItemId"
+	O.XMLName.Local = "t:OccurrenceItemId"
 }
 
 func (O *OccurrenceItemId) GetSchema() *Schema {

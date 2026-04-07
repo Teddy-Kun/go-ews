@@ -12,7 +12,7 @@ type StartDateRecurrence struct {
 }
 
 func (S *StartDateRecurrence) SetForMarshal() {
-	S.XMLName.Local = "StartDate"
+	S.XMLName.Local = "t:StartDate"
 }
 
 func (S *StartDateRecurrence) GetSchema() *Schema {

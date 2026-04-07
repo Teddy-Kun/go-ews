@@ -33,7 +33,7 @@ const (
 )
 
 func (A *AlternateId) SetForMarshal() {
-	A.XMLName.Local = "AlternateId"
+	A.XMLName.Local = "m:AlternateId"
 }
 
 func (A *AlternateId) GetSchema() *Schema {

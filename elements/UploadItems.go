@@ -12,7 +12,7 @@ type UploadItems struct {
 }
 
 func (U *UploadItems) SetForMarshal() {
-	U.XMLName.Local = "UploadItems"
+	U.XMLName.Local = "m:UploadItems"
 }
 
 func (U *UploadItems) GetSchema() *Schema {

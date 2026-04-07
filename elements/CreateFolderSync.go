@@ -20,7 +20,7 @@ type CreateFolderSync struct {
 }
 
 func (C *CreateFolderSync) SetForMarshal() {
-	C.XMLName.Local = "Create"
+	C.XMLName.Local = "t:Create"
 }
 
 func (C *CreateFolderSync) GetSchema() *Schema {

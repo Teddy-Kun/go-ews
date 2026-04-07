@@ -12,7 +12,7 @@ type ForwardToRecipients struct {
 }
 
 func (F *ForwardToRecipients) SetForMarshal() {
-	F.XMLName.Local = "ForwardToRecipients"
+	F.XMLName.Local = "m:ForwardToRecipients"
 }
 
 func (F *ForwardToRecipients) GetSchema() *Schema {

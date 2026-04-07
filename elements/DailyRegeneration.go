@@ -12,7 +12,7 @@ type DailyRegeneration struct {
 }
 
 func (D *DailyRegeneration) SetForMarshal() {
-	D.XMLName.Local = "DailyRegeneration"
+	D.XMLName.Local = "t:DailyRegeneration"
 }
 
 func (D *DailyRegeneration) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type Managers struct {
 }
 
 func (M *Managers) SetForMarshal() {
-	M.XMLName.Local = "Managers"
+	M.XMLName.Local = "t:Managers"
 }
 
 func (M *Managers) GetSchema() *Schema {

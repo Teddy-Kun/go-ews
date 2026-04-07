@@ -14,7 +14,7 @@ type CreateFolderPath struct {
 }
 
 func (C *CreateFolderPath) SetForMarshal() {
-	C.XMLName.Local = "CreateFolderPath"
+	C.XMLName.Local = "m:CreateFolderPath"
 }
 
 func (C *CreateFolderPath) GetSchema() *Schema {

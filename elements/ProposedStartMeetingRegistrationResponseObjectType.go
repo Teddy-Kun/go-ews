@@ -2,10 +2,9 @@ package elements
 
 // The ProposedStart (MeetingRegistrationResponseObjectType) element specifies an attendee's proposed new start time for a meeting.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/proposedstart-meetingregistrationresponseobjecttype
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type ProposedStartMeetingRegistrationResponseObjectType struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type ProposedStartMeetingRegistrationResponseObjectType struct {
 }
 
 func (P *ProposedStartMeetingRegistrationResponseObjectType) SetForMarshal() {
-	P.XMLName.Local = "ProposedStart"
+	P.XMLName.Local = "t:ProposedStart"
 }
 
 func (P *ProposedStartMeetingRegistrationResponseObjectType) GetSchema() *Schema {

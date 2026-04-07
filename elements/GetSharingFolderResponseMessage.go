@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetSharingFolderResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetSharingFolderResponseMessage"
+	G.XMLName.Local = "m:GetSharingFolderResponseMessage"
 }
 
 func (G *GetSharingFolderResponseMessage) GetSchema() *Schema {

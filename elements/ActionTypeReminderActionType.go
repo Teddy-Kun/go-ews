@@ -17,7 +17,7 @@ const (
 )
 
 func (A *ActionTypeReminderActionType) SetForMarshal() {
-	A.XMLName.Local = "ActionType"
+	A.XMLName.Local = "t:ActionType"
 }
 
 func (A *ActionTypeReminderActionType) GetSchema() *Schema {

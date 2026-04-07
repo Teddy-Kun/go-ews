@@ -23,7 +23,7 @@ const (
 )
 
 func (J *JournalFolderPermissionLevel) SetForMarshal() {
-	J.XMLName.Local = "JournalFolderPermissionLevel"
+	J.XMLName.Local = "t:JournalFolderPermissionLevel"
 }
 
 func (J *JournalFolderPermissionLevel) GetSchema() *Schema {

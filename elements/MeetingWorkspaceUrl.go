@@ -10,7 +10,7 @@ type MeetingWorkspaceUrl struct {
 }
 
 func (M *MeetingWorkspaceUrl) SetForMarshal() {
-	M.XMLName.Local = "MeetingWorkspaceUrl"
+	M.XMLName.Local = "t:MeetingWorkspaceUrl"
 }
 
 func (M *MeetingWorkspaceUrl) GetSchema() *Schema {

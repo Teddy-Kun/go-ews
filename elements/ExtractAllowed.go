@@ -17,7 +17,7 @@ const (
 )
 
 func (E *ExtractAllowed) SetForMarshal() {
-	E.XMLName.Local = "ExtractAllowed"
+	E.XMLName.Local = "t:ExtractAllowed"
 }
 
 func (E *ExtractAllowed) GetSchema() *Schema {

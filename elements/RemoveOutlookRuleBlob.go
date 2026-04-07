@@ -17,7 +17,7 @@ const (
 )
 
 func (R *RemoveOutlookRuleBlob) SetForMarshal() {
-	R.XMLName.Local = "RemoveOutlookRuleBlob"
+	R.XMLName.Local = "t:RemoveOutlookRuleBlob"
 }
 
 func (R *RemoveOutlookRuleBlob) GetSchema() *Schema {

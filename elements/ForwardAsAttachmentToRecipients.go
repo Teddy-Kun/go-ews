@@ -12,7 +12,7 @@ type ForwardAsAttachmentToRecipients struct {
 }
 
 func (F *ForwardAsAttachmentToRecipients) SetForMarshal() {
-	F.XMLName.Local = "ForwardAsAttachmentToRecipients"
+	F.XMLName.Local = "m:ForwardAsAttachmentToRecipients"
 }
 
 func (F *ForwardAsAttachmentToRecipients) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type GetImItemsResponse struct {
 }
 
 func (G *GetImItemsResponse) SetForMarshal() {
-	G.XMLName.Local = "GetImItemsResponse"
+	G.XMLName.Local = "m:GetImItemsResponse"
 }
 
 func (G *GetImItemsResponse) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type RelevanceScore struct {
 }
 
 func (R *RelevanceScore) SetForMarshal() {
-	R.XMLName.Local = "RelevanceScore"
+	R.XMLName.Local = "t:RelevanceScore"
 }
 
 func (R *RelevanceScore) GetSchema() *Schema {

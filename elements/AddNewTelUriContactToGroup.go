@@ -18,7 +18,7 @@ type AddNewTelUriContactToGroup struct {
 }
 
 func (A *AddNewTelUriContactToGroup) SetForMarshal() {
-	A.XMLName.Local = "AddNewTelUriContactToGroup"
+	A.XMLName.Local = "m:AddNewTelUriContactToGroup"
 }
 
 func (A *AddNewTelUriContactToGroup) GetSchema() *Schema {

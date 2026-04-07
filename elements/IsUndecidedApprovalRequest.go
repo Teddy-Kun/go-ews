@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsUndecidedApprovalRequest) SetForMarshal() {
-	I.XMLName.Local = "IsUndecidedApprovalRequest"
+	I.XMLName.Local = "t:IsUndecidedApprovalRequest"
 }
 
 func (I *IsUndecidedApprovalRequest) GetSchema() *Schema {

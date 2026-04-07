@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsSigned) SetForMarshal() {
-	I.XMLName.Local = "IsSigned"
+	I.XMLName.Local = "m:IsSigned"
 }
 
 func (I *IsSigned) GetSchema() *Schema {

@@ -30,7 +30,7 @@ type ManagedFolderInformation struct {
 }
 
 func (M *ManagedFolderInformation) SetForMarshal() {
-	M.XMLName.Local = "ManagedFolderInformation"
+	M.XMLName.Local = "t:ManagedFolderInformation"
 }
 
 func (M *ManagedFolderInformation) GetSchema() *Schema {

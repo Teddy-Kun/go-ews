@@ -18,7 +18,7 @@ type FieldOrder struct {
 }
 
 func (F *FieldOrder) SetForMarshal() {
-	F.XMLName.Local = "FieldOrder"
+	F.XMLName.Local = "t:FieldOrder"
 }
 
 func (F *FieldOrder) GetSchema() *Schema {

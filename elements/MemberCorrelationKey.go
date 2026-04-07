@@ -12,7 +12,7 @@ type MemberCorrelationKey struct {
 }
 
 func (M *MemberCorrelationKey) SetForMarshal() {
-	M.XMLName.Local = "MemberCorrelationKey"
+	M.XMLName.Local = "t:MemberCorrelationKey"
 }
 
 func (M *MemberCorrelationKey) GetSchema() *Schema {

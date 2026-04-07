@@ -14,7 +14,7 @@ type GetFolder struct {
 }
 
 func (G *GetFolder) SetForMarshal() {
-	G.XMLName.Local = "GetFolder"
+	G.XMLName.Local = "m:GetFolder"
 }
 
 func (G *GetFolder) GetSchema() *Schema {

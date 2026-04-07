@@ -34,7 +34,7 @@ type Or struct {
 }
 
 func (O *Or) SetForMarshal() {
-	O.XMLName.Local = "Or"
+	O.XMLName.Local = "t:Or"
 }
 
 func (O *Or) GetSchema() *Schema {

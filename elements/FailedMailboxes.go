@@ -12,7 +12,7 @@ type FailedMailboxes struct {
 }
 
 func (F *FailedMailboxes) SetForMarshal() {
-	F.XMLName.Local = "FailedMailboxes"
+	F.XMLName.Local = "t:FailedMailboxes"
 }
 
 func (F *FailedMailboxes) GetSchema() *Schema {

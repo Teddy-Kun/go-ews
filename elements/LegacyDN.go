@@ -10,7 +10,7 @@ type LegacyDN struct {
 }
 
 func (L *LegacyDN) SetForMarshal() {
-	L.XMLName.Local = "LegacyDN"
+	L.XMLName.Local = "t:LegacyDN"
 }
 
 func (L *LegacyDN) GetSchema() *Schema {

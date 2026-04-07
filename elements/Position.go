@@ -25,7 +25,7 @@ const (
 )
 
 func (P *Position) SetForMarshal() {
-	P.XMLName.Local = "Position"
+	P.XMLName.Local = "t:Position"
 }
 
 func (P *Position) GetSchema() *Schema {

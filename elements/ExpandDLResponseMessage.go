@@ -41,7 +41,7 @@ const (
 )
 
 func (E *ExpandDLResponseMessage) SetForMarshal() {
-	E.XMLName.Local = "ExpandDLResponseMessage"
+	E.XMLName.Local = "t:ExpandDLResponseMessage"
 }
 
 func (E *ExpandDLResponseMessage) GetSchema() *Schema {

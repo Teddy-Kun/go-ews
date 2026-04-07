@@ -10,7 +10,7 @@ type GetClientIntentResponseMessage struct {
 }
 
 func (G *GetClientIntentResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetClientIntentResponseMessage"
+	G.XMLName.Local = "m:GetClientIntentResponseMessage"
 }
 
 func (G *GetClientIntentResponseMessage) GetSchema() *Schema {

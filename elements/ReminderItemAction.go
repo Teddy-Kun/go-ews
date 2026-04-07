@@ -16,7 +16,7 @@ type ReminderItemAction struct {
 }
 
 func (R *ReminderItemAction) SetForMarshal() {
-	R.XMLName.Local = "ReminderItemAction"
+	R.XMLName.Local = "t:ReminderItemAction"
 }
 
 func (R *ReminderItemAction) GetSchema() *Schema {

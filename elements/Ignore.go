@@ -12,7 +12,7 @@ type Ignore struct {
 }
 
 func (I *Ignore) SetForMarshal() {
-	I.XMLName.Local = "Ignore"
+	I.XMLName.Local = "m:Ignore"
 }
 
 func (I *Ignore) GetSchema() *Schema {

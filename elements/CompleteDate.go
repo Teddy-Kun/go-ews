@@ -2,10 +2,9 @@ package elements
 
 // The CompleteDate element represents the date on which an item was completed.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/completedate
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type CompleteDate struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type CompleteDate struct {
 }
 
 func (C *CompleteDate) SetForMarshal() {
-	C.XMLName.Local = "CompleteDate"
+	C.XMLName.Local = "t:CompleteDate"
 }
 
 func (C *CompleteDate) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type SubscriptionIdGetStreamingEvents struct {
 }
 
 func (S *SubscriptionIdGetStreamingEvents) SetForMarshal() {
-	S.XMLName.Local = "SubscriptionId"
+	S.XMLName.Local = "t:SubscriptionId"
 }
 
 func (S *SubscriptionIdGetStreamingEvents) GetSchema() *Schema {

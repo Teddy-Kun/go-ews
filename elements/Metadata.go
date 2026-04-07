@@ -16,7 +16,7 @@ type Metadata struct {
 }
 
 func (M *Metadata) SetForMarshal() {
-	M.XMLName.Local = "Metadata"
+	M.XMLName.Local = "t:Metadata"
 }
 
 func (M *Metadata) GetSchema() *Schema {

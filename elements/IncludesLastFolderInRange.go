@@ -10,7 +10,7 @@ type IncludesLastFolderInRange struct {
 }
 
 func (I *IncludesLastFolderInRange) SetForMarshal() {
-	I.XMLName.Local = "IncludesLastFolderInRange"
+	I.XMLName.Local = "m:IncludesLastFolderInRange"
 }
 
 func (I *IncludesLastFolderInRange) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type UniqueSenders struct {
 }
 
 func (U *UniqueSenders) SetForMarshal() {
-	U.XMLName.Local = "UniqueSenders"
+	U.XMLName.Local = "t:UniqueSenders"
 }
 
 func (U *UniqueSenders) GetSchema() *Schema {

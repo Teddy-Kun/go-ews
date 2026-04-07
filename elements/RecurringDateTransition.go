@@ -22,7 +22,7 @@ type RecurringDateTransition struct {
 }
 
 func (R *RecurringDateTransition) SetForMarshal() {
-	R.XMLName.Local = "RecurringDateTransition"
+	R.XMLName.Local = "t:RecurringDateTransition"
 }
 
 func (R *RecurringDateTransition) GetSchema() *Schema {

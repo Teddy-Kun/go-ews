@@ -12,7 +12,7 @@ type FromConnectedAccounts struct {
 }
 
 func (F *FromConnectedAccounts) SetForMarshal() {
-	F.XMLName.Local = "FromConnectedAccounts"
+	F.XMLName.Local = "m:FromConnectedAccounts"
 }
 
 func (F *FromConnectedAccounts) GetSchema() *Schema {

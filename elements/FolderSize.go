@@ -10,7 +10,7 @@ type FolderSize struct {
 }
 
 func (F *FolderSize) SetForMarshal() {
-	F.XMLName.Local = "FolderSize"
+	F.XMLName.Local = "t:FolderSize"
 }
 
 func (F *FolderSize) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IncludesLastItemInRange struct {
 }
 
 func (I *IncludesLastItemInRange) SetForMarshal() {
-	I.XMLName.Local = "IncludesLastItemInRange"
+	I.XMLName.Local = "m:IncludesLastItemInRange"
 }
 
 func (I *IncludesLastItemInRange) GetSchema() *Schema {

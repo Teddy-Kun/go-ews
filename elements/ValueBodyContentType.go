@@ -14,7 +14,7 @@ type ValueBodyContentType struct {
 }
 
 func (V *ValueBodyContentType) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValueBodyContentType) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (C *CreateContents) SetForMarshal() {
-	C.XMLName.Local = "CreateContents"
+	C.XMLName.Local = "t:CreateContents"
 }
 
 func (C *CreateContents) GetSchema() *Schema {

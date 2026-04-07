@@ -10,7 +10,7 @@ type Subject struct {
 }
 
 func (S *Subject) SetForMarshal() {
-	S.XMLName.Local = "Subject"
+	S.XMLName.Local = "t:Subject"
 }
 
 func (S *Subject) GetSchema() *Schema {

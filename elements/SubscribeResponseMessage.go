@@ -33,7 +33,7 @@ const (
 )
 
 func (S *SubscribeResponseMessage) SetForMarshal() {
-	S.XMLName.Local = "SubscribeResponseMessage"
+	S.XMLName.Local = "m:SubscribeResponseMessage"
 }
 
 func (S *SubscribeResponseMessage) GetSchema() *Schema {

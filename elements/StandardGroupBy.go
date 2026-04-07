@@ -10,7 +10,7 @@ type StandardGroupBy struct {
 }
 
 func (S *StandardGroupBy) SetForMarshal() {
-	S.XMLName.Local = "StandardGroupBy"
+	S.XMLName.Local = "t:StandardGroupBy"
 }
 
 func (S *StandardGroupBy) GetSchema() *Schema {

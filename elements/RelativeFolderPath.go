@@ -20,7 +20,7 @@ type RelativeFolderPath struct {
 }
 
 func (R *RelativeFolderPath) SetForMarshal() {
-	R.XMLName.Local = "RelativeFolderPath"
+	R.XMLName.Local = "m:RelativeFolderPath"
 }
 
 func (R *RelativeFolderPath) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type AppMarketplaceUrl struct {
 }
 
 func (A *AppMarketplaceUrl) SetForMarshal() {
-	A.XMLName.Local = "AppMarketplaceUrl"
+	A.XMLName.Local = "m:AppMarketplaceUrl"
 }
 
 func (A *AppMarketplaceUrl) GetSchema() *Schema {

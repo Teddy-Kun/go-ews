@@ -42,7 +42,7 @@ type TentativelyAcceptItem struct {
 }
 
 func (T *TentativelyAcceptItem) SetForMarshal() {
-	T.XMLName.Local = "TentativelyAcceptItem"
+	T.XMLName.Local = "t:TentativelyAcceptItem"
 }
 
 func (T *TentativelyAcceptItem) GetSchema() *Schema {

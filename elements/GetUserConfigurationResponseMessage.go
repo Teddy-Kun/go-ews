@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetUserConfigurationResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetUserConfigurationResponseMessage"
+	G.XMLName.Local = "m:GetUserConfigurationResponseMessage"
 }
 
 func (G *GetUserConfigurationResponseMessage) GetSchema() *Schema {

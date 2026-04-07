@@ -10,7 +10,7 @@ type TelUriAddress struct {
 }
 
 func (T *TelUriAddress) SetForMarshal() {
-	T.XMLName.Local = "TelUriAddress"
+	T.XMLName.Local = "m:TelUriAddress"
 }
 
 func (T *TelUriAddress) GetSchema() *Schema {

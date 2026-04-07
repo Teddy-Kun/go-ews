@@ -12,7 +12,7 @@ type GetNonIndexableItemStatistics struct {
 }
 
 func (G *GetNonIndexableItemStatistics) SetForMarshal() {
-	G.XMLName.Local = "GetNonIndexableItemStatistics"
+	G.XMLName.Local = "m:GetNonIndexableItemStatistics"
 }
 
 func (G *GetNonIndexableItemStatistics) GetSchema() *Schema {

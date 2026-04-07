@@ -14,7 +14,7 @@ type ActingAs struct {
 }
 
 func (A *ActingAs) SetForMarshal() {
-	A.XMLName.Local = "ActingAs"
+	A.XMLName.Local = "m:ActingAs"
 }
 
 func (A *ActingAs) GetSchema() *Schema {

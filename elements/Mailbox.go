@@ -20,7 +20,7 @@ type Mailbox struct {
 }
 
 func (M *Mailbox) SetForMarshal() {
-	M.XMLName.Local = "Mailbox"
+	M.XMLName.Local = "t:Mailbox"
 }
 
 func (M *Mailbox) GetSchema() *Schema {

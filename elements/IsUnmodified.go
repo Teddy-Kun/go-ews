@@ -10,7 +10,7 @@ type IsUnmodified struct {
 }
 
 func (I *IsUnmodified) SetForMarshal() {
-	I.XMLName.Local = "IsUnmodified"
+	I.XMLName.Local = "t:IsUnmodified"
 }
 
 func (I *IsUnmodified) GetSchema() *Schema {

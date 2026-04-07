@@ -10,7 +10,7 @@ type IsDebug struct {
 }
 
 func (I *IsDebug) SetForMarshal() {
-	I.XMLName.Local = "IsDebug"
+	I.XMLName.Local = "m:IsDebug"
 }
 
 func (I *IsDebug) GetSchema() *Schema {

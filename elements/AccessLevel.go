@@ -21,7 +21,7 @@ const (
 )
 
 func (A *AccessLevel) SetForMarshal() {
-	A.XMLName.Local = "AccessLevel"
+	A.XMLName.Local = "t:AccessLevel"
 }
 
 func (A *AccessLevel) GetSchema() *Schema {

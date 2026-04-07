@@ -12,7 +12,7 @@ type DistinguishedGroupBy struct {
 }
 
 func (D *DistinguishedGroupBy) SetForMarshal() {
-	D.XMLName.Local = "DistinguishedGroupBy"
+	D.XMLName.Local = "m:DistinguishedGroupBy"
 }
 
 func (D *DistinguishedGroupBy) GetSchema() *Schema {

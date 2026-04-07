@@ -10,7 +10,7 @@ type IsRead struct {
 }
 
 func (I *IsRead) SetForMarshal() {
-	I.XMLName.Local = "IsRead"
+	I.XMLName.Local = "t:IsRead"
 }
 
 func (I *IsRead) GetSchema() *Schema {

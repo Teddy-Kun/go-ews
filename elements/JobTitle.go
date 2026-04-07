@@ -10,7 +10,7 @@ type JobTitle struct {
 }
 
 func (J *JobTitle) SetForMarshal() {
-	J.XMLName.Local = "JobTitle"
+	J.XMLName.Local = "t:JobTitle"
 }
 
 func (J *JobTitle) GetSchema() *Schema {

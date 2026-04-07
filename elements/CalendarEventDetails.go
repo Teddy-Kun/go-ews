@@ -26,7 +26,7 @@ type CalendarEventDetails struct {
 }
 
 func (C *CalendarEventDetails) SetForMarshal() {
-	C.XMLName.Local = "CalendarEventDetails"
+	C.XMLName.Local = "t:CalendarEventDetails"
 }
 
 func (C *CalendarEventDetails) GetSchema() *Schema {

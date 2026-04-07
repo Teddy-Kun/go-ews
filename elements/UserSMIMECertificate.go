@@ -12,7 +12,7 @@ type UserSMIMECertificate struct {
 }
 
 func (U *UserSMIMECertificate) SetForMarshal() {
-	U.XMLName.Local = "UserSMIMECertificate"
+	U.XMLName.Local = "t:UserSMIMECertificate"
 }
 
 func (U *UserSMIMECertificate) GetSchema() *Schema {

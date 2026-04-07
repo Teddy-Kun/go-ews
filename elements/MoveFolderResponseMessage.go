@@ -22,7 +22,7 @@ type MoveFolderResponseMessage struct {
 }
 
 func (M *MoveFolderResponseMessage) SetForMarshal() {
-	M.XMLName.Local = "MoveFolderResponseMessage"
+	M.XMLName.Local = "m:MoveFolderResponseMessage"
 }
 
 func (M *MoveFolderResponseMessage) GetSchema() *Schema {

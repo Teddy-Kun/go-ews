@@ -10,7 +10,7 @@ type Number struct {
 }
 
 func (N *Number) SetForMarshal() {
-	N.XMLName.Local = "Number"
+	N.XMLName.Local = "t:Number"
 }
 
 func (N *Number) GetSchema() *Schema {

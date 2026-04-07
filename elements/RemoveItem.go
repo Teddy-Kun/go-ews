@@ -14,7 +14,7 @@ type RemoveItem struct {
 }
 
 func (R *RemoveItem) SetForMarshal() {
-	R.XMLName.Local = "RemoveItem"
+	R.XMLName.Local = "t:RemoveItem"
 }
 
 func (R *RemoveItem) GetSchema() *Schema {

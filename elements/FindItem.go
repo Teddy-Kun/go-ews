@@ -43,7 +43,7 @@ const (
 )
 
 func (F *FindItem) SetForMarshal() {
-	F.XMLName.Local = "FindItem"
+	F.XMLName.Local = "m:FindItem"
 }
 
 func (F *FindItem) GetSchema() *Schema {

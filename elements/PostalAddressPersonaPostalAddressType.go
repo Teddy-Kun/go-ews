@@ -40,7 +40,7 @@ type PostalAddressPersonaPostalAddressType struct {
 }
 
 func (P *PostalAddressPersonaPostalAddressType) SetForMarshal() {
-	P.XMLName.Local = "PostalAddress"
+	P.XMLName.Local = "t:PostalAddress"
 }
 
 func (P *PostalAddressPersonaPostalAddressType) GetSchema() *Schema {

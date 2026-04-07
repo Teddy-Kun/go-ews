@@ -22,7 +22,7 @@ type ItemShape struct {
 }
 
 func (I *ItemShape) SetForMarshal() {
-	I.XMLName.Local = "ItemShape"
+	I.XMLName.Local = "m:ItemShape"
 }
 
 func (I *ItemShape) GetSchema() *Schema {

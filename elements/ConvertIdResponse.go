@@ -12,7 +12,7 @@ type ConvertIdResponse struct {
 }
 
 func (C *ConvertIdResponse) SetForMarshal() {
-	C.XMLName.Local = "ConvertIdResponse"
+	C.XMLName.Local = "m:ConvertIdResponse"
 }
 
 func (C *ConvertIdResponse) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type UninstallApp struct {
 }
 
 func (U *UninstallApp) SetForMarshal() {
-	U.XMLName.Local = "UninstallApp"
+	U.XMLName.Local = "t:UninstallApp"
 }
 
 func (U *UninstallApp) GetSchema() *Schema {

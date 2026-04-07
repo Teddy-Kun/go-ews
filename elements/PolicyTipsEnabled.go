@@ -17,7 +17,7 @@ const (
 )
 
 func (P *PolicyTipsEnabled) SetForMarshal() {
-	P.XMLName.Local = "PolicyTipsEnabled"
+	P.XMLName.Local = "t:PolicyTipsEnabled"
 }
 
 func (P *PolicyTipsEnabled) GetSchema() *Schema {

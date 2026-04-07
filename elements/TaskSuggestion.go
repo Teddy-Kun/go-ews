@@ -16,7 +16,7 @@ type TaskSuggestion struct {
 }
 
 func (T *TaskSuggestion) SetForMarshal() {
-	T.XMLName.Local = "TaskSuggestion"
+	T.XMLName.Local = "t:TaskSuggestion"
 }
 
 func (T *TaskSuggestion) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type Occurrence struct {
 }
 
 func (O *Occurrence) SetForMarshal() {
-	O.XMLName.Local = "Occurrence"
+	O.XMLName.Local = "t:Occurrence"
 }
 
 func (O *Occurrence) GetSchema() *Schema {

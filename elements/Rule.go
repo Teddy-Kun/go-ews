@@ -20,7 +20,7 @@ type Rule struct {
 }
 
 func (R *Rule) SetForMarshal() {
-	R.XMLName.Local = "Rule"
+	R.XMLName.Local = "t:Rule"
 }
 
 func (R *Rule) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type DurationUserOofSettings struct {
 }
 
 func (D *DurationUserOofSettings) SetForMarshal() {
-	D.XMLName.Local = "Duration"
+	D.XMLName.Local = "t:Duration"
 }
 
 func (D *DurationUserOofSettings) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type RecognitionId struct {
 }
 
 func (R *RecognitionId) SetForMarshal() {
-	R.XMLName.Local = "RecognitionId"
+	R.XMLName.Local = "t:RecognitionId"
 }
 
 func (R *RecognitionId) GetSchema() *Schema {

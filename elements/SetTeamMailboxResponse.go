@@ -18,7 +18,7 @@ type SetTeamMailboxResponse struct {
 }
 
 func (S *SetTeamMailboxResponse) SetForMarshal() {
-	S.XMLName.Local = "SetTeamMailboxResponse"
+	S.XMLName.Local = "m:SetTeamMailboxResponse"
 }
 
 func (S *SetTeamMailboxResponse) GetSchema() *Schema {

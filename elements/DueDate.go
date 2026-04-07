@@ -2,10 +2,9 @@ package elements
 
 // The DueDate element represents the date an item is due.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/duedate
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type DueDate struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type DueDate struct {
 }
 
 func (D *DueDate) SetForMarshal() {
-	D.XMLName.Local = "DueDate"
+	D.XMLName.Local = "t:DueDate"
 }
 
 func (D *DueDate) GetSchema() *Schema {

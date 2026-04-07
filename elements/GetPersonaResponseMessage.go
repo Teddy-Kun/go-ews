@@ -20,7 +20,7 @@ type GetPersonaResponseMessage struct {
 }
 
 func (G *GetPersonaResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetPersonaResponseMessage"
+	G.XMLName.Local = "m:GetPersonaResponseMessage"
 }
 
 func (G *GetPersonaResponseMessage) GetSchema() *Schema {

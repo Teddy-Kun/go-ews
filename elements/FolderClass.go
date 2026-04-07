@@ -10,7 +10,7 @@ type FolderClass struct {
 }
 
 func (F *FolderClass) SetForMarshal() {
-	F.XMLName.Local = "FolderClass"
+	F.XMLName.Local = "t:FolderClass"
 }
 
 func (F *FolderClass) GetSchema() *Schema {

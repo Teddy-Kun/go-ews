@@ -16,7 +16,7 @@ type Subscribe struct {
 }
 
 func (S *Subscribe) SetForMarshal() {
-	S.XMLName.Local = "Subscribe"
+	S.XMLName.Local = "m:Subscribe"
 }
 
 func (S *Subscribe) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type PullSubscriptionRequest struct {
 }
 
 func (P *PullSubscriptionRequest) SetForMarshal() {
-	P.XMLName.Local = "PullSubscriptionRequest"
+	P.XMLName.Local = "m:PullSubscriptionRequest"
 }
 
 func (P *PullSubscriptionRequest) GetSchema() *Schema {

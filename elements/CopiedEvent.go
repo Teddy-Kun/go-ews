@@ -26,7 +26,7 @@ type CopiedEvent struct {
 }
 
 func (C *CopiedEvent) SetForMarshal() {
-	C.XMLName.Local = "CopiedEvent"
+	C.XMLName.Local = "t:CopiedEvent"
 }
 
 func (C *CopiedEvent) GetSchema() *Schema {

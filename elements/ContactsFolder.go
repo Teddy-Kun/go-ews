@@ -32,7 +32,7 @@ type ContactsFolder struct {
 }
 
 func (C *ContactsFolder) SetForMarshal() {
-	C.XMLName.Local = "ContactsFolder"
+	C.XMLName.Local = "t:ContactsFolder"
 }
 
 func (C *ContactsFolder) GetSchema() *Schema {

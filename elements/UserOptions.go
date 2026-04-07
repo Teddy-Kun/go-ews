@@ -12,7 +12,7 @@ type UserOptions struct {
 }
 
 func (U *UserOptions) SetForMarshal() {
-	U.XMLName.Local = "UserOptions"
+	U.XMLName.Local = "t:UserOptions"
 }
 
 func (U *UserOptions) GetSchema() *Schema {

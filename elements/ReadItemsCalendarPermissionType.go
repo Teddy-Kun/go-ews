@@ -21,7 +21,7 @@ const (
 )
 
 func (R *ReadItemsCalendarPermissionType) SetForMarshal() {
-	R.XMLName.Local = "ReadItems"
+	R.XMLName.Local = "t:ReadItems"
 }
 
 func (R *ReadItemsCalendarPermissionType) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type GlobalSize struct {
 }
 
 func (G *GlobalSize) SetForMarshal() {
-	G.XMLName.Local = "GlobalSize"
+	G.XMLName.Local = "t:GlobalSize"
 }
 
 func (G *GlobalSize) GetSchema() *Schema {

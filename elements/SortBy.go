@@ -16,7 +16,7 @@ type SortBy struct {
 }
 
 func (S *SortBy) SetForMarshal() {
-	S.XMLName.Local = "SortBy"
+	S.XMLName.Local = "m:SortBy"
 }
 
 func (S *SortBy) GetSchema() *Schema {

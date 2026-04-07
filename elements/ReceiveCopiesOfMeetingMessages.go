@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReceiveCopiesOfMeetingMessages) SetForMarshal() {
-	R.XMLName.Local = "ReceiveCopiesOfMeetingMessages"
+	R.XMLName.Local = "t:ReceiveCopiesOfMeetingMessages"
 }
 
 func (R *ReceiveCopiesOfMeetingMessages) GetSchema() *Schema {

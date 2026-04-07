@@ -17,7 +17,7 @@ const (
 )
 
 func (U *UmEnabled) SetForMarshal() {
-	U.XMLName.Local = "UmEnabled"
+	U.XMLName.Local = "t:UmEnabled"
 }
 
 func (U *UmEnabled) GetSchema() *Schema {

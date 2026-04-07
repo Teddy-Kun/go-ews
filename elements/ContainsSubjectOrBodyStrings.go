@@ -12,7 +12,7 @@ type ContainsSubjectOrBodyStrings struct {
 }
 
 func (C *ContainsSubjectOrBodyStrings) SetForMarshal() {
-	C.XMLName.Local = "ContainsSubjectOrBodyStrings"
+	C.XMLName.Local = "m:ContainsSubjectOrBodyStrings"
 }
 
 func (C *ContainsSubjectOrBodyStrings) GetSchema() *Schema {

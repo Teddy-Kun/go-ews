@@ -26,7 +26,7 @@ type GetStreamingEventsResponseMessage struct {
 }
 
 func (G *GetStreamingEventsResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetStreamingEventsResponseMessage"
+	G.XMLName.Local = "m:GetStreamingEventsResponseMessage"
 }
 
 func (G *GetStreamingEventsResponseMessage) GetSchema() *Schema {

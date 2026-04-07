@@ -12,7 +12,7 @@ type ReplyTo struct {
 }
 
 func (R *ReplyTo) SetForMarshal() {
-	R.XMLName.Local = "ReplyTo"
+	R.XMLName.Local = "t:ReplyTo"
 }
 
 func (R *ReplyTo) GetSchema() *Schema {

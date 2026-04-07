@@ -10,7 +10,7 @@ type TimeOffset struct {
 }
 
 func (T *TimeOffset) SetForMarshal() {
-	T.XMLName.Local = "TimeOffset"
+	T.XMLName.Local = "t:TimeOffset"
 }
 
 func (T *TimeOffset) GetSchema() *Schema {

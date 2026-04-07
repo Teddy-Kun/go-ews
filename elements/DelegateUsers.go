@@ -12,7 +12,7 @@ type DelegateUsers struct {
 }
 
 func (D *DelegateUsers) SetForMarshal() {
-	D.XMLName.Local = "DelegateUsers"
+	D.XMLName.Local = "m:DelegateUsers"
 }
 
 func (D *DelegateUsers) GetSchema() *Schema {

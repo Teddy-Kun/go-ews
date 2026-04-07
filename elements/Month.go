@@ -10,7 +10,7 @@ type Month struct {
 }
 
 func (M *Month) SetForMarshal() {
-	M.XMLName.Local = "Month"
+	M.XMLName.Local = "t:Month"
 }
 
 func (M *Month) GetSchema() *Schema {

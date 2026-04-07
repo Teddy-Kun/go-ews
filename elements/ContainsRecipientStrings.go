@@ -12,7 +12,7 @@ type ContainsRecipientStrings struct {
 }
 
 func (C *ContainsRecipientStrings) SetForMarshal() {
-	C.XMLName.Local = "ContainsRecipientStrings"
+	C.XMLName.Local = "m:ContainsRecipientStrings"
 }
 
 func (C *ContainsRecipientStrings) GetSchema() *Schema {

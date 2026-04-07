@@ -30,7 +30,7 @@ type CalendarPermission struct {
 }
 
 func (C *CalendarPermission) SetForMarshal() {
-	C.XMLName.Local = "CalendarPermission"
+	C.XMLName.Local = "t:CalendarPermission"
 }
 
 func (C *CalendarPermission) GetSchema() *Schema {

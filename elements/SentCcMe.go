@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SentCcMe) SetForMarshal() {
-	S.XMLName.Local = "SentCcMe"
+	S.XMLName.Local = "m:SentCcMe"
 }
 
 func (S *SentCcMe) GetSchema() *Schema {

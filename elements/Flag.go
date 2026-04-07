@@ -18,7 +18,7 @@ type Flag struct {
 }
 
 func (F *Flag) SetForMarshal() {
-	F.XMLName.Local = "Flag"
+	F.XMLName.Local = "t:Flag"
 }
 
 func (F *Flag) GetSchema() *Schema {

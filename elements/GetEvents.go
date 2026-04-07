@@ -14,7 +14,7 @@ type GetEvents struct {
 }
 
 func (G *GetEvents) SetForMarshal() {
-	G.XMLName.Local = "GetEvents"
+	G.XMLName.Local = "m:GetEvents"
 }
 
 func (G *GetEvents) GetSchema() *Schema {

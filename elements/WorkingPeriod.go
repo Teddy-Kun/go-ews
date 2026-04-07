@@ -16,7 +16,7 @@ type WorkingPeriod struct {
 }
 
 func (W *WorkingPeriod) SetForMarshal() {
-	W.XMLName.Local = "WorkingPeriod"
+	W.XMLName.Local = "t:WorkingPeriod"
 }
 
 func (W *WorkingPeriod) GetSchema() *Schema {

@@ -31,7 +31,7 @@ const (
 )
 
 func (P *PlayOnPhoneResponseExchangeWebServices) SetForMarshal() {
-	P.XMLName.Local = "PlayOnPhoneResponse"
+	P.XMLName.Local = "m:PlayOnPhoneResponse"
 }
 
 func (P *PlayOnPhoneResponseExchangeWebServices) GetSchema() *Schema {

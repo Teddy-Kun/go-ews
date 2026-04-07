@@ -16,7 +16,7 @@ type FractionalPageItemView struct {
 }
 
 func (F *FractionalPageItemView) SetForMarshal() {
-	F.XMLName.Local = "FractionalPageItemView"
+	F.XMLName.Local = "m:FractionalPageItemView"
 }
 
 func (F *FractionalPageItemView) GetSchema() *Schema {

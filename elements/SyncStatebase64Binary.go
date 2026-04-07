@@ -10,7 +10,7 @@ type SyncStatebase64Binary struct {
 }
 
 func (S *SyncStatebase64Binary) SetForMarshal() {
-	S.XMLName.Local = "SyncState"
+	S.XMLName.Local = "t:SyncState"
 }
 
 func (S *SyncStatebase64Binary) GetSchema() *Schema {

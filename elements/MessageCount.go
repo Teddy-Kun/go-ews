@@ -10,7 +10,7 @@ type MessageCount struct {
 }
 
 func (M *MessageCount) SetForMarshal() {
-	M.XMLName.Local = "MessageCount"
+	M.XMLName.Local = "t:MessageCount"
 }
 
 func (M *MessageCount) GetSchema() *Schema {

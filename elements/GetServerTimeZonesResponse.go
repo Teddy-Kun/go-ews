@@ -12,7 +12,7 @@ type GetServerTimeZonesResponse struct {
 }
 
 func (G *GetServerTimeZonesResponse) SetForMarshal() {
-	G.XMLName.Local = "GetServerTimeZonesResponse"
+	G.XMLName.Local = "m:GetServerTimeZonesResponse"
 }
 
 func (G *GetServerTimeZonesResponse) GetSchema() *Schema {

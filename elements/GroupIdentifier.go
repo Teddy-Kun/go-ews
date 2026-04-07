@@ -16,7 +16,7 @@ type GroupIdentifier struct {
 }
 
 func (G *GroupIdentifier) SetForMarshal() {
-	G.XMLName.Local = "GroupIdentifier"
+	G.XMLName.Local = "t:GroupIdentifier"
 }
 
 func (G *GroupIdentifier) GetSchema() *Schema {

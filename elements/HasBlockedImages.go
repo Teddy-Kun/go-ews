@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HasBlockedImages) SetForMarshal() {
-	H.XMLName.Local = "HasBlockedImages"
+	H.XMLName.Local = "t:HasBlockedImages"
 }
 
 func (H *HasBlockedImages) GetSchema() *Schema {

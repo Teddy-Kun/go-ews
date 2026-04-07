@@ -12,7 +12,7 @@ type ReplyBody struct {
 }
 
 func (R *ReplyBody) SetForMarshal() {
-	R.XMLName.Local = "ReplyBody"
+	R.XMLName.Local = "t:ReplyBody"
 }
 
 func (R *ReplyBody) GetSchema() *Schema {

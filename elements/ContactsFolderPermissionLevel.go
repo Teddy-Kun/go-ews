@@ -23,7 +23,7 @@ const (
 )
 
 func (C *ContactsFolderPermissionLevel) SetForMarshal() {
-	C.XMLName.Local = "ContactsFolderPermissionLevel"
+	C.XMLName.Local = "t:ContactsFolderPermissionLevel"
 }
 
 func (C *ContactsFolderPermissionLevel) GetSchema() *Schema {

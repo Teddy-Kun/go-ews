@@ -12,7 +12,7 @@ type MobilePhones2 struct {
 }
 
 func (M *MobilePhones2) SetForMarshal() {
-	M.XMLName.Local = "MobilePhones2"
+	M.XMLName.Local = "t:MobilePhones2"
 }
 
 func (M *MobilePhones2) GetSchema() *Schema {

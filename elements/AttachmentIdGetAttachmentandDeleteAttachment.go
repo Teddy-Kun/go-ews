@@ -12,7 +12,7 @@ type AttachmentIdGetAttachmentandDeleteAttachment struct {
 }
 
 func (A *AttachmentIdGetAttachmentandDeleteAttachment) SetForMarshal() {
-	A.XMLName.Local = "AttachmentId"
+	A.XMLName.Local = "t:AttachmentId"
 }
 
 func (A *AttachmentIdGetAttachmentandDeleteAttachment) GetSchema() *Schema {

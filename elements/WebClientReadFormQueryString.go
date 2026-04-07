@@ -10,7 +10,7 @@ type WebClientReadFormQueryString struct {
 }
 
 func (W *WebClientReadFormQueryString) SetForMarshal() {
-	W.XMLName.Local = "WebClientReadFormQueryString"
+	W.XMLName.Local = "t:WebClientReadFormQueryString"
 }
 
 func (W *WebClientReadFormQueryString) GetSchema() *Schema {

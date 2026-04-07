@@ -12,7 +12,7 @@ type DisplayNames struct {
 }
 
 func (D *DisplayNames) SetForMarshal() {
-	D.XMLName.Local = "DisplayNames"
+	D.XMLName.Local = "t:DisplayNames"
 }
 
 func (D *DisplayNames) GetSchema() *Schema {

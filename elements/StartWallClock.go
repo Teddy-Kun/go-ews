@@ -2,10 +2,9 @@ package elements
 
 // The StartWallClock element specifies the start time of a meeting in the time zone of the location in which the meeting takes place.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/startwallclock
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type StartWallClock struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type StartWallClock struct {
 }
 
 func (S *StartWallClock) SetForMarshal() {
-	S.XMLName.Local = "StartWallClock"
+	S.XMLName.Local = "t:StartWallClock"
 }
 
 func (S *StartWallClock) GetSchema() *Schema {

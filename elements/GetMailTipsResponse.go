@@ -12,7 +12,7 @@ type GetMailTipsResponse struct {
 }
 
 func (G *GetMailTipsResponse) SetForMarshal() {
-	G.XMLName.Local = "GetMailTipsResponse"
+	G.XMLName.Local = "m:GetMailTipsResponse"
 }
 
 func (G *GetMailTipsResponse) GetSchema() *Schema {

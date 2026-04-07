@@ -10,7 +10,7 @@ type CountryOrRegion struct {
 }
 
 func (C *CountryOrRegion) SetForMarshal() {
-	C.XMLName.Local = "CountryOrRegion"
+	C.XMLName.Local = "t:CountryOrRegion"
 }
 
 func (C *CountryOrRegion) GetSchema() *Schema {

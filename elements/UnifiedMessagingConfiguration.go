@@ -16,7 +16,7 @@ type UnifiedMessagingConfiguration struct {
 }
 
 func (U *UnifiedMessagingConfiguration) SetForMarshal() {
-	U.XMLName.Local = "UnifiedMessagingConfiguration"
+	U.XMLName.Local = "m:UnifiedMessagingConfiguration"
 }
 
 func (U *UnifiedMessagingConfiguration) GetSchema() *Schema {

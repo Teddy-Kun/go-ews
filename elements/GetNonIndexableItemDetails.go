@@ -18,7 +18,7 @@ type GetNonIndexableItemDetails struct {
 }
 
 func (G *GetNonIndexableItemDetails) SetForMarshal() {
-	G.XMLName.Local = "GetNonIndexableItemDetails"
+	G.XMLName.Local = "m:GetNonIndexableItemDetails"
 }
 
 func (G *GetNonIndexableItemDetails) GetSchema() *Schema {

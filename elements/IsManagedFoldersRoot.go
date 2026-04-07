@@ -10,7 +10,7 @@ type IsManagedFoldersRoot struct {
 }
 
 func (I *IsManagedFoldersRoot) SetForMarshal() {
-	I.XMLName.Local = "IsManagedFoldersRoot"
+	I.XMLName.Local = "t:IsManagedFoldersRoot"
 }
 
 func (I *IsManagedFoldersRoot) GetSchema() *Schema {

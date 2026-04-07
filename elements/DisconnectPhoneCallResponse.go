@@ -29,7 +29,7 @@ const (
 )
 
 func (D *DisconnectPhoneCallResponse) SetForMarshal() {
-	D.XMLName.Local = "DisconnectPhoneCallResponse"
+	D.XMLName.Local = "m:DisconnectPhoneCallResponse"
 }
 
 func (D *DisconnectPhoneCallResponse) GetSchema() *Schema {

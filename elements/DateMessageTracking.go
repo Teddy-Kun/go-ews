@@ -2,10 +2,9 @@ package elements
 
 // The Date element represents the date and time at which the event occurred.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/date-messagetracking
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type DateMessageTracking struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type DateMessageTracking struct {
 }
 
 func (D *DateMessageTracking) SetForMarshal() {
-	D.XMLName.Local = "Date"
+	D.XMLName.Local = "t:Date"
 }
 
 func (D *DateMessageTracking) GetSchema() *Schema {

@@ -2,10 +2,9 @@ package elements
 
 // The End element represents the end of a duration.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/end-ex15websvcsotherref
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type End struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type End struct {
 }
 
 func (E *End) SetForMarshal() {
-	E.XMLName.Local = "End"
+	E.XMLName.Local = "t:End"
 }
 
 func (E *End) GetSchema() *Schema {

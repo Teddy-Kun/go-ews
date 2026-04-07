@@ -2,10 +2,9 @@ package elements
 
 // The GlobalObjectId element is not used.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/globalobjectid
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type GlobalObjectId struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type GlobalObjectId struct {
 }
 
 func (G *GlobalObjectId) SetForMarshal() {
-	G.XMLName.Local = "GlobalObjectId"
+	G.XMLName.Local = "t:GlobalObjectId"
 }
 
 func (G *GlobalObjectId) GetSchema() *Schema {

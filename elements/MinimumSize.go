@@ -10,7 +10,7 @@ type MinimumSize struct {
 }
 
 func (M *MinimumSize) SetForMarshal() {
-	M.XMLName.Local = "MinimumSize"
+	M.XMLName.Local = "m:MinimumSize"
 }
 
 func (M *MinimumSize) GetSchema() *Schema {

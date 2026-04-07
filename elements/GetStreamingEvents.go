@@ -14,7 +14,7 @@ type GetStreamingEvents struct {
 }
 
 func (G *GetStreamingEvents) SetForMarshal() {
-	G.XMLName.Local = "GetStreamingEvents"
+	G.XMLName.Local = "m:GetStreamingEvents"
 }
 
 func (G *GetStreamingEvents) GetSchema() *Schema {

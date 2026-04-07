@@ -10,7 +10,7 @@ type MergedFreeBusy struct {
 }
 
 func (M *MergedFreeBusy) SetForMarshal() {
-	M.XMLName.Local = "MergedFreeBusy"
+	M.XMLName.Local = "t:MergedFreeBusy"
 }
 
 func (M *MergedFreeBusy) GetSchema() *Schema {

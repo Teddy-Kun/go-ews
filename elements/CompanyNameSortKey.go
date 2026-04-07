@@ -10,7 +10,7 @@ type CompanyNameSortKey struct {
 }
 
 func (C *CompanyNameSortKey) SetForMarshal() {
-	C.XMLName.Local = "CompanyNameSortKey"
+	C.XMLName.Local = "t:CompanyNameSortKey"
 }
 
 func (C *CompanyNameSortKey) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IsException struct {
 }
 
 func (I *IsException) SetForMarshal() {
-	I.XMLName.Local = "IsException"
+	I.XMLName.Local = "t:IsException"
 }
 
 func (I *IsException) GetSchema() *Schema {

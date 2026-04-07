@@ -10,7 +10,7 @@ type Time struct {
 }
 
 func (T *Time) SetForMarshal() {
-	T.XMLName.Local = "Time"
+	T.XMLName.Local = "t:Time"
 }
 
 func (T *Time) GetSchema() *Schema {

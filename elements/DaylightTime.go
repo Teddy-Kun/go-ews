@@ -22,7 +22,7 @@ type DaylightTime struct {
 }
 
 func (D *DaylightTime) SetForMarshal() {
-	D.XMLName.Local = "DaylightTime"
+	D.XMLName.Local = "t:DaylightTime"
 }
 
 func (D *DaylightTime) GetSchema() *Schema {

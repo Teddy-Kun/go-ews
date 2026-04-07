@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetServerTimeZonesResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetServerTimeZonesResponseMessage"
+	G.XMLName.Local = "m:GetServerTimeZonesResponseMessage"
 }
 
 func (G *GetServerTimeZonesResponseMessage) GetSchema() *Schema {

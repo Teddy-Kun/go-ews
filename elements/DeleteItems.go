@@ -19,7 +19,7 @@ const (
 )
 
 func (D *DeleteItems) SetForMarshal() {
-	D.XMLName.Local = "DeleteItems"
+	D.XMLName.Local = "t:DeleteItems"
 }
 
 func (D *DeleteItems) GetSchema() *Schema {

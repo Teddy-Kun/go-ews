@@ -12,7 +12,7 @@ type GetEventsResponse struct {
 }
 
 func (G *GetEventsResponse) SetForMarshal() {
-	G.XMLName.Local = "GetEventsResponse"
+	G.XMLName.Local = "m:GetEventsResponse"
 }
 
 func (G *GetEventsResponse) GetSchema() *Schema {

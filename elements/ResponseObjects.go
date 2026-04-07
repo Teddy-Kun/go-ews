@@ -34,7 +34,7 @@ type ResponseObjects struct {
 }
 
 func (R *ResponseObjects) SetForMarshal() {
-	R.XMLName.Local = "ResponseObjects"
+	R.XMLName.Local = "t:ResponseObjects"
 }
 
 func (R *ResponseObjects) GetSchema() *Schema {

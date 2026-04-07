@@ -14,7 +14,7 @@ type AddressEntity struct {
 }
 
 func (A *AddressEntity) SetForMarshal() {
-	A.XMLName.Local = "AddressEntity"
+	A.XMLName.Local = "t:AddressEntity"
 }
 
 func (A *AddressEntity) GetSchema() *Schema {

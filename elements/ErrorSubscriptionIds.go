@@ -12,7 +12,7 @@ type ErrorSubscriptionIds struct {
 }
 
 func (E *ErrorSubscriptionIds) SetForMarshal() {
-	E.XMLName.Local = "ErrorSubscriptionIds"
+	E.XMLName.Local = "m:ErrorSubscriptionIds"
 }
 
 func (E *ErrorSubscriptionIds) GetSchema() *Schema {

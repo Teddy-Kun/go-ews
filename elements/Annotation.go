@@ -10,7 +10,7 @@ type Annotation struct {
 }
 
 func (A *Annotation) SetForMarshal() {
-	A.XMLName.Local = "Annotation"
+	A.XMLName.Local = "t:Annotation"
 }
 
 func (A *Annotation) GetSchema() *Schema {

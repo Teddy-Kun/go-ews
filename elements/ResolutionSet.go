@@ -22,7 +22,7 @@ type ResolutionSet struct {
 }
 
 func (R *ResolutionSet) SetForMarshal() {
-	R.XMLName.Local = "ResolutionSet"
+	R.XMLName.Local = "m:ResolutionSet"
 }
 
 func (R *ResolutionSet) GetSchema() *Schema {

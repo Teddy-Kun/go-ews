@@ -16,7 +16,7 @@ type MailboxData struct {
 }
 
 func (M *MailboxData) SetForMarshal() {
-	M.XMLName.Local = "MailboxData"
+	M.XMLName.Local = "t:MailboxData"
 }
 
 func (M *MailboxData) GetSchema() *Schema {

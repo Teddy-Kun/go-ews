@@ -10,7 +10,7 @@ type StateDefinition struct {
 }
 
 func (S *StateDefinition) SetForMarshal() {
-	S.XMLName.Local = "StateDefinition"
+	S.XMLName.Local = "t:StateDefinition"
 }
 
 func (S *StateDefinition) GetSchema() *Schema {

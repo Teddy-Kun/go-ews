@@ -10,7 +10,7 @@ type ContactSource struct {
 }
 
 func (C *ContactSource) SetForMarshal() {
-	C.XMLName.Local = "ContactSource"
+	C.XMLName.Local = "t:ContactSource"
 }
 
 func (C *ContactSource) GetSchema() *Schema {

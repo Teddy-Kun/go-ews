@@ -12,7 +12,7 @@ type ResponseMessagesArrayOfDelegateUserResponseMessageType struct {
 }
 
 func (R *ResponseMessagesArrayOfDelegateUserResponseMessageType) SetForMarshal() {
-	R.XMLName.Local = "ResponseMessages"
+	R.XMLName.Local = "m:ResponseMessages"
 }
 
 func (R *ResponseMessagesArrayOfDelegateUserResponseMessageType) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ConnectionStatus struct {
 }
 
 func (C *ConnectionStatus) SetForMarshal() {
-	C.XMLName.Local = "ConnectionStatus"
+	C.XMLName.Local = "m:ConnectionStatus"
 }
 
 func (C *ConnectionStatus) GetSchema() *Schema {

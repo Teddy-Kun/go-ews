@@ -10,7 +10,7 @@ type RoutingTypeEmailAddress struct {
 }
 
 func (R *RoutingTypeEmailAddress) SetForMarshal() {
-	R.XMLName.Local = "RoutingType"
+	R.XMLName.Local = "t:RoutingType"
 }
 
 func (R *RoutingTypeEmailAddress) GetSchema() *Schema {

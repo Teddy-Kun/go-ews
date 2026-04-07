@@ -94,7 +94,7 @@ type DistributionList struct {
 }
 
 func (D *DistributionList) SetForMarshal() {
-	D.XMLName.Local = "DistributionList"
+	D.XMLName.Local = "t:DistributionList"
 }
 
 func (D *DistributionList) GetSchema() *Schema {

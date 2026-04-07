@@ -10,7 +10,7 @@ type FormattedAddress struct {
 }
 
 func (F *FormattedAddress) SetForMarshal() {
-	F.XMLName.Local = "FormattedAddress"
+	F.XMLName.Local = "t:FormattedAddress"
 }
 
 func (F *FormattedAddress) GetSchema() *Schema {

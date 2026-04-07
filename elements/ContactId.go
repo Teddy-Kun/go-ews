@@ -14,7 +14,7 @@ type ContactId struct {
 }
 
 func (C *ContactId) SetForMarshal() {
-	C.XMLName.Local = "ContactId"
+	C.XMLName.Local = "t:ContactId"
 }
 
 func (C *ContactId) GetSchema() *Schema {

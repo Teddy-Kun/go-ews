@@ -12,7 +12,7 @@ type PerformReminderAction struct {
 }
 
 func (P *PerformReminderAction) SetForMarshal() {
-	P.XMLName.Local = "PerformReminderAction"
+	P.XMLName.Local = "m:PerformReminderAction"
 }
 
 func (P *PerformReminderAction) GetSchema() *Schema {

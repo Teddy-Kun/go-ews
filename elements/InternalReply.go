@@ -12,7 +12,7 @@ type InternalReply struct {
 }
 
 func (I *InternalReply) SetForMarshal() {
-	I.XMLName.Local = "InternalReply"
+	I.XMLName.Local = "t:InternalReply"
 }
 
 func (I *InternalReply) GetSchema() *Schema {

@@ -22,7 +22,7 @@ type GetUserPhotoResponseMessage struct {
 }
 
 func (G *GetUserPhotoResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetUserPhotoResponseMessage"
+	G.XMLName.Local = "m:GetUserPhotoResponseMessage"
 }
 
 func (G *GetUserPhotoResponseMessage) GetSchema() *Schema {

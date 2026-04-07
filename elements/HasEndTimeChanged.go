@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HasEndTimeChanged) SetForMarshal() {
-	H.XMLName.Local = "HasEndTimeChanged"
+	H.XMLName.Local = "t:HasEndTimeChanged"
 }
 
 func (H *HasEndTimeChanged) GetSchema() *Schema {

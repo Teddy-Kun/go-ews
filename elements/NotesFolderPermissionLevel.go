@@ -23,7 +23,7 @@ const (
 )
 
 func (N *NotesFolderPermissionLevel) SetForMarshal() {
-	N.XMLName.Local = "NotesFolderPermissionLevel"
+	N.XMLName.Local = "t:NotesFolderPermissionLevel"
 }
 
 func (N *NotesFolderPermissionLevel) GetSchema() *Schema {

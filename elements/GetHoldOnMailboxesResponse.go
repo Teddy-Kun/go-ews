@@ -12,7 +12,7 @@ type GetHoldOnMailboxesResponse struct {
 }
 
 func (G *GetHoldOnMailboxesResponse) SetForMarshal() {
-	G.XMLName.Local = "GetHoldOnMailboxesResponse"
+	G.XMLName.Local = "m:GetHoldOnMailboxesResponse"
 }
 
 func (G *GetHoldOnMailboxesResponse) GetSchema() *Schema {

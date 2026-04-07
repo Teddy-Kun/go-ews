@@ -22,7 +22,7 @@ type GetClientAccessTokenResponseMessage struct {
 }
 
 func (G *GetClientAccessTokenResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "GetClientAccessTokenResponseMessage"
+	G.XMLName.Local = "m:GetClientAccessTokenResponseMessage"
 }
 
 func (G *GetClientAccessTokenResponseMessage) GetSchema() *Schema {

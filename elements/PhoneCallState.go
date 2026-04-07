@@ -29,7 +29,7 @@ const (
 )
 
 func (P *PhoneCallState) SetForMarshal() {
-	P.XMLName.Local = "PhoneCallState"
+	P.XMLName.Local = "t:PhoneCallState"
 }
 
 func (P *PhoneCallState) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type DisableAppResponse struct {
 }
 
 func (D *DisableAppResponse) SetForMarshal() {
-	D.XMLName.Local = "DisableAppResponse"
+	D.XMLName.Local = "m:DisableAppResponse"
 }
 
 func (D *DisableAppResponse) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type AttendeeConflictDataArray struct {
 }
 
 func (A *AttendeeConflictDataArray) SetForMarshal() {
-	A.XMLName.Local = "AttendeeConflictDataArray"
+	A.XMLName.Local = "t:AttendeeConflictDataArray"
 }
 
 func (A *AttendeeConflictDataArray) GetSchema() *Schema {

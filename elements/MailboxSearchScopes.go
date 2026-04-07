@@ -12,7 +12,7 @@ type MailboxSearchScopes struct {
 }
 
 func (M *MailboxSearchScopes) SetForMarshal() {
-	M.XMLName.Local = "MailboxSearchScopes"
+	M.XMLName.Local = "t:MailboxSearchScopes"
 }
 
 func (M *MailboxSearchScopes) GetSchema() *Schema {

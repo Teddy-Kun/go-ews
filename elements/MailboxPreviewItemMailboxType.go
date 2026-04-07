@@ -14,7 +14,7 @@ type MailboxPreviewItemMailboxType struct {
 }
 
 func (M *MailboxPreviewItemMailboxType) SetForMarshal() {
-	M.XMLName.Local = "Mailbox"
+	M.XMLName.Local = "t:Mailbox"
 }
 
 func (M *MailboxPreviewItemMailboxType) GetSchema() *Schema {

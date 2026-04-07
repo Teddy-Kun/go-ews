@@ -12,7 +12,7 @@ type ConflictResults struct {
 }
 
 func (C *ConflictResults) SetForMarshal() {
-	C.XMLName.Local = "ConflictResults"
+	C.XMLName.Local = "t:ConflictResults"
 }
 
 func (C *ConflictResults) GetSchema() *Schema {

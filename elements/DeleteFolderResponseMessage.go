@@ -29,7 +29,7 @@ const (
 )
 
 func (D *DeleteFolderResponseMessage) SetForMarshal() {
-	D.XMLName.Local = "DeleteFolderResponseMessage"
+	D.XMLName.Local = "m:DeleteFolderResponseMessage"
 }
 
 func (D *DeleteFolderResponseMessage) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IsFromMe struct {
 }
 
 func (I *IsFromMe) SetForMarshal() {
-	I.XMLName.Local = "IsFromMe"
+	I.XMLName.Local = "t:IsFromMe"
 }
 
 func (I *IsFromMe) GetSchema() *Schema {

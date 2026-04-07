@@ -19,7 +19,7 @@ const (
 )
 
 func (T *TokenType) SetForMarshal() {
-	T.XMLName.Local = "TokenType"
+	T.XMLName.Local = "t:TokenType"
 }
 
 func (T *TokenType) GetSchema() *Schema {

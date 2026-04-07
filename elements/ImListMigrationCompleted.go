@@ -17,7 +17,7 @@ const (
 )
 
 func (I *ImListMigrationCompleted) SetForMarshal() {
-	I.XMLName.Local = "ImListMigrationCompleted"
+	I.XMLName.Local = "m:ImListMigrationCompleted"
 }
 
 func (I *ImListMigrationCompleted) GetSchema() *Schema {

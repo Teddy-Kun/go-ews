@@ -17,7 +17,7 @@ type QueryStringQueryStringType struct {
 }
 
 func (Q *QueryStringQueryStringType) SetForMarshal() {
-	Q.XMLName.Local = "QueryString"
+	Q.XMLName.Local = "m:QueryString"
 }
 
 func (Q *QueryStringQueryStringType) GetSchema() *Schema {

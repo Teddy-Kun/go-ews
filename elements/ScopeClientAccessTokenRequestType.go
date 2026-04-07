@@ -10,7 +10,7 @@ type ScopeClientAccessTokenRequestType struct {
 }
 
 func (S *ScopeClientAccessTokenRequestType) SetForMarshal() {
-	S.XMLName.Local = "Scope"
+	S.XMLName.Local = "t:Scope"
 }
 
 func (S *ScopeClientAccessTokenRequestType) GetSchema() *Schema {

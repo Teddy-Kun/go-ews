@@ -36,7 +36,7 @@ type Restriction struct {
 }
 
 func (R *Restriction) SetForMarshal() {
-	R.XMLName.Local = "Restriction"
+	R.XMLName.Local = "m:Restriction"
 }
 
 func (R *Restriction) GetSchema() *Schema {

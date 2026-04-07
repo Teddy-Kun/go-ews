@@ -12,7 +12,7 @@ type UniqueUnreadSenders struct {
 }
 
 func (U *UniqueUnreadSenders) SetForMarshal() {
-	U.XMLName.Local = "UniqueUnreadSenders"
+	U.XMLName.Local = "t:UniqueUnreadSenders"
 }
 
 func (U *UniqueUnreadSenders) GetSchema() *Schema {

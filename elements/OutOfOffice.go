@@ -16,7 +16,7 @@ type OutOfOffice struct {
 }
 
 func (O *OutOfOffice) SetForMarshal() {
-	O.XMLName.Local = "OutOfOffice"
+	O.XMLName.Local = "t:OutOfOffice"
 }
 
 func (O *OutOfOffice) GetSchema() *Schema {

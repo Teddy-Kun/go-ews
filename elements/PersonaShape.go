@@ -14,7 +14,7 @@ type PersonaShape struct {
 }
 
 func (P *PersonaShape) SetForMarshal() {
-	P.XMLName.Local = "PersonaShape"
+	P.XMLName.Local = "m:PersonaShape"
 }
 
 func (P *PersonaShape) GetSchema() *Schema {

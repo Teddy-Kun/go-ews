@@ -12,7 +12,7 @@ type RequestedExtensionIds struct {
 }
 
 func (R *RequestedExtensionIds) SetForMarshal() {
-	R.XMLName.Local = "RequestedExtensionIds"
+	R.XMLName.Local = "m:RequestedExtensionIds"
 }
 
 func (R *RequestedExtensionIds) GetSchema() *Schema {

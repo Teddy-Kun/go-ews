@@ -14,7 +14,7 @@ type MailboxQuery struct {
 }
 
 func (M *MailboxQuery) SetForMarshal() {
-	M.XMLName.Local = "MailboxQuery"
+	M.XMLName.Local = "t:MailboxQuery"
 }
 
 func (M *MailboxQuery) GetSchema() *Schema {

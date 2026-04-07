@@ -14,7 +14,7 @@ type RuleOperationError struct {
 }
 
 func (R *RuleOperationError) SetForMarshal() {
-	R.XMLName.Local = "RuleOperationError"
+	R.XMLName.Local = "m:RuleOperationError"
 }
 
 func (R *RuleOperationError) GetSchema() *Schema {

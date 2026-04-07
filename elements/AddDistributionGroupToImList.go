@@ -14,7 +14,7 @@ type AddDistributionGroupToImList struct {
 }
 
 func (A *AddDistributionGroupToImList) SetForMarshal() {
-	A.XMLName.Local = "AddDistributionGroupToImList"
+	A.XMLName.Local = "m:AddDistributionGroupToImList"
 }
 
 func (A *AddDistributionGroupToImList) GetSchema() *Schema {

@@ -23,7 +23,7 @@ const (
 )
 
 func (R *ResponseCodeInvalidRecipientResponseCodeType) SetForMarshal() {
-	R.XMLName.Local = "ResponseCode"
+	R.XMLName.Local = "t:ResponseCode"
 }
 
 func (R *ResponseCodeInvalidRecipientResponseCodeType) GetSchema() *Schema {

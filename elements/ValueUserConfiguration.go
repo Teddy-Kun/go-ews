@@ -10,7 +10,7 @@ type ValueUserConfiguration struct {
 }
 
 func (V *ValueUserConfiguration) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValueUserConfiguration) GetSchema() *Schema {

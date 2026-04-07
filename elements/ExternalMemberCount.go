@@ -10,7 +10,7 @@ type ExternalMemberCount struct {
 }
 
 func (E *ExternalMemberCount) SetForMarshal() {
-	E.XMLName.Local = "ExternalMemberCount"
+	E.XMLName.Local = "t:ExternalMemberCount"
 }
 
 func (E *ExternalMemberCount) GetSchema() *Schema {

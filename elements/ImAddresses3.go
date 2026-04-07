@@ -12,7 +12,7 @@ type ImAddresses3 struct {
 }
 
 func (I *ImAddresses3) SetForMarshal() {
-	I.XMLName.Local = "ImAddresses3"
+	I.XMLName.Local = "t:ImAddresses3"
 }
 
 func (I *ImAddresses3) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ConversationIndex struct {
 }
 
 func (C *ConversationIndex) SetForMarshal() {
-	C.XMLName.Local = "ConversationIndex"
+	C.XMLName.Local = "t:ConversationIndex"
 }
 
 func (C *ConversationIndex) GetSchema() *Schema {

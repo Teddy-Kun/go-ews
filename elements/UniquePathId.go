@@ -10,7 +10,7 @@ type UniquePathId struct {
 }
 
 func (U *UniquePathId) SetForMarshal() {
-	U.XMLName.Local = "UniquePathId"
+	U.XMLName.Local = "t:UniquePathId"
 }
 
 func (U *UniquePathId) GetSchema() *Schema {

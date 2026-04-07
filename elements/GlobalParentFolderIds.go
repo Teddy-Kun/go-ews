@@ -14,7 +14,7 @@ type GlobalParentFolderIds struct {
 }
 
 func (G *GlobalParentFolderIds) SetForMarshal() {
-	G.XMLName.Local = "GlobalParentFolderIds"
+	G.XMLName.Local = "t:GlobalParentFolderIds"
 }
 
 func (G *GlobalParentFolderIds) GetSchema() *Schema {

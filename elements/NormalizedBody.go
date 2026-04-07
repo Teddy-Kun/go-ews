@@ -14,7 +14,7 @@ type NormalizedBody struct {
 }
 
 func (N *NormalizedBody) SetForMarshal() {
-	N.XMLName.Local = "NormalizedBody"
+	N.XMLName.Local = "t:NormalizedBody"
 }
 
 func (N *NormalizedBody) GetSchema() *Schema {

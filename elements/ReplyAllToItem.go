@@ -34,7 +34,7 @@ type ReplyAllToItem struct {
 }
 
 func (R *ReplyAllToItem) SetForMarshal() {
-	R.XMLName.Local = "ReplyAllToItem"
+	R.XMLName.Local = "t:ReplyAllToItem"
 }
 
 func (R *ReplyAllToItem) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type DeletedOccurrenceStateDefinition struct {
 }
 
 func (D *DeletedOccurrenceStateDefinition) SetForMarshal() {
-	D.XMLName.Local = "DeletedOccurrenceStateDefinition"
+	D.XMLName.Local = "t:DeletedOccurrenceStateDefinition"
 }
 
 func (D *DeletedOccurrenceStateDefinition) GetSchema() *Schema {

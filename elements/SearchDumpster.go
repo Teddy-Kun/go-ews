@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SearchDumpster) SetForMarshal() {
-	S.XMLName.Local = "SearchDumpster"
+	S.XMLName.Local = "t:SearchDumpster"
 }
 
 func (S *SearchDumpster) GetSchema() *Schema {

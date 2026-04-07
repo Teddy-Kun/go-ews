@@ -19,7 +19,7 @@ const (
 )
 
 func (S *ScopeNonEmptyStringType) SetForMarshal() {
-	S.XMLName.Local = "Scope"
+	S.XMLName.Local = "m:Scope"
 }
 
 func (S *ScopeNonEmptyStringType) GetSchema() *Schema {

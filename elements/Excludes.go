@@ -20,7 +20,7 @@ type Excludes struct {
 }
 
 func (E *Excludes) SetForMarshal() {
-	E.XMLName.Local = "Excludes"
+	E.XMLName.Local = "t:Excludes"
 }
 
 func (E *Excludes) GetSchema() *Schema {

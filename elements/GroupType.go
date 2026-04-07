@@ -10,7 +10,7 @@ type GroupType struct {
 }
 
 func (G *GroupType) SetForMarshal() {
-	G.XMLName.Local = "GroupType"
+	G.XMLName.Local = "t:GroupType"
 }
 
 func (G *GroupType) GetSchema() *Schema {

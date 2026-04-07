@@ -10,7 +10,7 @@ type NotesContact struct {
 }
 
 func (N *NotesContact) SetForMarshal() {
-	N.XMLName.Local = "Notes"
+	N.XMLName.Local = "t:Notes"
 }
 
 func (N *NotesContact) GetSchema() *Schema {

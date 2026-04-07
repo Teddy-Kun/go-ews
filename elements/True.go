@@ -10,7 +10,7 @@ type True struct {
 }
 
 func (T *True) SetForMarshal() {
-	T.XMLName.Local = "True"
+	T.XMLName.Local = "t:True"
 }
 
 func (T *True) GetSchema() *Schema {

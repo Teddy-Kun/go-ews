@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IncludeMimeContent) SetForMarshal() {
-	I.XMLName.Local = "IncludeMimeContent"
+	I.XMLName.Local = "t:IncludeMimeContent"
 }
 
 func (I *IncludeMimeContent) GetSchema() *Schema {

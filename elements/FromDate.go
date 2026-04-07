@@ -2,10 +2,9 @@ package elements
 
 // The FromDate element specifies the date that the message was sent.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/fromdate
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type FromDate struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type FromDate struct {
 }
 
 func (F *FromDate) SetForMarshal() {
-	F.XMLName.Local = "FromDate"
+	F.XMLName.Local = "m:FromDate"
 }
 
 func (F *FromDate) GetSchema() *Schema {

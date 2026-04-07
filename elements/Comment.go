@@ -10,7 +10,7 @@ type Comment struct {
 }
 
 func (C *Comment) SetForMarshal() {
-	C.XMLName.Local = "Comment"
+	C.XMLName.Local = "t:Comment"
 }
 
 func (C *Comment) GetSchema() *Schema {

@@ -16,7 +16,7 @@ type MailboxAvailability struct {
 }
 
 func (M *MailboxAvailability) SetForMarshal() {
-	M.XMLName.Local = "Mailbox"
+	M.XMLName.Local = "t:Mailbox"
 }
 
 func (M *MailboxAvailability) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type MeetingString struct {
 }
 
 func (M *MeetingString) SetForMarshal() {
-	M.XMLName.Local = "MeetingString"
+	M.XMLName.Local = "t:MeetingString"
 }
 
 func (M *MeetingString) GetSchema() *Schema {

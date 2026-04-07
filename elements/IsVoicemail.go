@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsVoicemail) SetForMarshal() {
-	I.XMLName.Local = "IsVoicemail"
+	I.XMLName.Local = "m:IsVoicemail"
 }
 
 func (I *IsVoicemail) GetSchema() *Schema {

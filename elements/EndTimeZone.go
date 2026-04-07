@@ -24,7 +24,7 @@ type EndTimeZone struct {
 }
 
 func (E *EndTimeZone) SetForMarshal() {
-	E.XMLName.Local = "EndTimeZone"
+	E.XMLName.Local = "t:EndTimeZone"
 }
 
 func (E *EndTimeZone) GetSchema() *Schema {

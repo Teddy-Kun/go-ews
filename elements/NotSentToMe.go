@@ -17,7 +17,7 @@ const (
 )
 
 func (N *NotSentToMe) SetForMarshal() {
-	N.XMLName.Local = "NotSentToMe"
+	N.XMLName.Local = "m:NotSentToMe"
 }
 
 func (N *NotSentToMe) GetSchema() *Schema {

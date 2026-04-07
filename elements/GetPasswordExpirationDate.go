@@ -12,7 +12,7 @@ type GetPasswordExpirationDate struct {
 }
 
 func (G *GetPasswordExpirationDate) SetForMarshal() {
-	G.XMLName.Local = "GetPasswordExpirationDate"
+	G.XMLName.Local = "m:GetPasswordExpirationDate"
 }
 
 func (G *GetPasswordExpirationDate) GetSchema() *Schema {

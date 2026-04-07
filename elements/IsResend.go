@@ -10,7 +10,7 @@ type IsResend struct {
 }
 
 func (I *IsResend) SetForMarshal() {
-	I.XMLName.Local = "IsResend"
+	I.XMLName.Local = "t:IsResend"
 }
 
 func (I *IsResend) GetSchema() *Schema {

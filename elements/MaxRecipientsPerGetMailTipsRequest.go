@@ -10,7 +10,7 @@ type MaxRecipientsPerGetMailTipsRequest struct {
 }
 
 func (M *MaxRecipientsPerGetMailTipsRequest) SetForMarshal() {
-	M.XMLName.Local = "MaxRecipientsPerGetMailTipsRequest"
+	M.XMLName.Local = "t:MaxRecipientsPerGetMailTipsRequest"
 }
 
 func (M *MaxRecipientsPerGetMailTipsRequest) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type DailyRecurrence struct {
 }
 
 func (D *DailyRecurrence) SetForMarshal() {
-	D.XMLName.Local = "DailyRecurrence"
+	D.XMLName.Local = "t:DailyRecurrence"
 }
 
 func (D *DailyRecurrence) GetSchema() *Schema {

@@ -34,7 +34,7 @@ type Not struct {
 }
 
 func (N *Not) SetForMarshal() {
-	N.XMLName.Local = "Not"
+	N.XMLName.Local = "t:Not"
 }
 
 func (N *Not) GetSchema() *Schema {

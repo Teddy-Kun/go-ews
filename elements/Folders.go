@@ -20,7 +20,7 @@ type Folders struct {
 }
 
 func (F *Folders) SetForMarshal() {
-	F.XMLName.Local = "Folders"
+	F.XMLName.Local = "t:Folders"
 }
 
 func (F *Folders) GetSchema() *Schema {

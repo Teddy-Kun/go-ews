@@ -22,7 +22,7 @@ type ImGroup struct {
 }
 
 func (I *ImGroup) SetForMarshal() {
-	I.XMLName.Local = "ImGroup"
+	I.XMLName.Local = "m:ImGroup"
 }
 
 func (I *ImGroup) GetSchema() *Schema {

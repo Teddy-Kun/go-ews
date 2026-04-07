@@ -12,7 +12,7 @@ type DeleteFolderResponse struct {
 }
 
 func (D *DeleteFolderResponse) SetForMarshal() {
-	D.XMLName.Local = "DeleteFolderResponse"
+	D.XMLName.Local = "m:DeleteFolderResponse"
 }
 
 func (D *DeleteFolderResponse) GetSchema() *Schema {

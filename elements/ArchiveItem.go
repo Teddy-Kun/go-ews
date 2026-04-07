@@ -14,7 +14,7 @@ type ArchiveItem struct {
 }
 
 func (A *ArchiveItem) SetForMarshal() {
-	A.XMLName.Local = "ArchiveItem"
+	A.XMLName.Local = "m:ArchiveItem"
 }
 
 func (A *ArchiveItem) GetSchema() *Schema {

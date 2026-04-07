@@ -10,7 +10,7 @@ type MessageAvailability struct {
 }
 
 func (M *MessageAvailability) SetForMarshal() {
-	M.XMLName.Local = "Message"
+	M.XMLName.Local = "t:Message"
 }
 
 func (M *MessageAvailability) GetSchema() *Schema {

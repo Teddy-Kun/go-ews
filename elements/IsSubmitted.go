@@ -10,7 +10,7 @@ type IsSubmitted struct {
 }
 
 func (I *IsSubmitted) SetForMarshal() {
-	I.XMLName.Local = "IsSubmitted"
+	I.XMLName.Local = "t:IsSubmitted"
 }
 
 func (I *IsSubmitted) GetSchema() *Schema {

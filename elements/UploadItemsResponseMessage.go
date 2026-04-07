@@ -31,7 +31,7 @@ const (
 )
 
 func (U *UploadItemsResponseMessage) SetForMarshal() {
-	U.XMLName.Local = "UploadItemsResponseMessage"
+	U.XMLName.Local = "m:UploadItemsResponseMessage"
 }
 
 func (U *UploadItemsResponseMessage) GetSchema() *Schema {

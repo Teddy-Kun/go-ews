@@ -10,7 +10,7 @@ type DisplayNameLastFirstHeader struct {
 }
 
 func (D *DisplayNameLastFirstHeader) SetForMarshal() {
-	D.XMLName.Local = "DisplayNameLastFirstHeader"
+	D.XMLName.Local = "t:DisplayNameLastFirstHeader"
 }
 
 func (D *DisplayNameLastFirstHeader) GetSchema() *Schema {

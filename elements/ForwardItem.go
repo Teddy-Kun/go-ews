@@ -34,7 +34,7 @@ type ForwardItem struct {
 }
 
 func (F *ForwardItem) SetForMarshal() {
-	F.XMLName.Local = "ForwardItem"
+	F.XMLName.Local = "t:ForwardItem"
 }
 
 func (F *ForwardItem) GetSchema() *Schema {

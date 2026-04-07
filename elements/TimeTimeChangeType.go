@@ -13,7 +13,7 @@ type TimeTimeChangeType struct {
 }
 
 func (T *TimeTimeChangeType) SetForMarshal() {
-	T.XMLName.Local = "Time"
+	T.XMLName.Local = "t:Time"
 }
 
 func (T *TimeTimeChangeType) GetSchema() *Schema {

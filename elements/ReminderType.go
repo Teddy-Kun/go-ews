@@ -19,7 +19,7 @@ const (
 )
 
 func (R *ReminderType) SetForMarshal() {
-	R.XMLName.Local = "ReminderType"
+	R.XMLName.Local = "m:ReminderType"
 }
 
 func (R *ReminderType) GetSchema() *Schema {

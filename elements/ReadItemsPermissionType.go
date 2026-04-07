@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReadItemsPermissionType) SetForMarshal() {
-	R.XMLName.Local = "ReadItems"
+	R.XMLName.Local = "t:ReadItems"
 }
 
 func (R *ReadItemsPermissionType) GetSchema() *Schema {

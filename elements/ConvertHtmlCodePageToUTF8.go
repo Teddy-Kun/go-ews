@@ -10,7 +10,7 @@ type ConvertHtmlCodePageToUTF8 struct {
 }
 
 func (C *ConvertHtmlCodePageToUTF8) SetForMarshal() {
-	C.XMLName.Local = "ConvertHtmlCodePageToUTF8"
+	C.XMLName.Local = "t:ConvertHtmlCodePageToUTF8"
 }
 
 func (C *ConvertHtmlCodePageToUTF8) GetSchema() *Schema {

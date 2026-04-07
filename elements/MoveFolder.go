@@ -14,7 +14,7 @@ type MoveFolder struct {
 }
 
 func (M *MoveFolder) SetForMarshal() {
-	M.XMLName.Local = "MoveFolder"
+	M.XMLName.Local = "m:MoveFolder"
 }
 
 func (M *MoveFolder) GetSchema() *Schema {

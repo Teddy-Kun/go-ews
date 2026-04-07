@@ -10,7 +10,7 @@ type GoodThreshold struct {
 }
 
 func (G *GoodThreshold) SetForMarshal() {
-	G.XMLName.Local = "GoodThreshold"
+	G.XMLName.Local = "t:GoodThreshold"
 }
 
 func (G *GoodThreshold) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ErrorCode struct {
 }
 
 func (E *ErrorCode) SetForMarshal() {
-	E.XMLName.Local = "ErrorCode"
+	E.XMLName.Local = "m:ErrorCode"
 }
 
 func (E *ErrorCode) GetSchema() *Schema {

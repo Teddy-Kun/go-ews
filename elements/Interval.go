@@ -10,7 +10,7 @@ type Interval struct {
 }
 
 func (I *Interval) SetForMarshal() {
-	I.XMLName.Local = "Interval"
+	I.XMLName.Local = "t:Interval"
 }
 
 func (I *Interval) GetSchema() *Schema {

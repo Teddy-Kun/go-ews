@@ -44,7 +44,7 @@ type ItemAttachment struct {
 }
 
 func (I *ItemAttachment) SetForMarshal() {
-	I.XMLName.Local = "ItemAttachment"
+	I.XMLName.Local = "t:ItemAttachment"
 }
 
 func (I *ItemAttachment) GetSchema() *Schema {

@@ -104,7 +104,7 @@ type PostItem struct {
 }
 
 func (P *PostItem) SetForMarshal() {
-	P.XMLName.Local = "PostItem"
+	P.XMLName.Local = "t:PostItem"
 }
 
 func (P *PostItem) GetSchema() *Schema {

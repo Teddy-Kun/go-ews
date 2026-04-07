@@ -31,7 +31,7 @@ const (
 )
 
 func (M *MailTipsResponseMessageType) SetForMarshal() {
-	M.XMLName.Local = "MailTipsResponseMessageType"
+	M.XMLName.Local = "m:MailTipsResponseMessageType"
 }
 
 func (M *MailTipsResponseMessageType) GetSchema() *Schema {

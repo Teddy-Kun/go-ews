@@ -10,7 +10,7 @@ type IsOutOfDate struct {
 }
 
 func (I *IsOutOfDate) SetForMarshal() {
-	I.XMLName.Local = "IsOutOfDate"
+	I.XMLName.Local = "t:IsOutOfDate"
 }
 
 func (I *IsOutOfDate) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (M *MailTipsEnabled) SetForMarshal() {
-	M.XMLName.Local = "MailTipsEnabled"
+	M.XMLName.Local = "t:MailTipsEnabled"
 }
 
 func (M *MailTipsEnabled) GetSchema() *Schema {

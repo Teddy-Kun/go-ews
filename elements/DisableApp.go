@@ -14,7 +14,7 @@ type DisableApp struct {
 }
 
 func (D *DisableApp) SetForMarshal() {
-	D.XMLName.Local = "DisableApp"
+	D.XMLName.Local = "m:DisableApp"
 }
 
 func (D *DisableApp) GetSchema() *Schema {

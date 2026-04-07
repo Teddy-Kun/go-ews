@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsReadReceipt) SetForMarshal() {
-	I.XMLName.Local = "IsReadReceipt"
+	I.XMLName.Local = "m:IsReadReceipt"
 }
 
 func (I *IsReadReceipt) GetSchema() *Schema {

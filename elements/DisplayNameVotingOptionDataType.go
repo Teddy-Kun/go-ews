@@ -10,7 +10,7 @@ type DisplayNameVotingOptionDataType struct {
 }
 
 func (D *DisplayNameVotingOptionDataType) SetForMarshal() {
-	D.XMLName.Local = "DisplayName"
+	D.XMLName.Local = "t:DisplayName"
 }
 
 func (D *DisplayNameVotingOptionDataType) GetSchema() *Schema {

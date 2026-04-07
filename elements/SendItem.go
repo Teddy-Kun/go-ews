@@ -16,7 +16,7 @@ type SendItem struct {
 }
 
 func (S *SendItem) SetForMarshal() {
-	S.XMLName.Local = "SendItem"
+	S.XMLName.Local = "m:SendItem"
 }
 
 func (S *SendItem) GetSchema() *Schema {

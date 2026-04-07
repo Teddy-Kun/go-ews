@@ -12,7 +12,7 @@ type ExtendedPropertiesArrayOfExtendedPropertyAttributedValueType struct {
 }
 
 func (E *ExtendedPropertiesArrayOfExtendedPropertyAttributedValueType) SetForMarshal() {
-	E.XMLName.Local = "ExtendedProperties"
+	E.XMLName.Local = "t:ExtendedProperties"
 }
 
 func (E *ExtendedPropertiesArrayOfExtendedPropertyAttributedValueType) GetSchema() *Schema {

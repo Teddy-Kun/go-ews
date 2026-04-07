@@ -20,7 +20,7 @@ type UserId struct {
 }
 
 func (U *UserId) SetForMarshal() {
-	U.XMLName.Local = "UserId"
+	U.XMLName.Local = "t:UserId"
 }
 
 func (U *UserId) GetSchema() *Schema {

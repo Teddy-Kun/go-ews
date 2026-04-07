@@ -12,7 +12,7 @@ type ExpandDL struct {
 }
 
 func (E *ExpandDL) SetForMarshal() {
-	E.XMLName.Local = "ExpandDL"
+	E.XMLName.Local = "m:ExpandDL"
 }
 
 func (E *ExpandDL) GetSchema() *Schema {

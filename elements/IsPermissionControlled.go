@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsPermissionControlled) SetForMarshal() {
-	I.XMLName.Local = "IsPermissionControlled"
+	I.XMLName.Local = "m:IsPermissionControlled"
 }
 
 func (I *IsPermissionControlled) GetSchema() *Schema {

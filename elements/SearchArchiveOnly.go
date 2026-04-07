@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SearchArchiveOnly) SetForMarshal() {
-	S.XMLName.Local = "SearchArchiveOnly"
+	S.XMLName.Local = "m:SearchArchiveOnly"
 }
 
 func (S *SearchArchiveOnly) GetSchema() *Schema {

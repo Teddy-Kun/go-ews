@@ -10,7 +10,7 @@ type MaximumResultsByDay struct {
 }
 
 func (M *MaximumResultsByDay) SetForMarshal() {
-	M.XMLName.Local = "MaximumResultsByDay"
+	M.XMLName.Local = "t:MaximumResultsByDay"
 }
 
 func (M *MaximumResultsByDay) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type WorkCitySortKey struct {
 }
 
 func (W *WorkCitySortKey) SetForMarshal() {
-	W.XMLName.Local = "WorkCitySortKey"
+	W.XMLName.Local = "t:WorkCitySortKey"
 }
 
 func (W *WorkCitySortKey) GetSchema() *Schema {

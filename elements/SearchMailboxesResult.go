@@ -32,7 +32,7 @@ type SearchMailboxesResult struct {
 }
 
 func (S *SearchMailboxesResult) SetForMarshal() {
-	S.XMLName.Local = "SearchMailboxesResult"
+	S.XMLName.Local = "m:SearchMailboxesResult"
 }
 
 func (S *SearchMailboxesResult) GetSchema() *Schema {

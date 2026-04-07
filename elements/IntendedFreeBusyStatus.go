@@ -10,7 +10,7 @@ type IntendedFreeBusyStatus struct {
 }
 
 func (I *IntendedFreeBusyStatus) SetForMarshal() {
-	I.XMLName.Local = "IntendedFreeBusyStatus"
+	I.XMLName.Local = "t:IntendedFreeBusyStatus"
 }
 
 func (I *IntendedFreeBusyStatus) GetSchema() *Schema {

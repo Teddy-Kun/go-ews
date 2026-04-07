@@ -10,7 +10,7 @@ type ItemHoldPeriod struct {
 }
 
 func (I *ItemHoldPeriod) SetForMarshal() {
-	I.XMLName.Local = "ItemHoldPeriod"
+	I.XMLName.Local = "m:ItemHoldPeriod"
 }
 
 func (I *ItemHoldPeriod) GetSchema() *Schema {

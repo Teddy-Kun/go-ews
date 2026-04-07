@@ -21,7 +21,7 @@ const (
 )
 
 func (S *StateTeamMailboxLifecycleStateType) SetForMarshal() {
-	S.XMLName.Local = "State"
+	S.XMLName.Local = "m:State"
 }
 
 func (S *StateTeamMailboxLifecycleStateType) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type HasAttachments struct {
 }
 
 func (H *HasAttachments) SetForMarshal() {
-	H.XMLName.Local = "HasAttachments"
+	H.XMLName.Local = "t:HasAttachments"
 }
 
 func (H *HasAttachments) GetSchema() *Schema {

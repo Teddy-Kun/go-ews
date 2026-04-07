@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HiddenRecipient) SetForMarshal() {
-	H.XMLName.Local = "HiddenRecipient"
+	H.XMLName.Local = "t:HiddenRecipient"
 }
 
 func (H *HiddenRecipient) GetSchema() *Schema {

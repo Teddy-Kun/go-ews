@@ -30,7 +30,7 @@ type CreateItemSync struct {
 }
 
 func (C *CreateItemSync) SetForMarshal() {
-	C.XMLName.Local = "Create"
+	C.XMLName.Local = "t:Create"
 }
 
 func (C *CreateItemSync) GetSchema() *Schema {

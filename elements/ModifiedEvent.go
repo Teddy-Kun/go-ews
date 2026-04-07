@@ -22,7 +22,7 @@ type ModifiedEvent struct {
 }
 
 func (M *ModifiedEvent) SetForMarshal() {
-	M.XMLName.Local = "ModifiedEvent"
+	M.XMLName.Local = "t:ModifiedEvent"
 }
 
 func (M *ModifiedEvent) GetSchema() *Schema {

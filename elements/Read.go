@@ -17,7 +17,7 @@ const (
 )
 
 func (R *Read) SetForMarshal() {
-	R.XMLName.Local = "Read"
+	R.XMLName.Local = "t:Read"
 }
 
 func (R *Read) GetSchema() *Schema {

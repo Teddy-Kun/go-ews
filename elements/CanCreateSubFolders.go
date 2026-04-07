@@ -10,7 +10,7 @@ type CanCreateSubFolders struct {
 }
 
 func (C *CanCreateSubFolders) SetForMarshal() {
-	C.XMLName.Local = "CanCreateSubFolders"
+	C.XMLName.Local = "t:CanCreateSubFolders"
 }
 
 func (C *CanCreateSubFolders) GetSchema() *Schema {

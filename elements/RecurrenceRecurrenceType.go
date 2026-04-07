@@ -28,7 +28,7 @@ type RecurrenceRecurrenceType struct {
 }
 
 func (R *RecurrenceRecurrenceType) SetForMarshal() {
-	R.XMLName.Local = "Recurrence"
+	R.XMLName.Local = "t:Recurrence"
 }
 
 func (R *RecurrenceRecurrenceType) GetSchema() *Schema {

@@ -19,7 +19,7 @@ const (
 )
 
 func (A *AllowExternalOof) SetForMarshal() {
-	A.XMLName.Local = "AllowExternalOof"
+	A.XMLName.Local = "m:AllowExternalOof"
 }
 
 func (A *AllowExternalOof) GetSchema() *Schema {

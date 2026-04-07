@@ -10,7 +10,7 @@ type PageItemCount struct {
 }
 
 func (P *PageItemCount) SetForMarshal() {
-	P.XMLName.Local = "PageItemCount"
+	P.XMLName.Local = "t:PageItemCount"
 }
 
 func (P *PageItemCount) GetSchema() *Schema {

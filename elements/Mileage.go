@@ -10,7 +10,7 @@ type Mileage struct {
 }
 
 func (M *Mileage) SetForMarshal() {
-	M.XMLName.Local = "Mileage"
+	M.XMLName.Local = "t:Mileage"
 }
 
 func (M *Mileage) GetSchema() *Schema {

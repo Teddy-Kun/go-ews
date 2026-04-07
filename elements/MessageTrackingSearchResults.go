@@ -14,7 +14,7 @@ type MessageTrackingSearchResults struct {
 }
 
 func (M *MessageTrackingSearchResults) SetForMarshal() {
-	M.XMLName.Local = "MessageTrackingSearchResults"
+	M.XMLName.Local = "m:MessageTrackingSearchResults"
 }
 
 func (M *MessageTrackingSearchResults) GetSchema() *Schema {

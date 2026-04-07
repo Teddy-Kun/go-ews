@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsNDR) SetForMarshal() {
-	I.XMLName.Local = "IsNDR"
+	I.XMLName.Local = "m:IsNDR"
 }
 
 func (I *IsNDR) GetSchema() *Schema {

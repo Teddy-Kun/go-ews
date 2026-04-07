@@ -10,7 +10,7 @@ type DurationItems struct {
 }
 
 func (D *DurationItems) SetForMarshal() {
-	D.XMLName.Local = "Duration"
+	D.XMLName.Local = "t:Duration"
 }
 
 func (D *DurationItems) GetSchema() *Schema {

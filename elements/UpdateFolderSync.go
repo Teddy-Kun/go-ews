@@ -20,7 +20,7 @@ type UpdateFolderSync struct {
 }
 
 func (U *UpdateFolderSync) SetForMarshal() {
-	U.XMLName.Local = "Update"
+	U.XMLName.Local = "t:Update"
 }
 
 func (U *UpdateFolderSync) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type SyncFolderHierarchy struct {
 }
 
 func (S *SyncFolderHierarchy) SetForMarshal() {
-	S.XMLName.Local = "SyncFolderHierarchy"
+	S.XMLName.Local = "m:SyncFolderHierarchy"
 }
 
 func (S *SyncFolderHierarchy) GetSchema() *Schema {

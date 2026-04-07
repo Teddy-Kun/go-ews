@@ -10,7 +10,7 @@ type PostalAddressIndex struct {
 }
 
 func (P *PostalAddressIndex) SetForMarshal() {
-	P.XMLName.Local = "PostalAddressIndex"
+	P.XMLName.Local = "t:PostalAddressIndex"
 }
 
 func (P *PostalAddressIndex) GetSchema() *Schema {

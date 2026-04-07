@@ -10,7 +10,7 @@ type MustDisplayComment struct {
 }
 
 func (M *MustDisplayComment) SetForMarshal() {
-	M.XMLName.Local = "MustDisplayComment"
+	M.XMLName.Local = "t:MustDisplayComment"
 }
 
 func (M *MustDisplayComment) GetSchema() *Schema {

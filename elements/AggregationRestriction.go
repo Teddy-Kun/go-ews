@@ -12,7 +12,7 @@ type AggregationRestriction struct {
 }
 
 func (A *AggregationRestriction) SetForMarshal() {
-	A.XMLName.Local = "AggregationRestriction"
+	A.XMLName.Local = "m:AggregationRestriction"
 }
 
 func (A *AggregationRestriction) GetSchema() *Schema {

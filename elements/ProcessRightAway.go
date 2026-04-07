@@ -10,7 +10,7 @@ type ProcessRightAway struct {
 }
 
 func (P *ProcessRightAway) SetForMarshal() {
-	P.XMLName.Local = "ProcessRightAway"
+	P.XMLName.Local = "t:ProcessRightAway"
 }
 
 func (P *ProcessRightAway) GetSchema() *Schema {

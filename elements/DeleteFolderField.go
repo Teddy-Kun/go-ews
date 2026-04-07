@@ -16,7 +16,7 @@ type DeleteFolderField struct {
 }
 
 func (D *DeleteFolderField) SetForMarshal() {
-	D.XMLName.Local = "DeleteFolderField"
+	D.XMLName.Local = "t:DeleteFolderField"
 }
 
 func (D *DeleteFolderField) GetSchema() *Schema {

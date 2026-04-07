@@ -14,7 +14,7 @@ type EndDateRecurrence struct {
 }
 
 func (E *EndDateRecurrence) SetForMarshal() {
-	E.XMLName.Local = "EndDateRecurrence"
+	E.XMLName.Local = "t:EndDateRecurrence"
 }
 
 func (E *EndDateRecurrence) GetSchema() *Schema {

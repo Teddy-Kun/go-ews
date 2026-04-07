@@ -10,7 +10,7 @@ type Count struct {
 }
 
 func (C *Count) SetForMarshal() {
-	C.XMLName.Local = "Count"
+	C.XMLName.Local = "t:Count"
 }
 
 func (C *Count) GetSchema() *Schema {

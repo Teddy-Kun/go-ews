@@ -10,7 +10,7 @@ type SearchFilter struct {
 }
 
 func (S *SearchFilter) SetForMarshal() {
-	S.XMLName.Local = "SearchFilter"
+	S.XMLName.Local = "m:SearchFilter"
 }
 
 func (S *SearchFilter) GetSchema() *Schema {

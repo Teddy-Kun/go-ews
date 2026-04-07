@@ -12,7 +12,7 @@ type DeletedOccurrences struct {
 }
 
 func (D *DeletedOccurrences) SetForMarshal() {
-	D.XMLName.Local = "DeletedOccurrences"
+	D.XMLName.Local = "t:DeletedOccurrences"
 }
 
 func (D *DeletedOccurrences) GetSchema() *Schema {

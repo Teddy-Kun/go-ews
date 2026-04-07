@@ -12,7 +12,7 @@ type ConversationNodes struct {
 }
 
 func (C *ConversationNodes) SetForMarshal() {
-	C.XMLName.Local = "ConversationNodes"
+	C.XMLName.Local = "t:ConversationNodes"
 }
 
 func (C *ConversationNodes) GetSchema() *Schema {

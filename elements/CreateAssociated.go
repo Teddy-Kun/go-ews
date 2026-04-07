@@ -17,7 +17,7 @@ const (
 )
 
 func (C *CreateAssociated) SetForMarshal() {
-	C.XMLName.Local = "CreateAssociated"
+	C.XMLName.Local = "t:CreateAssociated"
 }
 
 func (C *CreateAssociated) GetSchema() *Schema {

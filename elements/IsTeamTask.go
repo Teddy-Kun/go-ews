@@ -10,7 +10,7 @@ type IsTeamTask struct {
 }
 
 func (I *IsTeamTask) SetForMarshal() {
-	I.XMLName.Local = "IsTeamTask"
+	I.XMLName.Local = "t:IsTeamTask"
 }
 
 func (I *IsTeamTask) GetSchema() *Schema {

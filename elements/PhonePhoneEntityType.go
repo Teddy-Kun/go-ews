@@ -18,7 +18,7 @@ type PhonePhoneEntityType struct {
 }
 
 func (P *PhonePhoneEntityType) SetForMarshal() {
-	P.XMLName.Local = "Phone"
+	P.XMLName.Local = "t:Phone"
 }
 
 func (P *PhonePhoneEntityType) GetSchema() *Schema {

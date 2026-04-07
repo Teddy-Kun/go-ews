@@ -12,7 +12,7 @@ type RadioPhones struct {
 }
 
 func (R *RadioPhones) SetForMarshal() {
-	R.XMLName.Local = "RadioPhones"
+	R.XMLName.Local = "t:RadioPhones"
 }
 
 func (R *RadioPhones) GetSchema() *Schema {

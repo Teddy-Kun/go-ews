@@ -10,7 +10,7 @@ type CanDelete struct {
 }
 
 func (C *CanDelete) SetForMarshal() {
-	C.XMLName.Local = "CanDelete"
+	C.XMLName.Local = "t:CanDelete"
 }
 
 func (C *CanDelete) GetSchema() *Schema {

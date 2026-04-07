@@ -10,7 +10,7 @@ type GlobalUnreadCount struct {
 }
 
 func (G *GlobalUnreadCount) SetForMarshal() {
-	G.XMLName.Local = "GlobalUnreadCount"
+	G.XMLName.Local = "t:GlobalUnreadCount"
 }
 
 func (G *GlobalUnreadCount) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type ManagerMailbox struct {
 }
 
 func (M *ManagerMailbox) SetForMarshal() {
-	M.XMLName.Local = "ManagerMailbox"
+	M.XMLName.Local = "t:ManagerMailbox"
 }
 
 func (M *ManagerMailbox) GetSchema() *Schema {

@@ -22,7 +22,7 @@ type DelegatePermissions struct {
 }
 
 func (D *DelegatePermissions) SetForMarshal() {
-	D.XMLName.Local = "DelegatePermissions"
+	D.XMLName.Local = "t:DelegatePermissions"
 }
 
 func (D *DelegatePermissions) GetSchema() *Schema {

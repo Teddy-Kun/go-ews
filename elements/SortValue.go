@@ -10,7 +10,7 @@ type SortValue struct {
 }
 
 func (S *SortValue) SetForMarshal() {
-	S.XMLName.Local = "SortValue"
+	S.XMLName.Local = "t:SortValue"
 }
 
 func (S *SortValue) GetSchema() *Schema {

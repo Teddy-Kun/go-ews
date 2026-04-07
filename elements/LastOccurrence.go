@@ -18,7 +18,7 @@ type LastOccurrence struct {
 }
 
 func (L *LastOccurrence) SetForMarshal() {
-	L.XMLName.Local = "LastOccurrence"
+	L.XMLName.Local = "t:LastOccurrence"
 }
 
 func (L *LastOccurrence) GetSchema() *Schema {

@@ -22,7 +22,7 @@ const (
 )
 
 func (O *OofState) SetForMarshal() {
-	O.XMLName.Local = "OofState"
+	O.XMLName.Local = "t:OofState"
 }
 
 func (O *OofState) GetSchema() *Schema {

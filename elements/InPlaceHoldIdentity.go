@@ -10,7 +10,7 @@ type InPlaceHoldIdentity struct {
 }
 
 func (I *InPlaceHoldIdentity) SetForMarshal() {
-	I.XMLName.Local = "InPlaceHoldIdentity"
+	I.XMLName.Local = "m:InPlaceHoldIdentity"
 }
 
 func (I *InPlaceHoldIdentity) GetSchema() *Schema {

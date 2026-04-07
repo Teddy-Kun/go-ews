@@ -12,7 +12,7 @@ type ExpandDLResponse struct {
 }
 
 func (E *ExpandDLResponse) SetForMarshal() {
-	E.XMLName.Local = "ExpandDLResponse"
+	E.XMLName.Local = "t:ExpandDLResponse"
 }
 
 func (E *ExpandDLResponse) GetSchema() *Schema {

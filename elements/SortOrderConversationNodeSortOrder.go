@@ -21,7 +21,7 @@ const (
 )
 
 func (S *SortOrderConversationNodeSortOrder) SetForMarshal() {
-	S.XMLName.Local = "SortOrder"
+	S.XMLName.Local = "m:SortOrder"
 }
 
 func (S *SortOrderConversationNodeSortOrder) GetSchema() *Schema {

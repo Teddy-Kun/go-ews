@@ -14,7 +14,7 @@ type CopyToFolder struct {
 }
 
 func (C *CopyToFolder) SetForMarshal() {
-	C.XMLName.Local = "CopyToFolder"
+	C.XMLName.Local = "m:CopyToFolder"
 }
 
 func (C *CopyToFolder) GetSchema() *Schema {

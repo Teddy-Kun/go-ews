@@ -66,7 +66,7 @@ type ConversationConversationType struct {
 }
 
 func (C *ConversationConversationType) SetForMarshal() {
-	C.XMLName.Local = "Conversation"
+	C.XMLName.Local = "t:Conversation"
 }
 
 func (C *ConversationConversationType) GetSchema() *Schema {

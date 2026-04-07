@@ -22,7 +22,7 @@ const (
 )
 
 func (F *FlagStatus) SetForMarshal() {
-	F.XMLName.Local = "FlagStatus"
+	F.XMLName.Local = "t:FlagStatus"
 }
 
 func (F *FlagStatus) GetSchema() *Schema {

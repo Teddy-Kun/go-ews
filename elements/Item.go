@@ -86,7 +86,7 @@ type Item struct {
 }
 
 func (I *Item) SetForMarshal() {
-	I.XMLName.Local = "Item"
+	I.XMLName.Local = "t:Item"
 }
 
 func (I *Item) GetSchema() *Schema {

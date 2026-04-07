@@ -10,7 +10,7 @@ type ManagedFolderId struct {
 }
 
 func (M *ManagedFolderId) SetForMarshal() {
-	M.XMLName.Local = "ManagedFolderId"
+	M.XMLName.Local = "t:ManagedFolderId"
 }
 
 func (M *ManagedFolderId) GetSchema() *Schema {

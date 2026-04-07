@@ -14,7 +14,7 @@ type GetUserPhoto struct {
 }
 
 func (G *GetUserPhoto) SetForMarshal() {
-	G.XMLName.Local = "GetUserPhoto"
+	G.XMLName.Local = "m:GetUserPhoto"
 }
 
 func (G *GetUserPhoto) GetSchema() *Schema {

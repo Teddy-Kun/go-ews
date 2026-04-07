@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsMembershipGroup) SetForMarshal() {
-	I.XMLName.Local = "IsMembershipGroup"
+	I.XMLName.Local = "t:IsMembershipGroup"
 }
 
 func (I *IsMembershipGroup) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type FreeBusyView struct {
 }
 
 func (F *FreeBusyView) SetForMarshal() {
-	F.XMLName.Local = "FreeBusyView"
+	F.XMLName.Local = "t:FreeBusyView"
 }
 
 func (F *FreeBusyView) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type TaskString struct {
 }
 
 func (T *TaskString) SetForMarshal() {
-	T.XMLName.Local = "TaskString"
+	T.XMLName.Local = "t:TaskString"
 }
 
 func (T *TaskString) GetSchema() *Schema {

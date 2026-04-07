@@ -10,7 +10,7 @@ type ManagedByOrganization struct {
 }
 
 func (M *ManagedByOrganization) SetForMarshal() {
-	M.XMLName.Local = "ManagedByOrganization"
+	M.XMLName.Local = "t:ManagedByOrganization"
 }
 
 func (M *ManagedByOrganization) GetSchema() *Schema {

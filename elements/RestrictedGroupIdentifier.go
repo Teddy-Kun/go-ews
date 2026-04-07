@@ -14,7 +14,7 @@ type RestrictedGroupIdentifier struct {
 }
 
 func (R *RestrictedGroupIdentifier) SetForMarshal() {
-	R.XMLName.Local = "RestrictedGroupIdentifier"
+	R.XMLName.Local = "t:RestrictedGroupIdentifier"
 }
 
 func (R *RestrictedGroupIdentifier) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IdTimeZone struct {
 }
 
 func (I *IdTimeZone) SetForMarshal() {
-	I.XMLName.Local = "Id"
+	I.XMLName.Local = "t:Id"
 }
 
 func (I *IdTimeZone) GetSchema() *Schema {

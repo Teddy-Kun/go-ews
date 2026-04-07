@@ -12,7 +12,7 @@ type YomiFirstNames struct {
 }
 
 func (Y *YomiFirstNames) SetForMarshal() {
-	Y.XMLName.Local = "YomiFirstNames"
+	Y.XMLName.Local = "t:YomiFirstNames"
 }
 
 func (Y *YomiFirstNames) GetSchema() *Schema {

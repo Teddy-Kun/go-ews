@@ -10,7 +10,7 @@ type FirstDayOfWeek struct {
 }
 
 func (F *FirstDayOfWeek) SetForMarshal() {
-	F.XMLName.Local = "FirstDayOfWeek"
+	F.XMLName.Local = "t:FirstDayOfWeek"
 }
 
 func (F *FirstDayOfWeek) GetSchema() *Schema {

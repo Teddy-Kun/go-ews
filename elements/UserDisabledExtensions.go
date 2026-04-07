@@ -12,7 +12,7 @@ type UserDisabledExtensions struct {
 }
 
 func (U *UserDisabledExtensions) SetForMarshal() {
-	U.XMLName.Local = "UserDisabledExtensions"
+	U.XMLName.Local = "t:UserDisabledExtensions"
 }
 
 func (U *UserDisabledExtensions) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ConfigurationRequestDetails struct {
 }
 
 func (C *ConfigurationRequestDetails) SetForMarshal() {
-	C.XMLName.Local = "ConfigurationRequestDetails"
+	C.XMLName.Local = "m:ConfigurationRequestDetails"
 }
 
 func (C *ConfigurationRequestDetails) GetSchema() *Schema {

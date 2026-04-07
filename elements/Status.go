@@ -10,7 +10,7 @@ type Status struct {
 }
 
 func (S *Status) SetForMarshal() {
-	S.XMLName.Local = "Status"
+	S.XMLName.Local = "t:Status"
 }
 
 func (S *Status) GetSchema() *Schema {

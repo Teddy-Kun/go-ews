@@ -10,7 +10,7 @@ type PageItemSize struct {
 }
 
 func (P *PageItemSize) SetForMarshal() {
-	P.XMLName.Local = "PageItemSize"
+	P.XMLName.Local = "t:PageItemSize"
 }
 
 func (P *PageItemSize) GetSchema() *Schema {

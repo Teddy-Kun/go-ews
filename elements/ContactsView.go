@@ -16,7 +16,7 @@ type ContactsView struct {
 }
 
 func (C *ContactsView) SetForMarshal() {
-	C.XMLName.Local = "ContactsView"
+	C.XMLName.Local = "m:ContactsView"
 }
 
 func (C *ContactsView) GetSchema() *Schema {

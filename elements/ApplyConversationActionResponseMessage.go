@@ -29,7 +29,7 @@ const (
 )
 
 func (A *ApplyConversationActionResponseMessage) SetForMarshal() {
-	A.XMLName.Local = "ApplyConversationActionResponseMessage"
+	A.XMLName.Local = "m:ApplyConversationActionResponseMessage"
 }
 
 func (A *ApplyConversationActionResponseMessage) GetSchema() *Schema {

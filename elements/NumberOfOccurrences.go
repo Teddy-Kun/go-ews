@@ -10,7 +10,7 @@ type NumberOfOccurrences struct {
 }
 
 func (N *NumberOfOccurrences) SetForMarshal() {
-	N.XMLName.Local = "NumberOfOccurrences"
+	N.XMLName.Local = "t:NumberOfOccurrences"
 }
 
 func (N *NumberOfOccurrences) GetSchema() *Schema {

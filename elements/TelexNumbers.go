@@ -12,7 +12,7 @@ type TelexNumbers struct {
 }
 
 func (T *TelexNumbers) SetForMarshal() {
-	T.XMLName.Local = "TelexNumbers"
+	T.XMLName.Local = "t:TelexNumbers"
 }
 
 func (T *TelexNumbers) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type RefreshSharingFolder struct {
 }
 
 func (R *RefreshSharingFolder) SetForMarshal() {
-	R.XMLName.Local = "RefreshSharingFolder"
+	R.XMLName.Local = "m:RefreshSharingFolder"
 }
 
 func (R *RefreshSharingFolder) GetSchema() *Schema {

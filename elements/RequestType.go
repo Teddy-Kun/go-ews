@@ -10,7 +10,7 @@ type RequestType struct {
 }
 
 func (R *RequestType) SetForMarshal() {
-	R.XMLName.Local = "RequestType"
+	R.XMLName.Local = "t:RequestType"
 }
 
 func (R *RequestType) GetSchema() *Schema {

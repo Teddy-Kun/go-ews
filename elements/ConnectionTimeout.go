@@ -10,7 +10,7 @@ type ConnectionTimeout struct {
 }
 
 func (C *ConnectionTimeout) SetForMarshal() {
-	C.XMLName.Local = "ConnectionTimeout"
+	C.XMLName.Local = "t:ConnectionTimeout"
 }
 
 func (C *ConnectionTimeout) GetSchema() *Schema {

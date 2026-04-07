@@ -23,7 +23,7 @@ const (
 )
 
 func (U *UserConfigurationProperties) SetForMarshal() {
-	U.XMLName.Local = "UserConfigurationProperties"
+	U.XMLName.Local = "m:UserConfigurationProperties"
 }
 
 func (U *UserConfigurationProperties) GetSchema() *Schema {

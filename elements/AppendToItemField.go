@@ -36,7 +36,7 @@ type AppendToItemField struct {
 }
 
 func (A *AppendToItemField) SetForMarshal() {
-	A.XMLName.Local = "AppendToItemField"
+	A.XMLName.Local = "t:AppendToItemField"
 }
 
 func (A *AppendToItemField) GetSchema() *Schema {

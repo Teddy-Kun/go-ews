@@ -10,7 +10,7 @@ type ExternalUserIdentity struct {
 }
 
 func (E *ExternalUserIdentity) SetForMarshal() {
-	E.XMLName.Local = "ExternalUserIdentity"
+	E.XMLName.Local = "t:ExternalUserIdentity"
 }
 
 func (E *ExternalUserIdentity) GetSchema() *Schema {

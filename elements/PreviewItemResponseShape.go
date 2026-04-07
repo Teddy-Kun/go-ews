@@ -14,7 +14,7 @@ type PreviewItemResponseShape struct {
 }
 
 func (P *PreviewItemResponseShape) SetForMarshal() {
-	P.XMLName.Local = "PreviewItemResponseShape"
+	P.XMLName.Local = "m:PreviewItemResponseShape"
 }
 
 func (P *PreviewItemResponseShape) GetSchema() *Schema {

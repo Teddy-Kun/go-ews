@@ -24,7 +24,7 @@ type EntityExtractionResult struct {
 }
 
 func (E *EntityExtractionResult) SetForMarshal() {
-	E.XMLName.Local = "EntityExtractionResult"
+	E.XMLName.Local = "t:EntityExtractionResult"
 }
 
 func (E *EntityExtractionResult) GetSchema() *Schema {

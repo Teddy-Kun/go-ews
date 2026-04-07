@@ -17,7 +17,7 @@ const (
 )
 
 func (E *EditAllowed) SetForMarshal() {
-	E.XMLName.Local = "EditAllowed"
+	E.XMLName.Local = "t:EditAllowed"
 }
 
 func (E *EditAllowed) GetSchema() *Schema {

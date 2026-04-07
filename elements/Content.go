@@ -10,7 +10,7 @@ type Content struct {
 }
 
 func (C *Content) SetForMarshal() {
-	C.XMLName.Local = "Content"
+	C.XMLName.Local = "t:Content"
 }
 
 func (C *Content) GetSchema() *Schema {

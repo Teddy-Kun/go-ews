@@ -17,7 +17,7 @@ const (
 )
 
 func (S *ShowExternalRecipientCount) SetForMarshal() {
-	S.XMLName.Local = "ShowExternalRecipientCount"
+	S.XMLName.Local = "t:ShowExternalRecipientCount"
 }
 
 func (S *ShowExternalRecipientCount) GetSchema() *Schema {

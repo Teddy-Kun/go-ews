@@ -25,7 +25,7 @@ const (
 )
 
 func (I *IsAssignmentEditable) SetForMarshal() {
-	I.XMLName.Local = "IsAssignmentEditable"
+	I.XMLName.Local = "t:IsAssignmentEditable"
 }
 
 func (I *IsAssignmentEditable) GetSchema() *Schema {

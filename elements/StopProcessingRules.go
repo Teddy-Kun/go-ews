@@ -17,7 +17,7 @@ const (
 )
 
 func (S *StopProcessingRules) SetForMarshal() {
-	S.XMLName.Local = "StopProcessingRules"
+	S.XMLName.Local = "m:StopProcessingRules"
 }
 
 func (S *StopProcessingRules) GetSchema() *Schema {

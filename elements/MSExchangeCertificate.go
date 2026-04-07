@@ -12,7 +12,7 @@ type MSExchangeCertificate struct {
 }
 
 func (M *MSExchangeCertificate) SetForMarshal() {
-	M.XMLName.Local = "MSExchangeCertificate"
+	M.XMLName.Local = "t:MSExchangeCertificate"
 }
 
 func (M *MSExchangeCertificate) GetSchema() *Schema {

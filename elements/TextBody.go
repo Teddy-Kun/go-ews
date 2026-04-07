@@ -14,7 +14,7 @@ type TextBody struct {
 }
 
 func (T *TextBody) SetForMarshal() {
-	T.XMLName.Local = "TextBody"
+	T.XMLName.Local = "t:TextBody"
 }
 
 func (T *TextBody) GetSchema() *Schema {

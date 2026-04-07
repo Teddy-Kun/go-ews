@@ -34,7 +34,7 @@ type And struct {
 }
 
 func (A *And) SetForMarshal() {
-	A.XMLName.Local = "And"
+	A.XMLName.Local = "t:And"
 }
 
 func (A *And) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type NameMessageTracking struct {
 }
 
 func (N *NameMessageTracking) SetForMarshal() {
-	N.XMLName.Local = "Name"
+	N.XMLName.Local = "t:Name"
 }
 
 func (N *NameMessageTracking) GetSchema() *Schema {

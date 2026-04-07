@@ -10,7 +10,7 @@ type TaskTimedOut struct {
 }
 
 func (T *TaskTimedOut) SetForMarshal() {
-	T.XMLName.Local = "TaskTimedOut"
+	T.XMLName.Local = "t:TaskTimedOut"
 }
 
 func (T *TaskTimedOut) GetSchema() *Schema {

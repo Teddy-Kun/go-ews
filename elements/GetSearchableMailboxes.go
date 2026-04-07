@@ -14,7 +14,7 @@ type GetSearchableMailboxes struct {
 }
 
 func (G *GetSearchableMailboxes) SetForMarshal() {
-	G.XMLName.Local = "GetSearchableMailboxes"
+	G.XMLName.Local = "m:GetSearchableMailboxes"
 }
 
 func (G *GetSearchableMailboxes) GetSchema() *Schema {

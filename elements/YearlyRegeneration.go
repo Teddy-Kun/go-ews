@@ -12,7 +12,7 @@ type YearlyRegeneration struct {
 }
 
 func (Y *YearlyRegeneration) SetForMarshal() {
-	Y.XMLName.Local = "YearlyRegeneration"
+	Y.XMLName.Local = "t:YearlyRegeneration"
 }
 
 func (Y *YearlyRegeneration) GetSchema() *Schema {

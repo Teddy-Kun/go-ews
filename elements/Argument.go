@@ -12,7 +12,7 @@ type Argument struct {
 }
 
 func (A *Argument) SetForMarshal() {
-	A.XMLName.Local = "Argument"
+	A.XMLName.Local = "t:Argument"
 }
 
 func (A *Argument) GetSchema() *Schema {

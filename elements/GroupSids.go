@@ -12,7 +12,7 @@ type GroupSids struct {
 }
 
 func (G *GroupSids) SetForMarshal() {
-	G.XMLName.Local = "GroupSids"
+	G.XMLName.Local = "t:GroupSids"
 }
 
 func (G *GroupSids) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type SendSMSAlertToRecipients struct {
 }
 
 func (S *SendSMSAlertToRecipients) SetForMarshal() {
-	S.XMLName.Local = "SendSMSAlertToRecipients"
+	S.XMLName.Local = "m:SendSMSAlertToRecipients"
 }
 
 func (S *SendSMSAlertToRecipients) GetSchema() *Schema {

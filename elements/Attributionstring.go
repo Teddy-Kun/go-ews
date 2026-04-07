@@ -10,7 +10,7 @@ type Attributionstring struct {
 }
 
 func (A *Attributionstring) SetForMarshal() {
-	A.XMLName.Local = "Attribution"
+	A.XMLName.Local = "t:Attribution"
 }
 
 func (A *Attributionstring) GetSchema() *Schema {

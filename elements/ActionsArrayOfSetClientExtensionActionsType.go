@@ -12,7 +12,7 @@ type ActionsArrayOfSetClientExtensionActionsType struct {
 }
 
 func (A *ActionsArrayOfSetClientExtensionActionsType) SetForMarshal() {
-	A.XMLName.Local = "Actions"
+	A.XMLName.Local = "m:Actions"
 }
 
 func (A *ActionsArrayOfSetClientExtensionActionsType) GetSchema() *Schema {

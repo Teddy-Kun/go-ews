@@ -16,7 +16,7 @@ type GetClientExtension struct {
 }
 
 func (G *GetClientExtension) SetForMarshal() {
-	G.XMLName.Local = "GetClientExtension"
+	G.XMLName.Local = "m:GetClientExtension"
 }
 
 func (G *GetClientExtension) GetSchema() *Schema {

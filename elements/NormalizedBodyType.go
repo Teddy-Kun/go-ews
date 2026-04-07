@@ -19,7 +19,7 @@ const (
 )
 
 func (N *NormalizedBodyType) SetForMarshal() {
-	N.XMLName.Local = "NormalizedBodyType"
+	N.XMLName.Local = "t:NormalizedBodyType"
 }
 
 func (N *NormalizedBodyType) GetSchema() *Schema {

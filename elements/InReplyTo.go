@@ -10,7 +10,7 @@ type InReplyTo struct {
 }
 
 func (I *InReplyTo) SetForMarshal() {
-	I.XMLName.Local = "InReplyTo"
+	I.XMLName.Local = "t:InReplyTo"
 }
 
 func (I *InReplyTo) GetSchema() *Schema {

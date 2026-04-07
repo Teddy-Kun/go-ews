@@ -16,7 +16,7 @@ type GetUserOofSettingsResponse struct {
 }
 
 func (G *GetUserOofSettingsResponse) SetForMarshal() {
-	G.XMLName.Local = "GetUserOofSettingsResponse"
+	G.XMLName.Local = "m:GetUserOofSettingsResponse"
 }
 
 func (G *GetUserOofSettingsResponse) GetSchema() *Schema {

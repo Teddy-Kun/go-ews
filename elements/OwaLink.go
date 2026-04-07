@@ -10,7 +10,7 @@ type OwaLink struct {
 }
 
 func (O *OwaLink) SetForMarshal() {
-	O.XMLName.Local = "OwaLink"
+	O.XMLName.Local = "t:OwaLink"
 }
 
 func (O *OwaLink) GetSchema() *Schema {

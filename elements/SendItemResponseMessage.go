@@ -29,7 +29,7 @@ const (
 )
 
 func (S *SendItemResponseMessage) SetForMarshal() {
-	S.XMLName.Local = "SendItemResponseMessage"
+	S.XMLName.Local = "m:SendItemResponseMessage"
 }
 
 func (S *SendItemResponseMessage) GetSchema() *Schema {

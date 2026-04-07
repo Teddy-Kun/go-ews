@@ -10,7 +10,7 @@ type ValueMessageTracking struct {
 }
 
 func (V *ValueMessageTracking) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValueMessageTracking) GetSchema() *Schema {

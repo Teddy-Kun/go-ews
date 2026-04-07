@@ -22,7 +22,7 @@ type Standard struct {
 }
 
 func (S *Standard) SetForMarshal() {
-	S.XMLName.Local = "Standard"
+	S.XMLName.Local = "t:Standard"
 }
 
 func (S *Standard) GetSchema() *Schema {

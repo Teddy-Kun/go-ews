@@ -12,7 +12,7 @@ type DeleteFolderSync struct {
 }
 
 func (D *DeleteFolderSync) SetForMarshal() {
-	D.XMLName.Local = "Delete"
+	D.XMLName.Local = "t:Delete"
 }
 
 func (D *DeleteFolderSync) GetSchema() *Schema {

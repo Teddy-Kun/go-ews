@@ -16,7 +16,7 @@ type CopyItem struct {
 }
 
 func (C *CopyItem) SetForMarshal() {
-	C.XMLName.Local = "CopyItem"
+	C.XMLName.Local = "m:CopyItem"
 }
 
 func (C *CopyItem) GetSchema() *Schema {

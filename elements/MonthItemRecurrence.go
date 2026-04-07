@@ -10,7 +10,7 @@ type MonthItemRecurrence struct {
 }
 
 func (M *MonthItemRecurrence) SetForMarshal() {
-	M.XMLName.Local = "Month"
+	M.XMLName.Local = "t:Month"
 }
 
 func (M *MonthItemRecurrence) GetSchema() *Schema {

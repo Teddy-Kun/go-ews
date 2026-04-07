@@ -17,7 +17,7 @@ const (
 )
 
 func (C *CreateHierarchy) SetForMarshal() {
-	C.XMLName.Local = "CreateHierarchy"
+	C.XMLName.Local = "t:CreateHierarchy"
 }
 
 func (C *CreateHierarchy) GetSchema() *Schema {

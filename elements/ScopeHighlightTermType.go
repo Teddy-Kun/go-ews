@@ -10,7 +10,7 @@ type ScopeHighlightTermType struct {
 }
 
 func (S *ScopeHighlightTermType) SetForMarshal() {
-	S.XMLName.Local = "Scope"
+	S.XMLName.Local = "t:Scope"
 }
 
 func (S *ScopeHighlightTermType) GetSchema() *Schema {

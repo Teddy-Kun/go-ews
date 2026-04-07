@@ -39,7 +39,7 @@ const (
 )
 
 func (A *AppStatus) SetForMarshal() {
-	A.XMLName.Local = "AppStatus"
+	A.XMLName.Local = "t:AppStatus"
 }
 
 func (A *AppStatus) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type GlobalCategories struct {
 }
 
 func (G *GlobalCategories) SetForMarshal() {
-	G.XMLName.Local = "GlobalCategories"
+	G.XMLName.Local = "t:GlobalCategories"
 }
 
 func (G *GlobalCategories) GetSchema() *Schema {

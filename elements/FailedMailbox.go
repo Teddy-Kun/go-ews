@@ -18,7 +18,7 @@ type FailedMailbox struct {
 }
 
 func (F *FailedMailbox) SetForMarshal() {
-	F.XMLName.Local = "FailedMailbox"
+	F.XMLName.Local = "t:FailedMailbox"
 }
 
 func (F *FailedMailbox) GetSchema() *Schema {

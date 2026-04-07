@@ -14,7 +14,7 @@ type CallbackPhones struct {
 }
 
 func (C *CallbackPhones) SetForMarshal() {
-	C.XMLName.Local = "CallbackPhones"
+	C.XMLName.Local = "t:CallbackPhones"
 }
 
 func (C *CallbackPhones) GetSchema() *Schema {

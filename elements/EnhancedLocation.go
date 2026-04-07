@@ -16,7 +16,7 @@ type EnhancedLocation struct {
 }
 
 func (E *EnhancedLocation) SetForMarshal() {
-	E.XMLName.Local = "EnhancedLocation"
+	E.XMLName.Local = "t:EnhancedLocation"
 }
 
 func (E *EnhancedLocation) GetSchema() *Schema {

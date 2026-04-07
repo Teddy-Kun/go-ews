@@ -12,7 +12,7 @@ type HighlightTerms struct {
 }
 
 func (H *HighlightTerms) SetForMarshal() {
-	H.XMLName.Local = "HighlightTerms"
+	H.XMLName.Local = "m:HighlightTerms"
 }
 
 func (H *HighlightTerms) GetSchema() *Schema {

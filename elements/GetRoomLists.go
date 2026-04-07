@@ -10,7 +10,7 @@ type GetRoomLists struct {
 }
 
 func (G *GetRoomLists) SetForMarshal() {
-	G.XMLName.Local = "GetRoomLists"
+	G.XMLName.Local = "m:GetRoomLists"
 }
 
 func (G *GetRoomLists) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type UniqueHash struct {
 }
 
 func (U *UniqueHash) SetForMarshal() {
-	U.XMLName.Local = "UniqueHash"
+	U.XMLName.Local = "t:UniqueHash"
 }
 
 func (U *UniqueHash) GetSchema() *Schema {

@@ -2,10 +2,9 @@ package elements
 
 // The ToDate element specifies the date that the message was received.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/todate
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type ToDate struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type ToDate struct {
 }
 
 func (T *ToDate) SetForMarshal() {
-	T.XMLName.Local = "ToDate"
+	T.XMLName.Local = "t:ToDate"
 }
 
 func (T *ToDate) GetSchema() *Schema {

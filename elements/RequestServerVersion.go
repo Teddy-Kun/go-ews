@@ -29,7 +29,7 @@ const (
 )
 
 func (R *RequestServerVersion) SetForMarshal() {
-	R.XMLName.Local = "RequestServerVersion"
+	R.XMLName.Local = "t:RequestServerVersion"
 }
 
 func (R *RequestServerVersion) GetSchema() *Schema {

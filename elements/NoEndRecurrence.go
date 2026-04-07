@@ -12,7 +12,7 @@ type NoEndRecurrence struct {
 }
 
 func (N *NoEndRecurrence) SetForMarshal() {
-	N.XMLName.Local = "NoEndRecurrence"
+	N.XMLName.Local = "t:NoEndRecurrence"
 }
 
 func (N *NoEndRecurrence) GetSchema() *Schema {

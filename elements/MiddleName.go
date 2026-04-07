@@ -10,7 +10,7 @@ type MiddleName struct {
 }
 
 func (M *MiddleName) SetForMarshal() {
-	M.XMLName.Local = "MiddleName"
+	M.XMLName.Local = "t:MiddleName"
 }
 
 func (M *MiddleName) GetSchema() *Schema {

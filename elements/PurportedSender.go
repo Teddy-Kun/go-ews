@@ -20,7 +20,7 @@ type PurportedSender struct {
 }
 
 func (P *PurportedSender) SetForMarshal() {
-	P.XMLName.Local = "PurportedSender"
+	P.XMLName.Local = "m:PurportedSender"
 }
 
 func (P *PurportedSender) GetSchema() *Schema {

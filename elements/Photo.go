@@ -10,7 +10,7 @@ type Photo struct {
 }
 
 func (P *Photo) SetForMarshal() {
-	P.XMLName.Local = "Photo"
+	P.XMLName.Local = "t:Photo"
 }
 
 func (P *Photo) GetSchema() *Schema {

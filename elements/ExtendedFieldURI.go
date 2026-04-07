@@ -22,7 +22,7 @@ type ExtendedFieldURI struct {
 }
 
 func (E *ExtendedFieldURI) SetForMarshal() {
-	E.XMLName.Local = "ExtendedFieldURI"
+	E.XMLName.Local = "t:ExtendedFieldURI"
 }
 
 func (E *ExtendedFieldURI) GetSchema() *Schema {

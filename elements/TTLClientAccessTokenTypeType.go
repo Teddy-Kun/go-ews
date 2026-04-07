@@ -10,7 +10,7 @@ type TTLClientAccessTokenTypeType struct {
 }
 
 func (T *TTLClientAccessTokenTypeType) SetForMarshal() {
-	T.XMLName.Local = "TTL"
+	T.XMLName.Local = "t:TTL"
 }
 
 func (T *TTLClientAccessTokenTypeType) GetSchema() *Schema {

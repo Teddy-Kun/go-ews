@@ -10,7 +10,7 @@ type ActionUrl struct {
 }
 
 func (A *ActionUrl) SetForMarshal() {
-	A.XMLName.Local = "ActionUrl"
+	A.XMLName.Local = "t:ActionUrl"
 }
 
 func (A *ActionUrl) GetSchema() *Schema {

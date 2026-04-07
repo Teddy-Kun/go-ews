@@ -14,7 +14,7 @@ type NonIndexableItemDetailsResult struct {
 }
 
 func (N *NonIndexableItemDetailsResult) SetForMarshal() {
-	N.XMLName.Local = "NonIndexableItemDetailsResult"
+	N.XMLName.Local = "m:NonIndexableItemDetailsResult"
 }
 
 func (N *NonIndexableItemDetailsResult) GetSchema() *Schema {

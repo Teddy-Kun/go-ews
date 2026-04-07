@@ -85,7 +85,7 @@ const (
 )
 
 func (G *GlobalIconIndex) SetForMarshal() {
-	G.XMLName.Local = "GlobalIconIndex"
+	G.XMLName.Local = "t:GlobalIconIndex"
 }
 
 func (G *GlobalIconIndex) GetSchema() *Schema {

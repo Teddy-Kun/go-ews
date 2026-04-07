@@ -20,7 +20,7 @@ type ItemUploadItemType struct {
 }
 
 func (I *ItemUploadItemType) SetForMarshal() {
-	I.XMLName.Local = "Item"
+	I.XMLName.Local = "t:Item"
 }
 
 func (I *ItemUploadItemType) GetSchema() *Schema {

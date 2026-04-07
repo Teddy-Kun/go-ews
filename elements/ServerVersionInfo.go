@@ -20,7 +20,7 @@ type ServerVersionInfo struct {
 }
 
 func (S *ServerVersionInfo) SetForMarshal() {
-	S.XMLName.Local = "ServerVersionInfo"
+	S.XMLName.Local = "t:ServerVersionInfo"
 }
 
 func (S *ServerVersionInfo) GetSchema() *Schema {

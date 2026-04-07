@@ -10,7 +10,7 @@ type NameAttachmentType struct {
 }
 
 func (N *NameAttachmentType) SetForMarshal() {
-	N.XMLName.Local = "Name"
+	N.XMLName.Local = "t:Name"
 }
 
 func (N *NameAttachmentType) GetSchema() *Schema {

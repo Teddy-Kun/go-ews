@@ -10,7 +10,7 @@ type LegacyFreeBusyStatus struct {
 }
 
 func (L *LegacyFreeBusyStatus) SetForMarshal() {
-	L.XMLName.Local = "LegacyFreeBusyStatus"
+	L.XMLName.Local = "t:LegacyFreeBusyStatus"
 }
 
 func (L *LegacyFreeBusyStatus) GetSchema() *Schema {

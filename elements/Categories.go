@@ -12,7 +12,7 @@ type Categories struct {
 }
 
 func (C *Categories) SetForMarshal() {
-	C.XMLName.Local = "Categories"
+	C.XMLName.Local = "t:Categories"
 }
 
 func (C *Categories) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type GlobalMessageCount struct {
 }
 
 func (G *GlobalMessageCount) SetForMarshal() {
-	G.XMLName.Local = "GlobalMessageCount"
+	G.XMLName.Local = "t:GlobalMessageCount"
 }
 
 func (G *GlobalMessageCount) GetSchema() *Schema {

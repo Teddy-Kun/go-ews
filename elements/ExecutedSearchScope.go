@@ -10,7 +10,7 @@ type ExecutedSearchScope struct {
 }
 
 func (E *ExecutedSearchScope) SetForMarshal() {
-	E.XMLName.Local = "ExecutedSearchScope"
+	E.XMLName.Local = "t:ExecutedSearchScope"
 }
 
 func (E *ExecutedSearchScope) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type CopyItemResponse struct {
 }
 
 func (C *CopyItemResponse) SetForMarshal() {
-	C.XMLName.Local = "CopyItemResponse"
+	C.XMLName.Local = "m:CopyItemResponse"
 }
 
 func (C *CopyItemResponse) GetSchema() *Schema {

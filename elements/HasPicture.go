@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HasPicture) SetForMarshal() {
-	H.XMLName.Local = "HasPicture"
+	H.XMLName.Local = "t:HasPicture"
 }
 
 func (H *HasPicture) GetSchema() *Schema {

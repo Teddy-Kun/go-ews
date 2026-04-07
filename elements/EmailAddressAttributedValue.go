@@ -14,7 +14,7 @@ type EmailAddressAttributedValue struct {
 }
 
 func (E *EmailAddressAttributedValue) SetForMarshal() {
-	E.XMLName.Local = "EmailAddressAttributedValue"
+	E.XMLName.Local = "t:EmailAddressAttributedValue"
 }
 
 func (E *EmailAddressAttributedValue) GetSchema() *Schema {

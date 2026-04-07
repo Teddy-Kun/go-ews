@@ -10,7 +10,7 @@ type SearchExpression struct {
 }
 
 func (S *SearchExpression) SetForMarshal() {
-	S.XMLName.Local = "SearchExpression"
+	S.XMLName.Local = "t:SearchExpression"
 }
 
 func (S *SearchExpression) GetSchema() *Schema {

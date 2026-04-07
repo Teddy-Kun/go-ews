@@ -16,7 +16,7 @@ type EmptyFolder struct {
 }
 
 func (E *EmptyFolder) SetForMarshal() {
-	E.XMLName.Local = "EmptyFolder"
+	E.XMLName.Local = "m:EmptyFolder"
 }
 
 func (E *EmptyFolder) GetSchema() *Schema {

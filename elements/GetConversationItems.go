@@ -22,7 +22,7 @@ type GetConversationItems struct {
 }
 
 func (G *GetConversationItems) SetForMarshal() {
-	G.XMLName.Local = "GetConversationItems"
+	G.XMLName.Local = "m:GetConversationItems"
 }
 
 func (G *GetConversationItems) GetSchema() *Schema {

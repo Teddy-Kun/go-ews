@@ -10,7 +10,7 @@ type Street struct {
 }
 
 func (S *Street) SetForMarshal() {
-	S.XMLName.Local = "Street"
+	S.XMLName.Local = "t:Street"
 }
 
 func (S *Street) GetSchema() *Schema {

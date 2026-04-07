@@ -26,7 +26,7 @@ type SetHoldOnMailboxes struct {
 }
 
 func (S *SetHoldOnMailboxes) SetForMarshal() {
-	S.XMLName.Local = "SetHoldOnMailboxes"
+	S.XMLName.Local = "m:SetHoldOnMailboxes"
 }
 
 func (S *SetHoldOnMailboxes) GetSchema() *Schema {

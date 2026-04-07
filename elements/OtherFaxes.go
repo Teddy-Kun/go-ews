@@ -12,7 +12,7 @@ type OtherFaxes struct {
 }
 
 func (O *OtherFaxes) SetForMarshal() {
-	O.XMLName.Local = "OtherFaxes"
+	O.XMLName.Local = "t:OtherFaxes"
 }
 
 func (O *OtherFaxes) GetSchema() *Schema {

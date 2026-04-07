@@ -10,7 +10,7 @@ type ValueProtectionRuleValueType struct {
 }
 
 func (V *ValueProtectionRuleValueType) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *ValueProtectionRuleValueType) GetSchema() *Schema {

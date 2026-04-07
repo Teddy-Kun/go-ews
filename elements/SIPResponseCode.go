@@ -10,7 +10,7 @@ type SIPResponseCode struct {
 }
 
 func (S *SIPResponseCode) SetForMarshal() {
-	S.XMLName.Local = "SIPResponseCode"
+	S.XMLName.Local = "t:SIPResponseCode"
 }
 
 func (S *SIPResponseCode) GetSchema() *Schema {

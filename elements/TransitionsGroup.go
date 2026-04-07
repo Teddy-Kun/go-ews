@@ -20,7 +20,7 @@ type TransitionsGroup struct {
 }
 
 func (T *TransitionsGroup) SetForMarshal() {
-	T.XMLName.Local = "TransitionsGroup"
+	T.XMLName.Local = "t:TransitionsGroup"
 }
 
 func (T *TransitionsGroup) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type UserParameters struct {
 }
 
 func (U *UserParameters) SetForMarshal() {
-	U.XMLName.Local = "UserParameters"
+	U.XMLName.Local = "t:UserParameters"
 }
 
 func (U *UserParameters) GetSchema() *Schema {

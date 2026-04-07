@@ -12,7 +12,7 @@ type PhoneCallId struct {
 }
 
 func (P *PhoneCallId) SetForMarshal() {
-	P.XMLName.Local = "PhoneCallId"
+	P.XMLName.Local = "m:PhoneCallId"
 }
 
 func (P *PhoneCallId) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type InstanceKey struct {
 }
 
 func (I *InstanceKey) SetForMarshal() {
-	I.XMLName.Local = "InstanceKey"
+	I.XMLName.Local = "t:InstanceKey"
 }
 
 func (I *InstanceKey) GetSchema() *Schema {

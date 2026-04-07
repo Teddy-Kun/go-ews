@@ -10,7 +10,7 @@ type Value struct {
 }
 
 func (V *Value) SetForMarshal() {
-	V.XMLName.Local = "Value"
+	V.XMLName.Local = "t:Value"
 }
 
 func (V *Value) GetSchema() *Schema {

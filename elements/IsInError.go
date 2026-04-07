@@ -10,7 +10,7 @@ type IsInError struct {
 }
 
 func (I *IsInError) SetForMarshal() {
-	I.XMLName.Local = "IsInError"
+	I.XMLName.Local = "m:IsInError"
 }
 
 func (I *IsInError) GetSchema() *Schema {

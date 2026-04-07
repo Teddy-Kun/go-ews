@@ -10,7 +10,7 @@ type AppointmentSequenceNumber struct {
 }
 
 func (A *AppointmentSequenceNumber) SetForMarshal() {
-	A.XMLName.Local = "AppointmentSequenceNumber"
+	A.XMLName.Local = "t:AppointmentSequenceNumber"
 }
 
 func (A *AppointmentSequenceNumber) GetSchema() *Schema {

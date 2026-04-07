@@ -12,7 +12,7 @@ type EntryPhoneNumber struct {
 }
 
 func (E *EntryPhoneNumber) SetForMarshal() {
-	E.XMLName.Local = "Entry"
+	E.XMLName.Local = "t:Entry"
 }
 
 func (E *EntryPhoneNumber) GetSchema() *Schema {

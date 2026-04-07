@@ -10,7 +10,7 @@ type Database64Binary struct {
 }
 
 func (D *Database64Binary) SetForMarshal() {
-	D.XMLName.Local = "Data"
+	D.XMLName.Local = "m:Data"
 }
 
 func (D *Database64Binary) GetSchema() *Schema {

@@ -22,7 +22,7 @@ type RootFolderFindFolderResponseMessage struct {
 }
 
 func (R *RootFolderFindFolderResponseMessage) SetForMarshal() {
-	R.XMLName.Local = "RootFolder"
+	R.XMLName.Local = "m:RootFolder"
 }
 
 func (R *RootFolderFindFolderResponseMessage) GetSchema() *Schema {

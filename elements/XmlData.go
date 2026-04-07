@@ -10,7 +10,7 @@ type XmlData struct {
 }
 
 func (X *XmlData) SetForMarshal() {
-	X.XMLName.Local = "XmlData"
+	X.XMLName.Local = "t:XmlData"
 }
 
 func (X *XmlData) GetSchema() *Schema {

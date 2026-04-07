@@ -17,7 +17,7 @@ const (
 )
 
 func (G *GlobalHasIrm) SetForMarshal() {
-	G.XMLName.Local = "GlobalHasIrm"
+	G.XMLName.Local = "t:GlobalHasIrm"
 }
 
 func (G *GlobalHasIrm) GetSchema() *Schema {

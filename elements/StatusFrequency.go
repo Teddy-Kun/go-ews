@@ -10,7 +10,7 @@ type StatusFrequency struct {
 }
 
 func (S *StatusFrequency) SetForMarshal() {
-	S.XMLName.Local = "StatusFrequency"
+	S.XMLName.Local = "t:StatusFrequency"
 }
 
 func (S *StatusFrequency) GetSchema() *Schema {

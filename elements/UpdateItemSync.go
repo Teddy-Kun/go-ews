@@ -30,7 +30,7 @@ type UpdateItemSync struct {
 }
 
 func (U *UpdateItemSync) SetForMarshal() {
-	U.XMLName.Local = "Update"
+	U.XMLName.Local = "t:Update"
 }
 
 func (U *UpdateItemSync) GetSchema() *Schema {

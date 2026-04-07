@@ -12,7 +12,7 @@ type GetUserOofSettingsRequest struct {
 }
 
 func (G *GetUserOofSettingsRequest) SetForMarshal() {
-	G.XMLName.Local = "GetUserOofSettingsRequest"
+	G.XMLName.Local = "m:GetUserOofSettingsRequest"
 }
 
 func (G *GetUserOofSettingsRequest) GetSchema() *Schema {

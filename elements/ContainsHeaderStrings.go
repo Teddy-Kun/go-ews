@@ -12,7 +12,7 @@ type ContainsHeaderStrings struct {
 }
 
 func (C *ContainsHeaderStrings) SetForMarshal() {
-	C.XMLName.Local = "ContainsHeaderStrings"
+	C.XMLName.Local = "m:ContainsHeaderStrings"
 }
 
 func (C *ContainsHeaderStrings) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ConferenceType struct {
 }
 
 func (C *ConferenceType) SetForMarshal() {
-	C.XMLName.Local = "ConferenceType"
+	C.XMLName.Local = "t:ConferenceType"
 }
 
 func (C *ConferenceType) GetSchema() *Schema {

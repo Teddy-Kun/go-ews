@@ -12,7 +12,7 @@ type SendItemResponse struct {
 }
 
 func (S *SendItemResponse) SetForMarshal() {
-	S.XMLName.Local = "SendItemResponse"
+	S.XMLName.Local = "m:SendItemResponse"
 }
 
 func (S *SendItemResponse) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (D *Deduplication) SetForMarshal() {
-	D.XMLName.Local = "Deduplication"
+	D.XMLName.Local = "t:Deduplication"
 }
 
 func (D *Deduplication) GetSchema() *Schema {

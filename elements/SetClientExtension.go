@@ -12,7 +12,7 @@ type SetClientExtension struct {
 }
 
 func (S *SetClientExtension) SetForMarshal() {
-	S.XMLName.Local = "SetClientExtension"
+	S.XMLName.Local = "m:SetClientExtension"
 }
 
 func (S *SetClientExtension) GetSchema() *Schema {

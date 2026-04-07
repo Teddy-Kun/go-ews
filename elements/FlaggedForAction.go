@@ -10,7 +10,7 @@ type FlaggedForAction struct {
 }
 
 func (F *FlaggedForAction) SetForMarshal() {
-	F.XMLName.Local = "FlaggedForAction"
+	F.XMLName.Local = "m:FlaggedForAction"
 }
 
 func (F *FlaggedForAction) GetSchema() *Schema {

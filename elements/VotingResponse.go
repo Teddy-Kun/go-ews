@@ -10,7 +10,7 @@ type VotingResponse struct {
 }
 
 func (V *VotingResponse) SetForMarshal() {
-	V.XMLName.Local = "VotingResponse"
+	V.XMLName.Local = "t:VotingResponse"
 }
 
 func (V *VotingResponse) GetSchema() *Schema {

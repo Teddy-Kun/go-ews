@@ -29,7 +29,7 @@ const (
 )
 
 func (O *OccurrenceTimeZoneTransition) SetForMarshal() {
-	O.XMLName.Local = "Occurrence"
+	O.XMLName.Local = "t:Occurrence"
 }
 
 func (O *OccurrenceTimeZoneTransition) GetSchema() *Schema {

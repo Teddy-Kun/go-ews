@@ -32,7 +32,7 @@ type CancelCalendarItem struct {
 }
 
 func (C *CancelCalendarItem) SetForMarshal() {
-	C.XMLName.Local = "CancelCalendarItem"
+	C.XMLName.Local = "t:CancelCalendarItem"
 }
 
 func (C *CancelCalendarItem) GetSchema() *Schema {

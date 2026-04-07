@@ -10,7 +10,7 @@ type IsFolderOwner struct {
 }
 
 func (I *IsFolderOwner) SetForMarshal() {
-	I.XMLName.Local = "IsFolderOwner"
+	I.XMLName.Local = "t:IsFolderOwner"
 }
 
 func (I *IsFolderOwner) GetSchema() *Schema {

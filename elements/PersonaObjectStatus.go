@@ -10,7 +10,7 @@ type PersonaObjectStatus struct {
 }
 
 func (P *PersonaObjectStatus) SetForMarshal() {
-	P.XMLName.Local = "PersonaObjectStatus"
+	P.XMLName.Local = "t:PersonaObjectStatus"
 }
 
 func (P *PersonaObjectStatus) GetSchema() *Schema {

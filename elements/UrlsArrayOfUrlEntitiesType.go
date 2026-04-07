@@ -12,7 +12,7 @@ type UrlsArrayOfUrlEntitiesType struct {
 }
 
 func (U *UrlsArrayOfUrlEntitiesType) SetForMarshal() {
-	U.XMLName.Local = "Urls"
+	U.XMLName.Local = "t:Urls"
 }
 
 func (U *UrlsArrayOfUrlEntitiesType) GetSchema() *Schema {

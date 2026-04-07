@@ -10,7 +10,7 @@ type Role struct {
 }
 
 func (R *Role) SetForMarshal() {
-	R.XMLName.Local = "Role"
+	R.XMLName.Local = "t:Role"
 }
 
 func (R *Role) GetSchema() *Schema {

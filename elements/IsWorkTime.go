@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsWorkTime) SetForMarshal() {
-	I.XMLName.Local = "IsWorkTime"
+	I.XMLName.Local = "t:IsWorkTime"
 }
 
 func (I *IsWorkTime) GetSchema() *Schema {

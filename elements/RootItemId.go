@@ -14,7 +14,7 @@ type RootItemId struct {
 }
 
 func (R *RootItemId) SetForMarshal() {
-	R.XMLName.Local = "RootItemId"
+	R.XMLName.Local = "t:RootItemId"
 }
 
 func (R *RootItemId) GetSchema() *Schema {

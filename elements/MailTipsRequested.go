@@ -33,7 +33,7 @@ const (
 )
 
 func (M *MailTipsRequested) SetForMarshal() {
-	M.XMLName.Local = "MailTipsRequested"
+	M.XMLName.Local = "m:MailTipsRequested"
 }
 
 func (M *MailTipsRequested) GetSchema() *Schema {

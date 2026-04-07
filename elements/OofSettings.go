@@ -20,7 +20,7 @@ type OofSettings struct {
 }
 
 func (O *OofSettings) SetForMarshal() {
-	O.XMLName.Local = "OofSettings"
+	O.XMLName.Local = "m:OofSettings"
 }
 
 func (O *OofSettings) GetSchema() *Schema {

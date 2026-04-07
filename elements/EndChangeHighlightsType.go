@@ -2,10 +2,9 @@ package elements
 
 // The End element specifies the changes made to a meeting end time when a meeting update occurs.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/end-changehighlightstype
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type EndChangeHighlightsType struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type EndChangeHighlightsType struct {
 }
 
 func (E *EndChangeHighlightsType) SetForMarshal() {
-	E.XMLName.Local = "End"
+	E.XMLName.Local = "t:End"
 }
 
 func (E *EndChangeHighlightsType) GetSchema() *Schema {

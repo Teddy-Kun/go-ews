@@ -14,7 +14,7 @@ type RemoveImContactFromGroup struct {
 }
 
 func (R *RemoveImContactFromGroup) SetForMarshal() {
-	R.XMLName.Local = "RemoveImContactFromGroup"
+	R.XMLName.Local = "m:RemoveImContactFromGroup"
 }
 
 func (R *RemoveImContactFromGroup) GetSchema() *Schema {

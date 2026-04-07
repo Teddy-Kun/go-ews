@@ -10,7 +10,7 @@ type ConflictingMeetingCount struct {
 }
 
 func (C *ConflictingMeetingCount) SetForMarshal() {
-	C.XMLName.Local = "ConflictingMeetingCount"
+	C.XMLName.Local = "t:ConflictingMeetingCount"
 }
 
 func (C *ConflictingMeetingCount) GetSchema() *Schema {

@@ -24,7 +24,7 @@ type UpdateItem struct {
 }
 
 func (U *UpdateItem) SetForMarshal() {
-	U.XMLName.Local = "UpdateItem"
+	U.XMLName.Local = "m:UpdateItem"
 }
 
 func (U *UpdateItem) GetSchema() *Schema {

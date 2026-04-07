@@ -12,7 +12,7 @@ type DeleteUserConfiguration struct {
 }
 
 func (D *DeleteUserConfiguration) SetForMarshal() {
-	D.XMLName.Local = "DeleteUserConfiguration"
+	D.XMLName.Local = "m:DeleteUserConfiguration"
 }
 
 func (D *DeleteUserConfiguration) GetSchema() *Schema {

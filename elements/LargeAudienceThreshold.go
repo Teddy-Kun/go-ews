@@ -10,7 +10,7 @@ type LargeAudienceThreshold struct {
 }
 
 func (L *LargeAudienceThreshold) SetForMarshal() {
-	L.XMLName.Local = "LargeAudienceThreshold"
+	L.XMLName.Local = "t:LargeAudienceThreshold"
 }
 
 func (L *LargeAudienceThreshold) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type MoveItemResponse struct {
 }
 
 func (M *MoveItemResponse) SetForMarshal() {
-	M.XMLName.Local = "MoveItemResponse"
+	M.XMLName.Local = "m:MoveItemResponse"
 }
 
 func (M *MoveItemResponse) GetSchema() *Schema {

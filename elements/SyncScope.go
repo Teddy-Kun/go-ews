@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SyncScope) SetForMarshal() {
-	S.XMLName.Local = "SyncScope"
+	S.XMLName.Local = "m:SyncScope"
 }
 
 func (S *SyncScope) GetSchema() *Schema {

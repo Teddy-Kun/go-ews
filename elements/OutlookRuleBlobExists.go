@@ -17,7 +17,7 @@ const (
 )
 
 func (O *OutlookRuleBlobExists) SetForMarshal() {
-	O.XMLName.Local = "OutlookRuleBlobExists"
+	O.XMLName.Local = "m:OutlookRuleBlobExists"
 }
 
 func (O *OutlookRuleBlobExists) GetSchema() *Schema {

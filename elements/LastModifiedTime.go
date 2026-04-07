@@ -2,10 +2,9 @@ package elements
 
 // The LastModifiedTime element indicates when an item was last modified. This element is read-only.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/lastmodifiedtime
-import (
-	"encoding/xml"
-	"time"
-)
+import "time"
+
+import "encoding/xml"
 
 type LastModifiedTime struct {
 	XMLName xml.Name
@@ -13,7 +12,7 @@ type LastModifiedTime struct {
 }
 
 func (L *LastModifiedTime) SetForMarshal() {
-	L.XMLName.Local = "LastModifiedTime"
+	L.XMLName.Local = "t:LastModifiedTime"
 }
 
 func (L *LastModifiedTime) GetSchema() *Schema {

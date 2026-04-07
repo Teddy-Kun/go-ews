@@ -10,7 +10,7 @@ type ProxyPartnerToken struct {
 }
 
 func (P *ProxyPartnerToken) SetForMarshal() {
-	P.XMLName.Local = "ProxyPartnerToken"
+	P.XMLName.Local = "t:ProxyPartnerToken"
 }
 
 func (P *ProxyPartnerToken) GetSchema() *Schema {

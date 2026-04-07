@@ -12,7 +12,7 @@ type RecipientIs struct {
 }
 
 func (R *RecipientIs) SetForMarshal() {
-	R.XMLName.Local = "RecipientIs"
+	R.XMLName.Local = "t:RecipientIs"
 }
 
 func (R *RecipientIs) GetSchema() *Schema {

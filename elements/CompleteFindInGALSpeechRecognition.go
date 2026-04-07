@@ -10,7 +10,7 @@ type CompleteFindInGALSpeechRecognition struct {
 }
 
 func (C *CompleteFindInGALSpeechRecognition) SetForMarshal() {
-	C.XMLName.Local = "CompleteFindInGALSpeechRecognition"
+	C.XMLName.Local = "m:CompleteFindInGALSpeechRecognition"
 }
 
 func (C *CompleteFindInGALSpeechRecognition) GetSchema() *Schema {

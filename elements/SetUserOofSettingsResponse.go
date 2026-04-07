@@ -12,7 +12,7 @@ type SetUserOofSettingsResponse struct {
 }
 
 func (S *SetUserOofSettingsResponse) SetForMarshal() {
-	S.XMLName.Local = "SetUserOofSettingsResponse"
+	S.XMLName.Local = "m:SetUserOofSettingsResponse"
 }
 
 func (S *SetUserOofSettingsResponse) GetSchema() *Schema {

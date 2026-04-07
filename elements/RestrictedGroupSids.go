@@ -12,7 +12,7 @@ type RestrictedGroupSids struct {
 }
 
 func (R *RestrictedGroupSids) SetForMarshal() {
-	R.XMLName.Local = "RestrictedGroupSids"
+	R.XMLName.Local = "t:RestrictedGroupSids"
 }
 
 func (R *RestrictedGroupSids) GetSchema() *Schema {

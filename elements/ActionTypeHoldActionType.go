@@ -19,7 +19,7 @@ const (
 )
 
 func (A *ActionTypeHoldActionType) SetForMarshal() {
-	A.XMLName.Local = "ActionType"
+	A.XMLName.Local = "t:ActionType"
 }
 
 func (A *ActionTypeHoldActionType) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type AlternatePublicFolderId struct {
 }
 
 func (A *AlternatePublicFolderId) SetForMarshal() {
-	A.XMLName.Local = "AlternatePublicFolderId"
+	A.XMLName.Local = "t:AlternatePublicFolderId"
 }
 
 func (A *AlternatePublicFolderId) GetSchema() *Schema {

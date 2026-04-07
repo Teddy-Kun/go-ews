@@ -17,7 +17,7 @@ const (
 )
 
 func (R *RetentionPolicyType) SetForMarshal() {
-	R.XMLName.Local = "RetentionPolicyType"
+	R.XMLName.Local = "t:RetentionPolicyType"
 }
 
 func (R *RetentionPolicyType) GetSchema() *Schema {

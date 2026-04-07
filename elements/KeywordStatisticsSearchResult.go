@@ -16,7 +16,7 @@ type KeywordStatisticsSearchResult struct {
 }
 
 func (K *KeywordStatisticsSearchResult) SetForMarshal() {
-	K.XMLName.Local = "KeywordStatisticsSearchResult"
+	K.XMLName.Local = "t:KeywordStatisticsSearchResult"
 }
 
 func (K *KeywordStatisticsSearchResult) GetSchema() *Schema {

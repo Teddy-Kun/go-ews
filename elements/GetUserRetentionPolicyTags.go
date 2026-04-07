@@ -10,7 +10,7 @@ type GetUserRetentionPolicyTags struct {
 }
 
 func (G *GetUserRetentionPolicyTags) SetForMarshal() {
-	G.XMLName.Local = "GetUserRetentionPolicyTags"
+	G.XMLName.Local = "m:GetUserRetentionPolicyTags"
 }
 
 func (G *GetUserRetentionPolicyTags) GetSchema() *Schema {

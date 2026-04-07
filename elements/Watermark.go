@@ -10,7 +10,7 @@ type Watermark struct {
 }
 
 func (W *Watermark) SetForMarshal() {
-	W.XMLName.Local = "Watermark"
+	W.XMLName.Local = "t:Watermark"
 }
 
 func (W *Watermark) GetSchema() *Schema {

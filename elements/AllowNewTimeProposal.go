@@ -10,7 +10,7 @@ type AllowNewTimeProposal struct {
 }
 
 func (A *AllowNewTimeProposal) SetForMarshal() {
-	A.XMLName.Local = "AllowNewTimeProposal"
+	A.XMLName.Local = "t:AllowNewTimeProposal"
 }
 
 func (A *AllowNewTimeProposal) GetSchema() *Schema {
