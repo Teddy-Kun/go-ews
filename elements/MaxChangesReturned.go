@@ -10,7 +10,7 @@ type MaxChangesReturned struct {
 }
 
 func (M *MaxChangesReturned) SetForMarshal() {
-	M.XMLName.Local = "t:MaxChangesReturned"
+	M.XMLName.Local = "m:MaxChangesReturned"
 }
 
 func (M *MaxChangesReturned) GetSchema() *Schema {
