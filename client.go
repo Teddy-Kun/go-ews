@@ -39,6 +39,26 @@ type Config struct {
 	Dump    bool
 	NTLM    bool
 	SkipTLS bool
+	Debug   bool
+}
+
+type DebugHttpRoundtrip struct {
+	innerRoundTripper http.RoundTripper
+}
+
+// adapted from: https://www.jvt.me/posts/2023/03/11/go-debug-http/
+func (d DebugHttpRoundtrip) RoundTrip(r *http.Request) (*http.Response, error) {
+	bytes, _ := httputil.DumpRequestOut(r, true)
+
+	resp, err := d.innerRoundTripper.RoundTrip(r)
+	// err is returned after dumping the response
+
+	respBytes, _ := httputil.DumpResponse(resp, true)
+	bytes = append(bytes, respBytes...)
+
+	fmt.Printf("%s\n", bytes)
+
+	return resp, err
 }
 
 func (c *client) GetServerAddr() string {
@@ -117,6 +137,12 @@ func applyConfig(config *Config, client *http.Client) {
 
 	if config.SkipTLS {
 		client.Transport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
+	}
+
+	if config.Debug {
+		client.Transport = DebugHttpRoundtrip{
+			innerRoundTripper: client.Transport,
+		}
 	}
 }
 
