@@ -20,7 +20,7 @@ type IdEmailAddressType struct {
 }
 
 func (I *IdEmailAddressType) SetForMarshal() {
-	I.XMLName.Local = "t:Id"
+	I.XMLName.Local = "Id"
 }
 
 func (I *IdEmailAddressType) GetSchema() *Schema {

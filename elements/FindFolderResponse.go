@@ -12,7 +12,7 @@ type FindFolderResponse struct {
 }
 
 func (F *FindFolderResponse) SetForMarshal() {
-	F.XMLName.Local = "m:FindFolderResponse"
+	F.XMLName.Local = "FindFolderResponse"
 }
 
 func (F *FindFolderResponse) GetSchema() *Schema {

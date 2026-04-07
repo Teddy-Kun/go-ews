@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsReminderSet) SetForMarshal() {
-	I.XMLName.Local = "t:IsReminderSet"
+	I.XMLName.Local = "IsReminderSet"
 }
 
 func (I *IsReminderSet) GetSchema() *Schema {

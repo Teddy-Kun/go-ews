@@ -12,7 +12,7 @@ type Pagers struct {
 }
 
 func (P *Pagers) SetForMarshal() {
-	P.XMLName.Local = "t:Pagers"
+	P.XMLName.Local = "Pagers"
 }
 
 func (P *Pagers) GetSchema() *Schema {

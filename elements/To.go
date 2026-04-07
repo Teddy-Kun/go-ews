@@ -19,7 +19,7 @@ const (
 )
 
 func (T *To) SetForMarshal() {
-	T.XMLName.Local = "t:To"
+	T.XMLName.Local = "To"
 }
 
 func (T *To) GetSchema() *Schema {

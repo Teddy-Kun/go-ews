@@ -136,7 +136,7 @@ type MeetingCancellation struct {
 }
 
 func (M *MeetingCancellation) SetForMarshal() {
-	M.XMLName.Local = "t:MeetingCancellation"
+	M.XMLName.Local = "MeetingCancellation"
 }
 
 func (M *MeetingCancellation) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type DeleteItem struct {
 }
 
 func (D *DeleteItem) SetForMarshal() {
-	D.XMLName.Local = "m:DeleteItem"
+	D.XMLName.Local = "DeleteItem"
 }
 
 func (D *DeleteItem) GetSchema() *Schema {

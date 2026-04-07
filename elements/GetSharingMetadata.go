@@ -16,7 +16,7 @@ type GetSharingMetadata struct {
 }
 
 func (G *GetSharingMetadata) SetForMarshal() {
-	G.XMLName.Local = "m:GetSharingMetadata"
+	G.XMLName.Local = "GetSharingMetadata"
 }
 
 func (G *GetSharingMetadata) GetSchema() *Schema {

@@ -29,7 +29,7 @@ const (
 )
 
 func (E *EmptyFolderResponseMessage) SetForMarshal() {
-	E.XMLName.Local = "m:EmptyFolderResponseMessage"
+	E.XMLName.Local = "EmptyFolderResponseMessage"
 }
 
 func (E *EmptyFolderResponseMessage) GetSchema() *Schema {

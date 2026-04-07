@@ -10,7 +10,7 @@ type EmailAddressNonEmptyStringType struct {
 }
 
 func (E *EmailAddressNonEmptyStringType) SetForMarshal() {
-	E.XMLName.Local = "t:EmailAddress"
+	E.XMLName.Local = "EmailAddress"
 }
 
 func (E *EmailAddressNonEmptyStringType) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type HomeAddresses struct {
 }
 
 func (H *HomeAddresses) SetForMarshal() {
-	H.XMLName.Local = "t:HomeAddresses"
+	H.XMLName.Local = "HomeAddresses"
 }
 
 func (H *HomeAddresses) GetSchema() *Schema {

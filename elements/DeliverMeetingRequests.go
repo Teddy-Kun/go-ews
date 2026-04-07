@@ -21,7 +21,7 @@ const (
 )
 
 func (D *DeliverMeetingRequests) SetForMarshal() {
-	D.XMLName.Local = "m:DeliverMeetingRequests"
+	D.XMLName.Local = "DeliverMeetingRequests"
 }
 
 func (D *DeliverMeetingRequests) GetSchema() *Schema {

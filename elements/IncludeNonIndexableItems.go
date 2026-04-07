@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IncludeNonIndexableItems) SetForMarshal() {
-	I.XMLName.Local = "m:IncludeNonIndexableItems"
+	I.XMLName.Local = "IncludeNonIndexableItems"
 }
 
 func (I *IncludeNonIndexableItems) GetSchema() *Schema {

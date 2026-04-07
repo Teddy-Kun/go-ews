@@ -24,7 +24,7 @@ type AttributionPersonaAttributionType struct {
 }
 
 func (A *AttributionPersonaAttributionType) SetForMarshal() {
-	A.XMLName.Local = "t:Attribution"
+	A.XMLName.Local = "Attribution"
 }
 
 func (A *AttributionPersonaAttributionType) GetSchema() *Schema {

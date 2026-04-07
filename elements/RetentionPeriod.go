@@ -10,7 +10,7 @@ type RetentionPeriod struct {
 }
 
 func (R *RetentionPeriod) SetForMarshal() {
-	R.XMLName.Local = "t:RetentionPeriod"
+	R.XMLName.Local = "RetentionPeriod"
 }
 
 func (R *RetentionPeriod) GetSchema() *Schema {

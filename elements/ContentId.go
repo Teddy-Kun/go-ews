@@ -10,7 +10,7 @@ type ContentId struct {
 }
 
 func (C *ContentId) SetForMarshal() {
-	C.XMLName.Local = "t:ContentId"
+	C.XMLName.Local = "ContentId"
 }
 
 func (C *ContentId) GetSchema() *Schema {

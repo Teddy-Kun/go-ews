@@ -20,7 +20,7 @@ type DeletedEvent struct {
 }
 
 func (D *DeletedEvent) SetForMarshal() {
-	D.XMLName.Local = "t:DeletedEvent"
+	D.XMLName.Local = "DeletedEvent"
 }
 
 func (D *DeletedEvent) GetSchema() *Schema {

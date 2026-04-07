@@ -10,7 +10,7 @@ type ProxySecurityContext struct {
 }
 
 func (P *ProxySecurityContext) SetForMarshal() {
-	P.XMLName.Local = "t:ProxySecurityContext"
+	P.XMLName.Local = "ProxySecurityContext"
 }
 
 func (P *ProxySecurityContext) GetSchema() *Schema {

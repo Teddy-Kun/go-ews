@@ -19,7 +19,7 @@ const (
 )
 
 func (S *SendPrompt) SetForMarshal() {
-	S.XMLName.Local = "t:SendPrompt"
+	S.XMLName.Local = "SendPrompt"
 }
 
 func (S *SendPrompt) GetSchema() *Schema {

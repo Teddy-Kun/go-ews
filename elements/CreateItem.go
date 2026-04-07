@@ -18,7 +18,7 @@ type CreateItem struct {
 }
 
 func (C *CreateItem) SetForMarshal() {
-	C.XMLName.Local = "m:CreateItem"
+	C.XMLName.Local = "CreateItem"
 }
 
 func (C *CreateItem) GetSchema() *Schema {

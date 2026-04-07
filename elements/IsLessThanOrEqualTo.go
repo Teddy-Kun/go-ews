@@ -18,7 +18,7 @@ type IsLessThanOrEqualTo struct {
 }
 
 func (I *IsLessThanOrEqualTo) SetForMarshal() {
-	I.XMLName.Local = "t:IsLessThanOrEqualTo"
+	I.XMLName.Local = "IsLessThanOrEqualTo"
 }
 
 func (I *IsLessThanOrEqualTo) GetSchema() *Schema {

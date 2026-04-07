@@ -10,7 +10,7 @@ type IsApprovalRequest struct {
 }
 
 func (I *IsApprovalRequest) SetForMarshal() {
-	I.XMLName.Local = "m:IsApprovalRequest"
+	I.XMLName.Local = "IsApprovalRequest"
 }
 
 func (I *IsApprovalRequest) GetSchema() *Schema {

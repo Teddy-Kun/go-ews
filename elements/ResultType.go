@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ResultType) SetForMarshal() {
-	R.XMLName.Local = "m:ResultType"
+	R.XMLName.Local = "ResultType"
 }
 
 func (R *ResultType) GetSchema() *Schema {

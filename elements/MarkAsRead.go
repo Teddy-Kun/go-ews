@@ -17,7 +17,7 @@ const (
 )
 
 func (M *MarkAsRead) SetForMarshal() {
-	M.XMLName.Local = "m:MarkAsRead"
+	M.XMLName.Local = "MarkAsRead"
 }
 
 func (M *MarkAsRead) GetSchema() *Schema {

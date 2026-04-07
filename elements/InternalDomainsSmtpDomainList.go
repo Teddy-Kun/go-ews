@@ -12,7 +12,7 @@ type InternalDomainsSmtpDomainList struct {
 }
 
 func (I *InternalDomainsSmtpDomainList) SetForMarshal() {
-	I.XMLName.Local = "t:InternalDomains"
+	I.XMLName.Local = "InternalDomains"
 }
 
 func (I *InternalDomainsSmtpDomainList) GetSchema() *Schema {

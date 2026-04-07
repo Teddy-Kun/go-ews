@@ -12,7 +12,7 @@ type GetAttachmentResponse struct {
 }
 
 func (G *GetAttachmentResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetAttachmentResponse"
+	G.XMLName.Local = "GetAttachmentResponse"
 }
 
 func (G *GetAttachmentResponse) GetSchema() *Schema {

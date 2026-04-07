@@ -2,9 +2,10 @@ package elements
 
 // The ApprovalDecisionTime element specifies the time at which the approval decision was made.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/approvaldecisiontime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type ApprovalDecisionTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type ApprovalDecisionTime struct {
 }
 
 func (A *ApprovalDecisionTime) SetForMarshal() {
-	A.XMLName.Local = "t:ApprovalDecisionTime"
+	A.XMLName.Local = "ApprovalDecisionTime"
 }
 
 func (A *ApprovalDecisionTime) GetSchema() *Schema {

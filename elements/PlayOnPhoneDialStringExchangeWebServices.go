@@ -10,7 +10,7 @@ type PlayOnPhoneDialStringExchangeWebServices struct {
 }
 
 func (P *PlayOnPhoneDialStringExchangeWebServices) SetForMarshal() {
-	P.XMLName.Local = "t:PlayOnPhoneDialString"
+	P.XMLName.Local = "PlayOnPhoneDialString"
 }
 
 func (P *PlayOnPhoneDialStringExchangeWebServices) GetSchema() *Schema {

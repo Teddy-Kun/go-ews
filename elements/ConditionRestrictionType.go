@@ -12,7 +12,7 @@ type ConditionRestrictionType struct {
 }
 
 func (C *ConditionRestrictionType) SetForMarshal() {
-	C.XMLName.Local = "t:Condition"
+	C.XMLName.Local = "Condition"
 }
 
 func (C *ConditionRestrictionType) GetSchema() *Schema {

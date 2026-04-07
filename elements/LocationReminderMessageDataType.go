@@ -10,7 +10,7 @@ type LocationReminderMessageDataType struct {
 }
 
 func (L *LocationReminderMessageDataType) SetForMarshal() {
-	L.XMLName.Local = "t:Location"
+	L.XMLName.Local = "Location"
 }
 
 func (L *LocationReminderMessageDataType) GetSchema() *Schema {

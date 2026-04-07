@@ -12,7 +12,7 @@ type GlobalUniqueRecipients struct {
 }
 
 func (G *GlobalUniqueRecipients) SetForMarshal() {
-	G.XMLName.Local = "t:GlobalUniqueRecipients"
+	G.XMLName.Local = "GlobalUniqueRecipients"
 }
 
 func (G *GlobalUniqueRecipients) GetSchema() *Schema {

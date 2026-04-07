@@ -32,7 +32,7 @@ type MailTips struct {
 }
 
 func (M *MailTips) SetForMarshal() {
-	M.XMLName.Local = "m:MailTips"
+	M.XMLName.Local = "MailTips"
 }
 
 func (M *MailTips) GetSchema() *Schema {

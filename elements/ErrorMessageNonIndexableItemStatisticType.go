@@ -10,7 +10,7 @@ type ErrorMessageNonIndexableItemStatisticType struct {
 }
 
 func (E *ErrorMessageNonIndexableItemStatisticType) SetForMarshal() {
-	E.XMLName.Local = "m:ErrorMessage"
+	E.XMLName.Local = "ErrorMessage"
 }
 
 func (E *ErrorMessageNonIndexableItemStatisticType) GetSchema() *Schema {

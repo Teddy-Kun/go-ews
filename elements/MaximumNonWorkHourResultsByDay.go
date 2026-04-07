@@ -10,7 +10,7 @@ type MaximumNonWorkHourResultsByDay struct {
 }
 
 func (M *MaximumNonWorkHourResultsByDay) SetForMarshal() {
-	M.XMLName.Local = "t:MaximumNonWorkHourResultsByDay"
+	M.XMLName.Local = "MaximumNonWorkHourResultsByDay"
 }
 
 func (M *MaximumNonWorkHourResultsByDay) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type Importance struct {
 }
 
 func (I *Importance) SetForMarshal() {
-	I.XMLName.Local = "t:Importance"
+	I.XMLName.Local = "Importance"
 }
 
 func (I *Importance) GetSchema() *Schema {

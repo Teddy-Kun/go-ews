@@ -12,7 +12,7 @@ type SpecificUsers struct {
 }
 
 func (S *SpecificUsers) SetForMarshal() {
-	S.XMLName.Local = "t:SpecificUsers"
+	S.XMLName.Local = "SpecificUsers"
 }
 
 func (S *SpecificUsers) GetSchema() *Schema {

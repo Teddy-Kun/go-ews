@@ -22,7 +22,7 @@ type ChangeHighlights struct {
 }
 
 func (C *ChangeHighlights) SetForMarshal() {
-	C.XMLName.Local = "t:ChangeHighlights"
+	C.XMLName.Local = "ChangeHighlights"
 }
 
 func (C *ChangeHighlights) GetSchema() *Schema {

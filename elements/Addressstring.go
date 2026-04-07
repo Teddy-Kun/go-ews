@@ -10,7 +10,7 @@ type Addressstring struct {
 }
 
 func (A *Addressstring) SetForMarshal() {
-	A.XMLName.Local = "t:Address"
+	A.XMLName.Local = "Address"
 }
 
 func (A *Addressstring) GetSchema() *Schema {

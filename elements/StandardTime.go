@@ -22,7 +22,7 @@ type StandardTime struct {
 }
 
 func (S *StandardTime) SetForMarshal() {
-	S.XMLName.Local = "t:StandardTime"
+	S.XMLName.Local = "StandardTime"
 }
 
 func (S *StandardTime) GetSchema() *Schema {

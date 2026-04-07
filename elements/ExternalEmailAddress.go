@@ -10,7 +10,7 @@ type ExternalEmailAddress struct {
 }
 
 func (E *ExternalEmailAddress) SetForMarshal() {
-	E.XMLName.Local = "t:ExternalEmailAddress"
+	E.XMLName.Local = "ExternalEmailAddress"
 }
 
 func (E *ExternalEmailAddress) GetSchema() *Schema {

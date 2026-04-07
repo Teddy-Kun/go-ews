@@ -22,7 +22,7 @@ type PushSubscriptionRequest struct {
 }
 
 func (P *PushSubscriptionRequest) SetForMarshal() {
-	P.XMLName.Local = "m:PushSubscriptionRequest"
+	P.XMLName.Local = "PushSubscriptionRequest"
 }
 
 func (P *PushSubscriptionRequest) GetSchema() *Schema {

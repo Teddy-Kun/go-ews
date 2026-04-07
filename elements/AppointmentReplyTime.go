@@ -2,9 +2,10 @@ package elements
 
 // The AppointmentReplyTime element represents the date and time that an attendee replied to a meeting request.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/appointmentreplytime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type AppointmentReplyTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type AppointmentReplyTime struct {
 }
 
 func (A *AppointmentReplyTime) SetForMarshal() {
-	A.XMLName.Local = "t:AppointmentReplyTime"
+	A.XMLName.Local = "AppointmentReplyTime"
 }
 
 func (A *AppointmentReplyTime) GetSchema() *Schema {

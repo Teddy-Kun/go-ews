@@ -2,9 +2,10 @@ package elements
 
 // The ProposedEnd (AttendeeType) element specifies an attendee's proposed end time for a meeting.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/proposedend-attendeetype
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type ProposedEndAttendeeType struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type ProposedEndAttendeeType struct {
 }
 
 func (P *ProposedEndAttendeeType) SetForMarshal() {
-	P.XMLName.Local = "t:ProposedEnd"
+	P.XMLName.Local = "ProposedEnd"
 }
 
 func (P *ProposedEndAttendeeType) GetSchema() *Schema {

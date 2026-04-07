@@ -29,7 +29,7 @@ const (
 )
 
 func (D *DeleteUserConfigurationResponseMessage) SetForMarshal() {
-	D.XMLName.Local = "m:DeleteUserConfigurationResponseMessage"
+	D.XMLName.Local = "DeleteUserConfigurationResponseMessage"
 }
 
 func (D *DeleteUserConfigurationResponseMessage) GetSchema() *Schema {

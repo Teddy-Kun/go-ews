@@ -10,7 +10,7 @@ type ProxySuggesterSid struct {
 }
 
 func (P *ProxySuggesterSid) SetForMarshal() {
-	P.XMLName.Local = "t:ProxySuggesterSid"
+	P.XMLName.Local = "ProxySuggesterSid"
 }
 
 func (P *ProxySuggesterSid) GetSchema() *Schema {

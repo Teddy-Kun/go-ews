@@ -10,7 +10,7 @@ type IsDraft struct {
 }
 
 func (I *IsDraft) SetForMarshal() {
-	I.XMLName.Local = "t:IsDraft"
+	I.XMLName.Local = "IsDraft"
 }
 
 func (I *IsDraft) GetSchema() *Schema {

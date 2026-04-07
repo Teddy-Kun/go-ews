@@ -20,7 +20,7 @@ type DelegateUserResponseMessageType struct {
 }
 
 func (D *DelegateUserResponseMessageType) SetForMarshal() {
-	D.XMLName.Local = "m:DelegateUserResponseMessageType"
+	D.XMLName.Local = "DelegateUserResponseMessageType"
 }
 
 func (D *DelegateUserResponseMessageType) GetSchema() *Schema {

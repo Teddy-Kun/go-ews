@@ -10,7 +10,7 @@ type Initials struct {
 }
 
 func (I *Initials) SetForMarshal() {
-	I.XMLName.Local = "t:Initials"
+	I.XMLName.Local = "Initials"
 }
 
 func (I *Initials) GetSchema() *Schema {

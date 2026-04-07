@@ -10,7 +10,7 @@ type SubjectCalendarEventDetails struct {
 }
 
 func (S *SubjectCalendarEventDetails) SetForMarshal() {
-	S.XMLName.Local = "t:Subject"
+	S.XMLName.Local = "Subject"
 }
 
 func (S *SubjectCalendarEventDetails) GetSchema() *Schema {

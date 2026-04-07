@@ -19,7 +19,7 @@ const (
 )
 
 func (U *UniqueBodyType) SetForMarshal() {
-	U.XMLName.Local = "t:UniqueBodyType"
+	U.XMLName.Local = "UniqueBodyType"
 }
 
 func (U *UniqueBodyType) GetSchema() *Schema {

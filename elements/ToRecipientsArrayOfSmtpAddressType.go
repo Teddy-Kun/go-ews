@@ -12,7 +12,7 @@ type ToRecipientsArrayOfSmtpAddressType struct {
 }
 
 func (T *ToRecipientsArrayOfSmtpAddressType) SetForMarshal() {
-	T.XMLName.Local = "t:ToRecipients"
+	T.XMLName.Local = "ToRecipients"
 }
 
 func (T *ToRecipientsArrayOfSmtpAddressType) GetSchema() *Schema {

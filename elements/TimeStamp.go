@@ -2,9 +2,10 @@ package elements
 
 // The Timestamp element represents the timestamp of a mailbox event.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/timestamp
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type TimeStamp struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type TimeStamp struct {
 }
 
 func (T *TimeStamp) SetForMarshal() {
-	T.XMLName.Local = "t:TimeStamp"
+	T.XMLName.Local = "TimeStamp"
 }
 
 func (T *TimeStamp) GetSchema() *Schema {

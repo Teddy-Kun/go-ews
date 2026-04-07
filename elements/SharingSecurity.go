@@ -10,7 +10,7 @@ type SharingSecurity struct {
 }
 
 func (S *SharingSecurity) SetForMarshal() {
-	S.XMLName.Local = "t:SharingSecurity"
+	S.XMLName.Local = "SharingSecurity"
 }
 
 func (S *SharingSecurity) GetSchema() *Schema {

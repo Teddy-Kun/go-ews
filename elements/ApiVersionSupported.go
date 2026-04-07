@@ -10,7 +10,7 @@ type ApiVersionSupported struct {
 }
 
 func (A *ApiVersionSupported) SetForMarshal() {
-	A.XMLName.Local = "m:ApiVersionSupported"
+	A.XMLName.Local = "ApiVersionSupported"
 }
 
 func (A *ApiVersionSupported) GetSchema() *Schema {

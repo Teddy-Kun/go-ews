@@ -20,7 +20,7 @@ type RemoveDelegateResponse struct {
 }
 
 func (R *RemoveDelegateResponse) SetForMarshal() {
-	R.XMLName.Local = "m:RemoveDelegateResponse"
+	R.XMLName.Local = "RemoveDelegateResponse"
 }
 
 func (R *RemoveDelegateResponse) GetSchema() *Schema {

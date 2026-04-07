@@ -10,7 +10,7 @@ type SchemaVersionSupported struct {
 }
 
 func (S *SchemaVersionSupported) SetForMarshal() {
-	S.XMLName.Local = "m:SchemaVersionSupported"
+	S.XMLName.Local = "SchemaVersionSupported"
 }
 
 func (S *SchemaVersionSupported) GetSchema() *Schema {

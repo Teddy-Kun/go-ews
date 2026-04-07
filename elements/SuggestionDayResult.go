@@ -16,7 +16,7 @@ type SuggestionDayResult struct {
 }
 
 func (S *SuggestionDayResult) SetForMarshal() {
-	S.XMLName.Local = "t:SuggestionDayResult"
+	S.XMLName.Local = "SuggestionDayResult"
 }
 
 func (S *SuggestionDayResult) GetSchema() *Schema {

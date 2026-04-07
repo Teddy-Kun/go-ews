@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsQuickContact) SetForMarshal() {
-	I.XMLName.Local = "t:IsQuickContact"
+	I.XMLName.Local = "IsQuickContact"
 }
 
 func (I *IsQuickContact) GetSchema() *Schema {

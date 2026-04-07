@@ -18,7 +18,7 @@ type IsNotEqualTo struct {
 }
 
 func (I *IsNotEqualTo) SetForMarshal() {
-	I.XMLName.Local = "t:IsNotEqualTo"
+	I.XMLName.Local = "IsNotEqualTo"
 }
 
 func (I *IsNotEqualTo) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type DisplayNameNonEmptyStringType struct {
 }
 
 func (D *DisplayNameNonEmptyStringType) SetForMarshal() {
-	D.XMLName.Local = "t:DisplayName"
+	D.XMLName.Local = "DisplayName"
 }
 
 func (D *DisplayNameNonEmptyStringType) GetSchema() *Schema {

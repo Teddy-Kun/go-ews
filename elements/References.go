@@ -10,7 +10,7 @@ type References struct {
 }
 
 func (R *References) SetForMarshal() {
-	R.XMLName.Local = "t:References"
+	R.XMLName.Local = "References"
 }
 
 func (R *References) GetSchema() *Schema {

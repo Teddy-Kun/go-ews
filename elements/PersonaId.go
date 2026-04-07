@@ -14,7 +14,7 @@ type PersonaId struct {
 }
 
 func (P *PersonaId) SetForMarshal() {
-	P.XMLName.Local = "m:PersonaId"
+	P.XMLName.Local = "PersonaId"
 }
 
 func (P *PersonaId) GetSchema() *Schema {

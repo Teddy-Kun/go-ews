@@ -12,7 +12,7 @@ type Children struct {
 }
 
 func (C *Children) SetForMarshal() {
-	C.XMLName.Local = "t:Children"
+	C.XMLName.Local = "Children"
 }
 
 func (C *Children) GetSchema() *Schema {

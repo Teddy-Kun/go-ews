@@ -20,7 +20,7 @@ type AddDistributionGroupToImListResponse struct {
 }
 
 func (A *AddDistributionGroupToImListResponse) SetForMarshal() {
-	A.XMLName.Local = "m:AddDistributionGroupToImListResponse"
+	A.XMLName.Local = "AddDistributionGroupToImListResponse"
 }
 
 func (A *AddDistributionGroupToImListResponse) GetSchema() *Schema {

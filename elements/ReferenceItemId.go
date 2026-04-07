@@ -14,7 +14,7 @@ type ReferenceItemId struct {
 }
 
 func (R *ReferenceItemId) SetForMarshal() {
-	R.XMLName.Local = "t:ReferenceItemId"
+	R.XMLName.Local = "ReferenceItemId"
 }
 
 func (R *ReferenceItemId) GetSchema() *Schema {

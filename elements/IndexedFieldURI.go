@@ -14,7 +14,7 @@ type IndexedFieldURI struct {
 }
 
 func (I *IndexedFieldURI) SetForMarshal() {
-	I.XMLName.Local = "t:IndexedFieldURI"
+	I.XMLName.Local = "IndexedFieldURI"
 }
 
 func (I *IndexedFieldURI) GetSchema() *Schema {

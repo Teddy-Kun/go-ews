@@ -19,7 +19,7 @@ const (
 )
 
 func (E *ExternalAudience) SetForMarshal() {
-	E.XMLName.Local = "t:ExternalAudience"
+	E.XMLName.Local = "ExternalAudience"
 }
 
 func (E *ExternalAudience) GetSchema() *Schema {

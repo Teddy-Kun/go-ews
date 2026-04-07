@@ -12,7 +12,7 @@ type FolderChanges struct {
 }
 
 func (F *FolderChanges) SetForMarshal() {
-	F.XMLName.Local = "m:FolderChanges"
+	F.XMLName.Local = "FolderChanges"
 }
 
 func (F *FolderChanges) GetSchema() *Schema {

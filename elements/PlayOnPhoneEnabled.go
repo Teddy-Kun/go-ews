@@ -17,7 +17,7 @@ const (
 )
 
 func (P *PlayOnPhoneEnabled) SetForMarshal() {
-	P.XMLName.Local = "t:PlayOnPhoneEnabled"
+	P.XMLName.Local = "PlayOnPhoneEnabled"
 }
 
 func (P *PlayOnPhoneEnabled) GetSchema() *Schema {

@@ -16,7 +16,7 @@ type GetSharingFolder struct {
 }
 
 func (G *GetSharingFolder) SetForMarshal() {
-	G.XMLName.Local = "m:GetSharingFolder"
+	G.XMLName.Local = "GetSharingFolder"
 }
 
 func (G *GetSharingFolder) GetSchema() *Schema {

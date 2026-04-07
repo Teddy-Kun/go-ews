@@ -17,7 +17,7 @@ const (
 )
 
 func (M *MakeItemImmutable) SetForMarshal() {
-	M.XMLName.Local = "m:MakeItemImmutable"
+	M.XMLName.Local = "MakeItemImmutable"
 }
 
 func (M *MakeItemImmutable) GetSchema() *Schema {

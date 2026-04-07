@@ -22,7 +22,7 @@ type ValueEmailAddressType struct {
 }
 
 func (V *ValueEmailAddressType) SetForMarshal() {
-	V.XMLName.Local = "t:Value"
+	V.XMLName.Local = "Value"
 }
 
 func (V *ValueEmailAddressType) GetSchema() *Schema {

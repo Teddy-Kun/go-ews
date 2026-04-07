@@ -12,7 +12,7 @@ type AddImGroup struct {
 }
 
 func (A *AddImGroup) SetForMarshal() {
-	A.XMLName.Local = "m:AddImGroup"
+	A.XMLName.Local = "AddImGroup"
 }
 
 func (A *AddImGroup) GetSchema() *Schema {

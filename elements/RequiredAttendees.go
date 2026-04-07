@@ -12,7 +12,7 @@ type RequiredAttendees struct {
 }
 
 func (R *RequiredAttendees) SetForMarshal() {
-	R.XMLName.Local = "t:RequiredAttendees"
+	R.XMLName.Local = "RequiredAttendees"
 }
 
 func (R *RequiredAttendees) GetSchema() *Schema {

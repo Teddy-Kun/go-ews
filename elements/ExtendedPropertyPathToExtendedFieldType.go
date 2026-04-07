@@ -24,7 +24,7 @@ type ExtendedPropertyPathToExtendedFieldType struct {
 }
 
 func (E *ExtendedPropertyPathToExtendedFieldType) SetForMarshal() {
-	E.XMLName.Local = "t:ExtendedProperty"
+	E.XMLName.Local = "ExtendedProperty"
 }
 
 func (E *ExtendedPropertyPathToExtendedFieldType) GetSchema() *Schema {

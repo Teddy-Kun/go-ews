@@ -16,7 +16,7 @@ type ExtendedProperty struct {
 }
 
 func (E *ExtendedProperty) SetForMarshal() {
-	E.XMLName.Local = "t:ExtendedProperty"
+	E.XMLName.Local = "ExtendedProperty"
 }
 
 func (E *ExtendedProperty) GetSchema() *Schema {

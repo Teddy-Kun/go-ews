@@ -12,7 +12,7 @@ type Groups struct {
 }
 
 func (G *Groups) SetForMarshal() {
-	G.XMLName.Local = "t:Groups"
+	G.XMLName.Local = "Groups"
 }
 
 func (G *Groups) GetSchema() *Schema {

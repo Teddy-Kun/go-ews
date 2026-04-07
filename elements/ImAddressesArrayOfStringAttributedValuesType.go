@@ -12,7 +12,7 @@ type ImAddressesArrayOfStringAttributedValuesType struct {
 }
 
 func (I *ImAddressesArrayOfStringAttributedValuesType) SetForMarshal() {
-	I.XMLName.Local = "t:ImAddresses"
+	I.XMLName.Local = "ImAddresses"
 }
 
 func (I *ImAddressesArrayOfStringAttributedValuesType) GetSchema() *Schema {

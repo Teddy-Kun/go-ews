@@ -33,7 +33,7 @@ const (
 )
 
 func (G *GetSharingMetadataResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetSharingMetadataResponse"
+	G.XMLName.Local = "GetSharingMetadataResponse"
 }
 
 func (G *GetSharingMetadataResponse) GetSchema() *Schema {

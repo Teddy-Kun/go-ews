@@ -10,7 +10,7 @@ type StorageQuota struct {
 }
 
 func (S *StorageQuota) SetForMarshal() {
-	S.XMLName.Local = "t:StorageQuota"
+	S.XMLName.Local = "StorageQuota"
 }
 
 func (S *StorageQuota) GetSchema() *Schema {

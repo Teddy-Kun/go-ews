@@ -14,7 +14,7 @@ type DictionaryEntry struct {
 }
 
 func (D *DictionaryEntry) SetForMarshal() {
-	D.XMLName.Local = "t:DictionaryEntry"
+	D.XMLName.Local = "DictionaryEntry"
 }
 
 func (D *DictionaryEntry) GetSchema() *Schema {

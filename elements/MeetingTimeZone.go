@@ -18,7 +18,7 @@ type MeetingTimeZone struct {
 }
 
 func (M *MeetingTimeZone) SetForMarshal() {
-	M.XMLName.Local = "t:MeetingTimeZone"
+	M.XMLName.Local = "MeetingTimeZone"
 }
 
 func (M *MeetingTimeZone) GetSchema() *Schema {

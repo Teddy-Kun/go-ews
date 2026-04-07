@@ -14,7 +14,7 @@ type ManagementRole struct {
 }
 
 func (M *ManagementRole) SetForMarshal() {
-	M.XMLName.Local = "t:ManagementRole"
+	M.XMLName.Local = "ManagementRole"
 }
 
 func (M *ManagementRole) GetSchema() *Schema {

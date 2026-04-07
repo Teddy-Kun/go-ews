@@ -2,9 +2,10 @@ package elements
 
 // The EndTime element represents the end of the time span to query for reminders.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/endtime-remindermessagedatatype
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type EndTimeReminderMessageDataType struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type EndTimeReminderMessageDataType struct {
 }
 
 func (E *EndTimeReminderMessageDataType) SetForMarshal() {
-	E.XMLName.Local = "t:EndTime"
+	E.XMLName.Local = "EndTime"
 }
 
 func (E *EndTimeReminderMessageDataType) GetSchema() *Schema {

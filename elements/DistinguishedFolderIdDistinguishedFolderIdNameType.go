@@ -89,7 +89,7 @@ const (
 )
 
 func (D *DistinguishedFolderIdDistinguishedFolderIdNameType) SetForMarshal() {
-	D.XMLName.Local = "t:DistinguishedFolderId"
+	D.XMLName.Local = "DistinguishedFolderId"
 }
 
 func (D *DistinguishedFolderIdDistinguishedFolderIdNameType) GetSchema() *Schema {

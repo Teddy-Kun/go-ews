@@ -10,7 +10,7 @@ type DayOrder struct {
 }
 
 func (D *DayOrder) SetForMarshal() {
-	D.XMLName.Local = "t:DayOrder"
+	D.XMLName.Local = "DayOrder"
 }
 
 func (D *DayOrder) GetSchema() *Schema {

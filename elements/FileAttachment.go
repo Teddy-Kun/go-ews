@@ -30,7 +30,7 @@ type FileAttachment struct {
 }
 
 func (F *FileAttachment) SetForMarshal() {
-	F.XMLName.Local = "t:FileAttachment"
+	F.XMLName.Local = "FileAttachment"
 }
 
 func (F *FileAttachment) GetSchema() *Schema {

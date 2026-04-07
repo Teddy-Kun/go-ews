@@ -10,7 +10,7 @@ type IsAllDayEvent struct {
 }
 
 func (I *IsAllDayEvent) SetForMarshal() {
-	I.XMLName.Local = "t:IsAllDayEvent"
+	I.XMLName.Local = "IsAllDayEvent"
 }
 
 func (I *IsAllDayEvent) GetSchema() *Schema {

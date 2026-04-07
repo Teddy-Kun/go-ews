@@ -12,7 +12,7 @@ type SentToAddresses struct {
 }
 
 func (S *SentToAddresses) SetForMarshal() {
-	S.XMLName.Local = "m:SentToAddresses"
+	S.XMLName.Local = "SentToAddresses"
 }
 
 func (S *SentToAddresses) GetSchema() *Schema {

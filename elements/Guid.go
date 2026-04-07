@@ -10,7 +10,7 @@ type Guid struct {
 }
 
 func (G *Guid) SetForMarshal() {
-	G.XMLName.Local = "t:Guid"
+	G.XMLName.Local = "Guid"
 }
 
 func (G *Guid) GetSchema() *Schema {

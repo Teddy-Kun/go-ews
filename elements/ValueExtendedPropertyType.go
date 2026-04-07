@@ -16,7 +16,7 @@ type ValueExtendedPropertyType struct {
 }
 
 func (V *ValueExtendedPropertyType) SetForMarshal() {
-	V.XMLName.Local = "t:Value"
+	V.XMLName.Local = "Value"
 }
 
 func (V *ValueExtendedPropertyType) GetSchema() *Schema {

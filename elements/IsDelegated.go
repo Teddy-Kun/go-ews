@@ -10,7 +10,7 @@ type IsDelegated struct {
 }
 
 func (I *IsDelegated) SetForMarshal() {
-	I.XMLName.Local = "t:IsDelegated"
+	I.XMLName.Local = "IsDelegated"
 }
 
 func (I *IsDelegated) GetSchema() *Schema {

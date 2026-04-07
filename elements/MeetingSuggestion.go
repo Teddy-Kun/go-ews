@@ -22,7 +22,7 @@ type MeetingSuggestion struct {
 }
 
 func (M *MeetingSuggestion) SetForMarshal() {
-	M.XMLName.Local = "t:MeetingSuggestion"
+	M.XMLName.Local = "MeetingSuggestion"
 }
 
 func (M *MeetingSuggestion) GetSchema() *Schema {

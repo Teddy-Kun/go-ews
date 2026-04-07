@@ -10,7 +10,7 @@ type CanRenameOrMove struct {
 }
 
 func (C *CanRenameOrMove) SetForMarshal() {
-	C.XMLName.Local = "t:CanRenameOrMove"
+	C.XMLName.Local = "CanRenameOrMove"
 }
 
 func (C *CanRenameOrMove) GetSchema() *Schema {

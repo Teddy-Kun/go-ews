@@ -14,7 +14,7 @@ type ImItemList struct {
 }
 
 func (I *ImItemList) SetForMarshal() {
-	I.XMLName.Local = "m:ImItemList"
+	I.XMLName.Local = "ImItemList"
 }
 
 func (I *ImItemList) GetSchema() *Schema {

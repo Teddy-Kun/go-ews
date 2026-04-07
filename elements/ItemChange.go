@@ -18,7 +18,7 @@ type ItemChange struct {
 }
 
 func (I *ItemChange) SetForMarshal() {
-	I.XMLName.Local = "t:ItemChange"
+	I.XMLName.Local = "ItemChange"
 }
 
 func (I *ItemChange) GetSchema() *Schema {

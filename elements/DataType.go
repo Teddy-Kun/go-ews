@@ -17,7 +17,7 @@ const (
 )
 
 func (D *DataType) SetForMarshal() {
-	D.XMLName.Local = "m:DataType"
+	D.XMLName.Local = "DataType"
 }
 
 func (D *DataType) GetSchema() *Schema {

@@ -36,7 +36,7 @@ type Actions struct {
 }
 
 func (A *Actions) SetForMarshal() {
-	A.XMLName.Local = "t:Actions"
+	A.XMLName.Local = "Actions"
 }
 
 func (A *Actions) GetSchema() *Schema {

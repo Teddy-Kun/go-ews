@@ -18,7 +18,7 @@ type IsGreaterThanOrEqualTo struct {
 }
 
 func (I *IsGreaterThanOrEqualTo) SetForMarshal() {
-	I.XMLName.Local = "t:IsGreaterThanOrEqualTo"
+	I.XMLName.Local = "IsGreaterThanOrEqualTo"
 }
 
 func (I *IsGreaterThanOrEqualTo) GetSchema() *Schema {

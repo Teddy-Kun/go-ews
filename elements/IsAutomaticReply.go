@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsAutomaticReply) SetForMarshal() {
-	I.XMLName.Local = "m:IsAutomaticReply"
+	I.XMLName.Local = "IsAutomaticReply"
 }
 
 func (I *IsAutomaticReply) GetSchema() *Schema {

@@ -26,7 +26,7 @@ type MovedEvent struct {
 }
 
 func (M *MovedEvent) SetForMarshal() {
-	M.XMLName.Local = "t:MovedEvent"
+	M.XMLName.Local = "MovedEvent"
 }
 
 func (M *MovedEvent) GetSchema() *Schema {

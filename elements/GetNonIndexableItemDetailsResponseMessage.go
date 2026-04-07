@@ -20,7 +20,7 @@ type GetNonIndexableItemDetailsResponseMessage struct {
 }
 
 func (G *GetNonIndexableItemDetailsResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "m:GetNonIndexableItemDetailsResponseMessage"
+	G.XMLName.Local = "GetNonIndexableItemDetailsResponseMessage"
 }
 
 func (G *GetNonIndexableItemDetailsResponseMessage) GetSchema() *Schema {

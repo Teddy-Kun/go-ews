@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IncludePersonalArchive) SetForMarshal() {
-	I.XMLName.Local = "m:IncludePersonalArchive"
+	I.XMLName.Local = "IncludePersonalArchive"
 }
 
 func (I *IncludePersonalArchive) GetSchema() *Schema {

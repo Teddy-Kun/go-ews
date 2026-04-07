@@ -31,7 +31,7 @@ const (
 )
 
 func (S *SizeRequested) SetForMarshal() {
-	S.XMLName.Local = "m:SizeRequested"
+	S.XMLName.Local = "SizeRequested"
 }
 
 func (S *SizeRequested) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type PageItemReference struct {
 }
 
 func (P *PageItemReference) SetForMarshal() {
-	P.XMLName.Local = "m:PageItemReference"
+	P.XMLName.Local = "PageItemReference"
 }
 
 func (P *PageItemReference) GetSchema() *Schema {

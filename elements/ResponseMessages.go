@@ -102,7 +102,7 @@ type ResponseMessages struct {
 }
 
 func (R *ResponseMessages) SetForMarshal() {
-	R.XMLName.Local = "m:ResponseMessages"
+	R.XMLName.Local = "ResponseMessages"
 }
 
 func (R *ResponseMessages) GetSchema() *Schema {

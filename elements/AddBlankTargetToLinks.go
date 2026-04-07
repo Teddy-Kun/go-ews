@@ -17,7 +17,7 @@ const (
 )
 
 func (A *AddBlankTargetToLinks) SetForMarshal() {
-	A.XMLName.Local = "t:AddBlankTargetToLinks"
+	A.XMLName.Local = "AddBlankTargetToLinks"
 }
 
 func (A *AddBlankTargetToLinks) GetSchema() *Schema {

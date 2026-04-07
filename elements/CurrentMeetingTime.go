@@ -2,9 +2,10 @@ package elements
 
 // The CurrentMeetingTime element represents the start time of a meeting that you want to update with a meeting time proposed by a meeting attendee.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/currentmeetingtime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type CurrentMeetingTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type CurrentMeetingTime struct {
 }
 
 func (C *CurrentMeetingTime) SetForMarshal() {
-	C.XMLName.Local = "t:CurrentMeetingTime"
+	C.XMLName.Local = "CurrentMeetingTime"
 }
 
 func (C *CurrentMeetingTime) GetSchema() *Schema {

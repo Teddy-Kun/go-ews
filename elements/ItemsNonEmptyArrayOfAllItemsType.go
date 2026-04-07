@@ -52,7 +52,7 @@ type ItemsNonEmptyArrayOfAllItemsType struct {
 }
 
 func (I *ItemsNonEmptyArrayOfAllItemsType) SetForMarshal() {
-	I.XMLName.Local = "m:Items"
+	I.XMLName.Local = "Items"
 }
 
 func (I *ItemsNonEmptyArrayOfAllItemsType) GetSchema() *Schema {

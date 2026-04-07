@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsAutomaticForward) SetForMarshal() {
-	I.XMLName.Local = "m:IsAutomaticForward"
+	I.XMLName.Local = "IsAutomaticForward"
 }
 
 func (I *IsAutomaticForward) GetSchema() *Schema {

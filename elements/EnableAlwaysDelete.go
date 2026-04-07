@@ -10,7 +10,7 @@ type EnableAlwaysDelete struct {
 }
 
 func (E *EnableAlwaysDelete) SetForMarshal() {
-	E.XMLName.Local = "t:EnableAlwaysDelete"
+	E.XMLName.Local = "EnableAlwaysDelete"
 }
 
 func (E *EnableAlwaysDelete) GetSchema() *Schema {

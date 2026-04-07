@@ -12,7 +12,7 @@ type InternetMessageHeaders struct {
 }
 
 func (I *InternetMessageHeaders) SetForMarshal() {
-	I.XMLName.Local = "t:InternetMessageHeaders"
+	I.XMLName.Local = "InternetMessageHeaders"
 }
 
 func (I *InternetMessageHeaders) GetSchema() *Schema {

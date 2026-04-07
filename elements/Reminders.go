@@ -12,7 +12,7 @@ type Reminders struct {
 }
 
 func (R *Reminders) SetForMarshal() {
-	R.XMLName.Local = "m:Reminders"
+	R.XMLName.Local = "Reminders"
 }
 
 func (R *Reminders) GetSchema() *Schema {

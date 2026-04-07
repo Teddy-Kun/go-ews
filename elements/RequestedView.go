@@ -25,7 +25,7 @@ const (
 )
 
 func (R *RequestedView) SetForMarshal() {
-	R.XMLName.Local = "t:RequestedView"
+	R.XMLName.Local = "RequestedView"
 }
 
 func (R *RequestedView) GetSchema() *Schema {

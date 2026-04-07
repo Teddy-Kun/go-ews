@@ -12,7 +12,7 @@ type DeleteItemSync struct {
 }
 
 func (D *DeleteItemSync) SetForMarshal() {
-	D.XMLName.Local = "t:Delete"
+	D.XMLName.Local = "Delete"
 }
 
 func (D *DeleteItemSync) GetSchema() *Schema {

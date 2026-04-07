@@ -2,9 +2,10 @@ package elements
 
 // The RetentionDate element specifies the last date that an item must be retained.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/retentiondate
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type RetentionDate struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type RetentionDate struct {
 }
 
 func (R *RetentionDate) SetForMarshal() {
-	R.XMLName.Local = "t:RetentionDate"
+	R.XMLName.Local = "RetentionDate"
 }
 
 func (R *RetentionDate) GetSchema() *Schema {

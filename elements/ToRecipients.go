@@ -12,7 +12,7 @@ type ToRecipients struct {
 }
 
 func (T *ToRecipients) SetForMarshal() {
-	T.XMLName.Local = "t:ToRecipients"
+	T.XMLName.Local = "ToRecipients"
 }
 
 func (T *ToRecipients) GetSchema() *Schema {

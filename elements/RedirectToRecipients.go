@@ -12,7 +12,7 @@ type RedirectToRecipients struct {
 }
 
 func (R *RedirectToRecipients) SetForMarshal() {
-	R.XMLName.Local = "m:RedirectToRecipients"
+	R.XMLName.Local = "RedirectToRecipients"
 }
 
 func (R *RedirectToRecipients) GetSchema() *Schema {

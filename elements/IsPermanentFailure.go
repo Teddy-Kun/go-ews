@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsPermanentFailure) SetForMarshal() {
-	I.XMLName.Local = "t:IsPermanentFailure"
+	I.XMLName.Local = "IsPermanentFailure"
 }
 
 func (I *IsPermanentFailure) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type EventData struct {
 }
 
 func (E *EventData) SetForMarshal() {
-	E.XMLName.Local = "t:EventData"
+	E.XMLName.Local = "EventData"
 }
 
 func (E *EventData) GetSchema() *Schema {

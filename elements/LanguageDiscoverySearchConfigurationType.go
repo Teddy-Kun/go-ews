@@ -10,7 +10,7 @@ type LanguageDiscoverySearchConfigurationType struct {
 }
 
 func (L *LanguageDiscoverySearchConfigurationType) SetForMarshal() {
-	L.XMLName.Local = "t:Language"
+	L.XMLName.Local = "Language"
 }
 
 func (L *LanguageDiscoverySearchConfigurationType) GetSchema() *Schema {

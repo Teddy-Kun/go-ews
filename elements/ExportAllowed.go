@@ -17,7 +17,7 @@ const (
 )
 
 func (E *ExportAllowed) SetForMarshal() {
-	E.XMLName.Local = "t:ExportAllowed"
+	E.XMLName.Local = "ExportAllowed"
 }
 
 func (E *ExportAllowed) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type MeetingDurationInMinutes struct {
 }
 
 func (M *MeetingDurationInMinutes) SetForMarshal() {
-	M.XMLName.Local = "t:MeetingDurationInMinutes"
+	M.XMLName.Local = "MeetingDurationInMinutes"
 }
 
 func (M *MeetingDurationInMinutes) GetSchema() *Schema {

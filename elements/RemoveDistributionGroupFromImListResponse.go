@@ -18,7 +18,7 @@ type RemoveDistributionGroupFromImListResponse struct {
 }
 
 func (R *RemoveDistributionGroupFromImListResponse) SetForMarshal() {
-	R.XMLName.Local = "m:RemoveDistributionGroupFromImListResponse"
+	R.XMLName.Local = "RemoveDistributionGroupFromImListResponse"
 }
 
 func (R *RemoveDistributionGroupFromImListResponse) GetSchema() *Schema {

@@ -24,7 +24,7 @@ type GetMessageTrackingReport struct {
 }
 
 func (G *GetMessageTrackingReport) SetForMarshal() {
-	G.XMLName.Local = "m:GetMessageTrackingReport"
+	G.XMLName.Local = "GetMessageTrackingReport"
 }
 
 func (G *GetMessageTrackingReport) GetSchema() *Schema {

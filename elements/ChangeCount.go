@@ -10,7 +10,7 @@ type ChangeCount struct {
 }
 
 func (C *ChangeCount) SetForMarshal() {
-	C.XMLName.Local = "t:ChangeCount"
+	C.XMLName.Local = "ChangeCount"
 }
 
 func (C *ChangeCount) GetSchema() *Schema {

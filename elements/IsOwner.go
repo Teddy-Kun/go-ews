@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsOwner) SetForMarshal() {
-	I.XMLName.Local = "t:IsOwner"
+	I.XMLName.Local = "IsOwner"
 }
 
 func (I *IsOwner) GetSchema() *Schema {

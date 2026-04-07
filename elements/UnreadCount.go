@@ -10,7 +10,7 @@ type UnreadCount struct {
 }
 
 func (U *UnreadCount) SetForMarshal() {
-	U.XMLName.Local = "t:UnreadCount"
+	U.XMLName.Local = "UnreadCount"
 }
 
 func (U *UnreadCount) GetSchema() *Schema {

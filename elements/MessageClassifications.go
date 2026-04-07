@@ -12,7 +12,7 @@ type MessageClassifications struct {
 }
 
 func (M *MessageClassifications) SetForMarshal() {
-	M.XMLName.Local = "m:MessageClassifications"
+	M.XMLName.Local = "MessageClassifications"
 }
 
 func (M *MessageClassifications) GetSchema() *Schema {

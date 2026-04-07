@@ -18,7 +18,7 @@ type UpdateItemInRecoverableItems struct {
 }
 
 func (U *UpdateItemInRecoverableItems) SetForMarshal() {
-	U.XMLName.Local = "m:UpdateItemInRecoverableItems"
+	U.XMLName.Local = "UpdateItemInRecoverableItems"
 }
 
 func (U *UpdateItemInRecoverableItems) GetSchema() *Schema {

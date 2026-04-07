@@ -14,7 +14,7 @@ type ParentId struct {
 }
 
 func (P *ParentId) SetForMarshal() {
-	P.XMLName.Local = "t:ParentId"
+	P.XMLName.Local = "ParentId"
 }
 
 func (P *ParentId) GetSchema() *Schema {

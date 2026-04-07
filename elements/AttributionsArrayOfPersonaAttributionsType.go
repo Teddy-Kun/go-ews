@@ -12,7 +12,7 @@ type AttributionsArrayOfPersonaAttributionsType struct {
 }
 
 func (A *AttributionsArrayOfPersonaAttributionsType) SetForMarshal() {
-	A.XMLName.Local = "t:Attributions"
+	A.XMLName.Local = "Attributions"
 }
 
 func (A *AttributionsArrayOfPersonaAttributionsType) GetSchema() *Schema {

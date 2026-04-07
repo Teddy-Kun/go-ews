@@ -17,7 +17,7 @@ const (
 )
 
 func (P *PageDirection) SetForMarshal() {
-	P.XMLName.Local = "m:PageDirection"
+	P.XMLName.Local = "PageDirection"
 }
 
 func (P *PageDirection) GetSchema() *Schema {

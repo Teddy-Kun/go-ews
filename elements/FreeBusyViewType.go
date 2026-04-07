@@ -25,7 +25,7 @@ const (
 )
 
 func (F *FreeBusyViewType) SetForMarshal() {
-	F.XMLName.Local = "t:FreeBusyViewType"
+	F.XMLName.Local = "FreeBusyViewType"
 }
 
 func (F *FreeBusyViewType) GetSchema() *Schema {

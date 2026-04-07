@@ -14,7 +14,7 @@ type RecurringMasterItemIdItemIdType struct {
 }
 
 func (R *RecurringMasterItemIdItemIdType) SetForMarshal() {
-	R.XMLName.Local = "t:RecurringMasterItemId"
+	R.XMLName.Local = "RecurringMasterItemId"
 }
 
 func (R *RecurringMasterItemIdItemIdType) GetSchema() *Schema {

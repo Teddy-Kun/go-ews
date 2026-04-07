@@ -106,7 +106,7 @@ type PostReplyItem struct {
 }
 
 func (P *PostReplyItem) SetForMarshal() {
-	P.XMLName.Local = "t:PostReplyItem"
+	P.XMLName.Local = "PostReplyItem"
 }
 
 func (P *PostReplyItem) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type CreateRuleOperation struct {
 }
 
 func (C *CreateRuleOperation) SetForMarshal() {
-	C.XMLName.Local = "t:CreateRuleOperation"
+	C.XMLName.Local = "CreateRuleOperation"
 }
 
 func (C *CreateRuleOperation) GetSchema() *Schema {

@@ -24,7 +24,7 @@ type FindPeopleResponse struct {
 }
 
 func (F *FindPeopleResponse) SetForMarshal() {
-	F.XMLName.Local = "m:FindPeopleResponse"
+	F.XMLName.Local = "FindPeopleResponse"
 }
 
 func (F *FindPeopleResponse) GetSchema() *Schema {

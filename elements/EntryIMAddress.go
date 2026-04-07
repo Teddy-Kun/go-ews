@@ -12,7 +12,7 @@ type EntryIMAddress struct {
 }
 
 func (E *EntryIMAddress) SetForMarshal() {
-	E.XMLName.Local = "t:Entry"
+	E.XMLName.Local = "Entry"
 }
 
 func (E *EntryIMAddress) GetSchema() *Schema {

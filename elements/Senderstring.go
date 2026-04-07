@@ -10,7 +10,7 @@ type Senderstring struct {
 }
 
 func (S *Senderstring) SetForMarshal() {
-	S.XMLName.Local = "t:Sender"
+	S.XMLName.Local = "Sender"
 }
 
 func (S *Senderstring) GetSchema() *Schema {

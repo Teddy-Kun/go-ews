@@ -14,7 +14,7 @@ type FreeBusyResponse struct {
 }
 
 func (F *FreeBusyResponse) SetForMarshal() {
-	F.XMLName.Local = "m:FreeBusyResponse"
+	F.XMLName.Local = "FreeBusyResponse"
 }
 
 func (F *FreeBusyResponse) GetSchema() *Schema {

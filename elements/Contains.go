@@ -51,7 +51,7 @@ const (
 )
 
 func (C *Contains) SetForMarshal() {
-	C.XMLName.Local = "t:Contains"
+	C.XMLName.Local = "Contains"
 }
 
 func (C *Contains) GetSchema() *Schema {

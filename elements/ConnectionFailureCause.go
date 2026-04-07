@@ -23,7 +23,7 @@ const (
 )
 
 func (C *ConnectionFailureCause) SetForMarshal() {
-	C.XMLName.Local = "t:ConnectionFailureCause"
+	C.XMLName.Local = "ConnectionFailureCause"
 }
 
 func (C *ConnectionFailureCause) GetSchema() *Schema {

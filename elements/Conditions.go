@@ -78,7 +78,7 @@ type Conditions struct {
 }
 
 func (C *Conditions) SetForMarshal() {
-	C.XMLName.Local = "t:Conditions"
+	C.XMLName.Local = "Conditions"
 }
 
 func (C *Conditions) GetSchema() *Schema {

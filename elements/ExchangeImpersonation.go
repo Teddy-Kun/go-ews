@@ -12,7 +12,7 @@ type ExchangeImpersonation struct {
 }
 
 func (E *ExchangeImpersonation) SetForMarshal() {
-	E.XMLName.Local = "t:ExchangeImpersonation"
+	E.XMLName.Local = "ExchangeImpersonation"
 }
 
 func (E *ExchangeImpersonation) GetSchema() *Schema {

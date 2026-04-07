@@ -10,7 +10,7 @@ type MonthTimeZoneTransition struct {
 }
 
 func (M *MonthTimeZoneTransition) SetForMarshal() {
-	M.XMLName.Local = "t:Month"
+	M.XMLName.Local = "Month"
 }
 
 func (M *MonthTimeZoneTransition) GetSchema() *Schema {

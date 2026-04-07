@@ -36,7 +36,7 @@ type SetItemField struct {
 }
 
 func (S *SetItemField) SetForMarshal() {
-	S.XMLName.Local = "t:SetItemField"
+	S.XMLName.Local = "SetItemField"
 }
 
 func (S *SetItemField) GetSchema() *Schema {

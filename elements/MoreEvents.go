@@ -10,7 +10,7 @@ type MoreEvents struct {
 }
 
 func (M *MoreEvents) SetForMarshal() {
-	M.XMLName.Local = "t:MoreEvents"
+	M.XMLName.Local = "MoreEvents"
 }
 
 func (M *MoreEvents) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsOrganizer) SetForMarshal() {
-	I.XMLName.Local = "t:IsOrganizer"
+	I.XMLName.Local = "IsOrganizer"
 }
 
 func (I *IsOrganizer) GetSchema() *Schema {

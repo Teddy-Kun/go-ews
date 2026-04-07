@@ -10,7 +10,7 @@ type Accuracy struct {
 }
 
 func (A *Accuracy) SetForMarshal() {
-	A.XMLName.Local = "t:Accuracy"
+	A.XMLName.Local = "Accuracy"
 }
 
 func (A *Accuracy) GetSchema() *Schema {

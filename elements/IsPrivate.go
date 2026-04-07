@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsPrivate) SetForMarshal() {
-	I.XMLName.Local = "t:IsPrivate"
+	I.XMLName.Local = "IsPrivate"
 }
 
 func (I *IsPrivate) GetSchema() *Schema {

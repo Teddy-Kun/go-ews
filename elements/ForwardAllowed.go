@@ -17,7 +17,7 @@ const (
 )
 
 func (F *ForwardAllowed) SetForMarshal() {
-	F.XMLName.Local = "t:ForwardAllowed"
+	F.XMLName.Local = "ForwardAllowed"
 }
 
 func (F *ForwardAllowed) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type UniqueBody struct {
 }
 
 func (U *UniqueBody) SetForMarshal() {
-	U.XMLName.Local = "t:UniqueBody"
+	U.XMLName.Local = "UniqueBody"
 }
 
 func (U *UniqueBody) GetSchema() *Schema {

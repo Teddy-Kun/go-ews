@@ -18,7 +18,7 @@ type ChangesItems struct {
 }
 
 func (C *ChangesItems) SetForMarshal() {
-	C.XMLName.Local = "m:Changes"
+	C.XMLName.Local = "Changes"
 }
 
 func (C *ChangesItems) GetSchema() *Schema {

@@ -2,9 +2,10 @@ package elements
 
 // The ReceivedTime element specifies the time at which an item was received.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/receivedtime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type ReceivedTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type ReceivedTime struct {
 }
 
 func (R *ReceivedTime) SetForMarshal() {
-	R.XMLName.Local = "t:ReceivedTime"
+	R.XMLName.Local = "ReceivedTime"
 }
 
 func (R *ReceivedTime) GetSchema() *Schema {

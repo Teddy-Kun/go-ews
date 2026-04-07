@@ -10,7 +10,7 @@ type ApprovalDecisionMaker struct {
 }
 
 func (A *ApprovalDecisionMaker) SetForMarshal() {
-	A.XMLName.Local = "t:ApprovalDecisionMaker"
+	A.XMLName.Local = "ApprovalDecisionMaker"
 }
 
 func (A *ApprovalDecisionMaker) GetSchema() *Schema {

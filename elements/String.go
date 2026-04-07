@@ -10,7 +10,7 @@ type String struct {
 }
 
 func (S *String) SetForMarshal() {
-	S.XMLName.Local = "t:String"
+	S.XMLName.Local = "String"
 }
 
 func (S *String) GetSchema() *Schema {

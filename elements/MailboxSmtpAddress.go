@@ -10,7 +10,7 @@ type MailboxSmtpAddress struct {
 }
 
 func (M *MailboxSmtpAddress) SetForMarshal() {
-	M.XMLName.Local = "t:MailboxSmtpAddress"
+	M.XMLName.Local = "MailboxSmtpAddress"
 }
 
 func (M *MailboxSmtpAddress) GetSchema() *Schema {

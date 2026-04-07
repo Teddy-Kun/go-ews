@@ -2,9 +2,10 @@ package elements
 
 // The DateTimeReceived element represents the date and time that an item in a mailbox was received.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/datetimereceived
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type DateTimeReceived struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type DateTimeReceived struct {
 }
 
 func (D *DateTimeReceived) SetForMarshal() {
-	D.XMLName.Local = "t:DateTimeReceived"
+	D.XMLName.Local = "DateTimeReceived"
 }
 
 func (D *DateTimeReceived) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type AllInternal struct {
 }
 
 func (A *AllInternal) SetForMarshal() {
-	A.XMLName.Local = "t:AllInternal"
+	A.XMLName.Local = "AllInternal"
 }
 
 func (A *AllInternal) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type GlobalImportance struct {
 }
 
 func (G *GlobalImportance) SetForMarshal() {
-	G.XMLName.Local = "t:GlobalImportance"
+	G.XMLName.Local = "GlobalImportance"
 }
 
 func (G *GlobalImportance) GetSchema() *Schema {

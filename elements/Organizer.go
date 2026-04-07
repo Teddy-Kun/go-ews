@@ -12,7 +12,7 @@ type Organizer struct {
 }
 
 func (O *Organizer) SetForMarshal() {
-	O.XMLName.Local = "t:Organizer"
+	O.XMLName.Local = "Organizer"
 }
 
 func (O *Organizer) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type MaxMessageSize struct {
 }
 
 func (M *MaxMessageSize) SetForMarshal() {
-	M.XMLName.Local = "t:MaxMessageSize"
+	M.XMLName.Local = "MaxMessageSize"
 }
 
 func (M *MaxMessageSize) GetSchema() *Schema {

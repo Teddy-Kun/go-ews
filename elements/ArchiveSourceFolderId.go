@@ -16,7 +16,7 @@ type ArchiveSourceFolderId struct {
 }
 
 func (A *ArchiveSourceFolderId) SetForMarshal() {
-	A.XMLName.Local = "m:ArchiveSourceFolderId"
+	A.XMLName.Local = "ArchiveSourceFolderId"
 }
 
 func (A *ArchiveSourceFolderId) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IsFolderVisible struct {
 }
 
 func (I *IsFolderVisible) SetForMarshal() {
-	I.XMLName.Local = "t:IsFolderVisible"
+	I.XMLName.Local = "IsFolderVisible"
 }
 
 func (I *IsFolderVisible) GetSchema() *Schema {

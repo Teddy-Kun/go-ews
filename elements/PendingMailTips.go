@@ -33,7 +33,7 @@ const (
 )
 
 func (P *PendingMailTips) SetForMarshal() {
-	P.XMLName.Local = "t:PendingMailTips"
+	P.XMLName.Local = "PendingMailTips"
 }
 
 func (P *PendingMailTips) GetSchema() *Schema {

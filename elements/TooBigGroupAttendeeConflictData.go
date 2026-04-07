@@ -10,7 +10,7 @@ type TooBigGroupAttendeeConflictData struct {
 }
 
 func (T *TooBigGroupAttendeeConflictData) SetForMarshal() {
-	T.XMLName.Local = "t:TooBigGroupAttendeeConflictData"
+	T.XMLName.Local = "TooBigGroupAttendeeConflictData"
 }
 
 func (T *TooBigGroupAttendeeConflictData) GetSchema() *Schema {

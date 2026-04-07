@@ -12,7 +12,7 @@ type RuleOperationErrors struct {
 }
 
 func (R *RuleOperationErrors) SetForMarshal() {
-	R.XMLName.Local = "m:RuleOperationErrors"
+	R.XMLName.Local = "RuleOperationErrors"
 }
 
 func (R *RuleOperationErrors) GetSchema() *Schema {

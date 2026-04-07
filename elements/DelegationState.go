@@ -10,7 +10,7 @@ type DelegationState struct {
 }
 
 func (D *DelegationState) SetForMarshal() {
-	D.XMLName.Local = "t:DelegationState"
+	D.XMLName.Local = "DelegationState"
 }
 
 func (D *DelegationState) GetSchema() *Schema {

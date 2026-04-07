@@ -120,7 +120,7 @@ type Message struct {
 }
 
 func (M *Message) SetForMarshal() {
-	M.XMLName.Local = "t:Message"
+	M.XMLName.Local = "Message"
 }
 
 func (M *Message) GetSchema() *Schema {

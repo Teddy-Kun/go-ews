@@ -16,7 +16,7 @@ type Exists struct {
 }
 
 func (E *Exists) SetForMarshal() {
-	E.XMLName.Local = "t:Exists"
+	E.XMLName.Local = "Exists"
 }
 
 func (E *Exists) GetSchema() *Schema {

@@ -18,7 +18,7 @@ type GroupIds struct {
 }
 
 func (G *GroupIds) SetForMarshal() {
-	G.XMLName.Local = "m:GroupIds"
+	G.XMLName.Local = "GroupIds"
 }
 
 func (G *GroupIds) GetSchema() *Schema {

@@ -29,7 +29,7 @@ const (
 )
 
 func (R *ResponseMessage) SetForMarshal() {
-	R.XMLName.Local = "m:ResponseMessage"
+	R.XMLName.Local = "ResponseMessage"
 }
 
 func (R *ResponseMessage) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type RequestedConfiguration struct {
 }
 
 func (R *RequestedConfiguration) SetForMarshal() {
-	R.XMLName.Local = "m:RequestedConfiguration"
+	R.XMLName.Local = "RequestedConfiguration"
 }
 
 func (R *RequestedConfiguration) GetSchema() *Schema {

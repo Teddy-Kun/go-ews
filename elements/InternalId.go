@@ -10,7 +10,7 @@ type InternalId struct {
 }
 
 func (I *InternalId) SetForMarshal() {
-	I.XMLName.Local = "t:InternalId"
+	I.XMLName.Local = "InternalId"
 }
 
 func (I *InternalId) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type Ranges struct {
 }
 
 func (R *Ranges) SetForMarshal() {
-	R.XMLName.Local = "t:Ranges"
+	R.XMLName.Local = "Ranges"
 }
 
 func (R *Ranges) GetSchema() *Schema {

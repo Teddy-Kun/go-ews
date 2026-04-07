@@ -10,7 +10,7 @@ type MailboxId struct {
 }
 
 func (M *MailboxId) SetForMarshal() {
-	M.XMLName.Local = "t:MailboxId"
+	M.XMLName.Local = "MailboxId"
 }
 
 func (M *MailboxId) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type RetentionPolicyTagId struct {
 }
 
 func (R *RetentionPolicyTagId) SetForMarshal() {
-	R.XMLName.Local = "t:RetentionPolicyTagId"
+	R.XMLName.Local = "RetentionPolicyTagId"
 }
 
 func (R *RetentionPolicyTagId) GetSchema() *Schema {

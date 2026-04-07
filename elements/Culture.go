@@ -10,7 +10,7 @@ type Culture struct {
 }
 
 func (C *Culture) SetForMarshal() {
-	C.XMLName.Local = "t:Culture"
+	C.XMLName.Local = "Culture"
 }
 
 func (C *Culture) GetSchema() *Schema {

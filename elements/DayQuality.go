@@ -21,7 +21,7 @@ const (
 )
 
 func (D *DayQuality) SetForMarshal() {
-	D.XMLName.Local = "t:DayQuality"
+	D.XMLName.Local = "DayQuality"
 }
 
 func (D *DayQuality) GetSchema() *Schema {

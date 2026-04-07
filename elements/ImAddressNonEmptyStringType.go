@@ -10,7 +10,7 @@ type ImAddressNonEmptyStringType struct {
 }
 
 func (I *ImAddressNonEmptyStringType) SetForMarshal() {
-	I.XMLName.Local = "m:ImAddress"
+	I.XMLName.Local = "ImAddress"
 }
 
 func (I *ImAddressNonEmptyStringType) GetSchema() *Schema {

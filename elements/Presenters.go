@@ -19,7 +19,7 @@ const (
 )
 
 func (P *Presenters) SetForMarshal() {
-	P.XMLName.Local = "t:Presenters"
+	P.XMLName.Local = "Presenters"
 }
 
 func (P *Presenters) GetSchema() *Schema {

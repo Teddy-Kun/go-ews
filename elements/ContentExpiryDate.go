@@ -10,7 +10,7 @@ type ContentExpiryDate struct {
 }
 
 func (C *ContentExpiryDate) SetForMarshal() {
-	C.XMLName.Local = "t:ContentExpiryDate"
+	C.XMLName.Local = "ContentExpiryDate"
 }
 
 func (C *ContentExpiryDate) GetSchema() *Schema {

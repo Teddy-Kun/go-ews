@@ -10,7 +10,7 @@ type WebClientEditFormQueryString struct {
 }
 
 func (W *WebClientEditFormQueryString) SetForMarshal() {
-	W.XMLName.Local = "t:WebClientEditFormQueryString"
+	W.XMLName.Local = "WebClientEditFormQueryString"
 }
 
 func (W *WebClientEditFormQueryString) GetSchema() *Schema {

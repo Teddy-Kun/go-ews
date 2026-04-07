@@ -52,7 +52,7 @@ type SearchPreviewItem struct {
 }
 
 func (S *SearchPreviewItem) SetForMarshal() {
-	S.XMLName.Local = "t:SearchPreviewItem"
+	S.XMLName.Local = "SearchPreviewItem"
 }
 
 func (S *SearchPreviewItem) GetSchema() *Schema {

@@ -19,7 +19,7 @@ const (
 )
 
 func (C *ConfigurationName) SetForMarshal() {
-	C.XMLName.Local = "m:ConfigurationName"
+	C.XMLName.Local = "ConfigurationName"
 }
 
 func (C *ConfigurationName) GetSchema() *Schema {

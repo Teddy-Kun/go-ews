@@ -22,7 +22,7 @@ type EntryPhysicalAddress struct {
 }
 
 func (E *EntryPhysicalAddress) SetForMarshal() {
-	E.XMLName.Local = "t:Entry"
+	E.XMLName.Local = "Entry"
 }
 
 func (E *EntryPhysicalAddress) GetSchema() *Schema {

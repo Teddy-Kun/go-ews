@@ -10,7 +10,7 @@ type AdjacentMeetingCount struct {
 }
 
 func (A *AdjacentMeetingCount) SetForMarshal() {
-	A.XMLName.Local = "t:AdjacentMeetingCount"
+	A.XMLName.Local = "AdjacentMeetingCount"
 }
 
 func (A *AdjacentMeetingCount) GetSchema() *Schema {

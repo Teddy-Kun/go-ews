@@ -2,9 +2,10 @@ package elements
 
 // The AssignedTime element represents the time when a task is assigned to a contact.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/assignedtime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type AssignedTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type AssignedTime struct {
 }
 
 func (A *AssignedTime) SetForMarshal() {
-	A.XMLName.Local = "t:AssignedTime"
+	A.XMLName.Local = "AssignedTime"
 }
 
 func (A *AssignedTime) GetSchema() *Schema {

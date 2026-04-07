@@ -18,7 +18,7 @@ type FreeBusyChangedEvent struct {
 }
 
 func (F *FreeBusyChangedEvent) SetForMarshal() {
-	F.XMLName.Local = "t:FreeBusyChangedEvent"
+	F.XMLName.Local = "FreeBusyChangedEvent"
 }
 
 func (F *FreeBusyChangedEvent) GetSchema() *Schema {

@@ -2,9 +2,10 @@ package elements
 
 // The ProposedStart (AttendeeType) element specifies an attendee's proposed start time for a meeting.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/proposedstart-attendeetype
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type ProposedStartAttendeeType struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type ProposedStartAttendeeType struct {
 }
 
 func (P *ProposedStartAttendeeType) SetForMarshal() {
-	P.XMLName.Local = "t:ProposedStart"
+	P.XMLName.Local = "ProposedStart"
 }
 
 func (P *ProposedStartAttendeeType) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type InstallApp struct {
 }
 
 func (I *InstallApp) SetForMarshal() {
-	I.XMLName.Local = "m:InstallApp"
+	I.XMLName.Local = "InstallApp"
 }
 
 func (I *InstallApp) GetSchema() *Schema {

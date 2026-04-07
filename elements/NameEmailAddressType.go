@@ -10,7 +10,7 @@ type NameEmailAddressType struct {
 }
 
 func (N *NameEmailAddressType) SetForMarshal() {
-	N.XMLName.Local = "t:Name"
+	N.XMLName.Local = "Name"
 }
 
 func (N *NameEmailAddressType) GetSchema() *Schema {

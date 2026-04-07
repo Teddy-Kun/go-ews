@@ -31,7 +31,7 @@ const (
 )
 
 func (F *FindFolder) SetForMarshal() {
-	F.XMLName.Local = "m:FindFolder"
+	F.XMLName.Local = "FindFolder"
 }
 
 func (F *FindFolder) GetSchema() *Schema {

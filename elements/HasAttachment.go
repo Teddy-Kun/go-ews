@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HasAttachment) SetForMarshal() {
-	H.XMLName.Local = "t:HasAttachment"
+	H.XMLName.Local = "HasAttachment"
 }
 
 func (H *HasAttachment) GetSchema() *Schema {

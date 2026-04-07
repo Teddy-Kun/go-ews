@@ -18,7 +18,7 @@ type AggregateOn struct {
 }
 
 func (A *AggregateOn) SetForMarshal() {
-	A.XMLName.Local = "t:AggregateOn"
+	A.XMLName.Local = "AggregateOn"
 }
 
 func (A *AggregateOn) GetSchema() *Schema {

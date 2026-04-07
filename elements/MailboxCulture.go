@@ -10,7 +10,7 @@ type MailboxCulture struct {
 }
 
 func (M *MailboxCulture) SetForMarshal() {
-	M.XMLName.Local = "t:MailboxCulture"
+	M.XMLName.Local = "MailboxCulture"
 }
 
 func (M *MailboxCulture) GetSchema() *Schema {

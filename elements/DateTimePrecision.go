@@ -10,7 +10,7 @@ type DateTimePrecision struct {
 }
 
 func (D *DateTimePrecision) SetForMarshal() {
-	D.XMLName.Local = "t:DateTimePrecision"
+	D.XMLName.Local = "DateTimePrecision"
 }
 
 func (D *DateTimePrecision) GetSchema() *Schema {

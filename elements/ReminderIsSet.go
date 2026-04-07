@@ -10,7 +10,7 @@ type ReminderIsSet struct {
 }
 
 func (R *ReminderIsSet) SetForMarshal() {
-	R.XMLName.Local = "t:ReminderIsSet"
+	R.XMLName.Local = "ReminderIsSet"
 }
 
 func (R *ReminderIsSet) GetSchema() *Schema {

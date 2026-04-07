@@ -10,7 +10,7 @@ type DayOfMonth struct {
 }
 
 func (D *DayOfMonth) SetForMarshal() {
-	D.XMLName.Local = "t:DayOfMonth"
+	D.XMLName.Local = "DayOfMonth"
 }
 
 func (D *DayOfMonth) GetSchema() *Schema {

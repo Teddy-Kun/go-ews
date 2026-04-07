@@ -12,7 +12,7 @@ type MimeContentUTF8 struct {
 }
 
 func (M *MimeContentUTF8) SetForMarshal() {
-	M.XMLName.Local = "t:MimeContentUTF8"
+	M.XMLName.Local = "MimeContentUTF8"
 }
 
 func (M *MimeContentUTF8) GetSchema() *Schema {

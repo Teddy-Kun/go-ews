@@ -14,7 +14,7 @@ type ExchangeStoreId struct {
 }
 
 func (E *ExchangeStoreId) SetForMarshal() {
-	E.XMLName.Local = "t:ExchangeStoreId"
+	E.XMLName.Local = "ExchangeStoreId"
 }
 
 func (E *ExchangeStoreId) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (D *DeliveryRestricted) SetForMarshal() {
-	D.XMLName.Local = "t:DeliveryRestricted"
+	D.XMLName.Local = "DeliveryRestricted"
 }
 
 func (D *DeliveryRestricted) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type AddImContactToGroup struct {
 }
 
 func (A *AddImContactToGroup) SetForMarshal() {
-	A.XMLName.Local = "m:AddImContactToGroup"
+	A.XMLName.Local = "AddImContactToGroup"
 }
 
 func (A *AddImContactToGroup) GetSchema() *Schema {

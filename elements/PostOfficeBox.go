@@ -10,7 +10,7 @@ type PostOfficeBox struct {
 }
 
 func (P *PostOfficeBox) SetForMarshal() {
-	P.XMLName.Local = "t:PostOfficeBox"
+	P.XMLName.Local = "PostOfficeBox"
 }
 
 func (P *PostOfficeBox) GetSchema() *Schema {

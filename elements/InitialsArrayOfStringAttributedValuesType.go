@@ -12,7 +12,7 @@ type InitialsArrayOfStringAttributedValuesType struct {
 }
 
 func (I *InitialsArrayOfStringAttributedValuesType) SetForMarshal() {
-	I.XMLName.Local = "t:Initials"
+	I.XMLName.Local = "Initials"
 }
 
 func (I *InitialsArrayOfStringAttributedValuesType) GetSchema() *Schema {

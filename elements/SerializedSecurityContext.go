@@ -18,7 +18,7 @@ type SerializedSecurityContext struct {
 }
 
 func (S *SerializedSecurityContext) SetForMarshal() {
-	S.XMLName.Local = "t:SerializedSecurityContext"
+	S.XMLName.Local = "SerializedSecurityContext"
 }
 
 func (S *SerializedSecurityContext) GetSchema() *Schema {

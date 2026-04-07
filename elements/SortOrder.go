@@ -12,7 +12,7 @@ type SortOrder struct {
 }
 
 func (S *SortOrder) SetForMarshal() {
-	S.XMLName.Local = "m:SortOrder"
+	S.XMLName.Local = "SortOrder"
 }
 
 func (S *SortOrder) GetSchema() *Schema {

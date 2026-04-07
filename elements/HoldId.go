@@ -10,7 +10,7 @@ type HoldId struct {
 }
 
 func (H *HoldId) SetForMarshal() {
-	H.XMLName.Local = "t:HoldId"
+	H.XMLName.Local = "HoldId"
 }
 
 func (H *HoldId) GetSchema() *Schema {

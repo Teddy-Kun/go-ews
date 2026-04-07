@@ -10,7 +10,7 @@ type CustomMailTip struct {
 }
 
 func (C *CustomMailTip) SetForMarshal() {
-	C.XMLName.Local = "t:CustomMailTip"
+	C.XMLName.Local = "CustomMailTip"
 }
 
 func (C *CustomMailTip) GetSchema() *Schema {

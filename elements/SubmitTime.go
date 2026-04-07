@@ -2,9 +2,10 @@ package elements
 
 // The SubmitTime element represents the time at which the message was sent to the server.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/submittime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type SubmitTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type SubmitTime struct {
 }
 
 func (S *SubmitTime) SetForMarshal() {
-	S.XMLName.Local = "t:SubmitTime"
+	S.XMLName.Local = "SubmitTime"
 }
 
 func (S *SubmitTime) GetSchema() *Schema {

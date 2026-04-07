@@ -2,9 +2,10 @@ package elements
 
 // The Date element represents the date that contains the suggested meeting times.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/date
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type Date struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type Date struct {
 }
 
 func (D *Date) SetForMarshal() {
-	D.XMLName.Local = "t:Date"
+	D.XMLName.Local = "Date"
 }
 
 func (D *Date) GetSchema() *Schema {

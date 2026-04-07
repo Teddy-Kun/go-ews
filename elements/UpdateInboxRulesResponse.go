@@ -31,7 +31,7 @@ const (
 )
 
 func (U *UpdateInboxRulesResponse) SetForMarshal() {
-	U.XMLName.Local = "m:UpdateInboxRulesResponse"
+	U.XMLName.Local = "UpdateInboxRulesResponse"
 }
 
 func (U *UpdateInboxRulesResponse) GetSchema() *Schema {

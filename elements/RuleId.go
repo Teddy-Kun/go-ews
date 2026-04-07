@@ -10,7 +10,7 @@ type RuleId struct {
 }
 
 func (R *RuleId) SetForMarshal() {
-	R.XMLName.Local = "m:RuleId"
+	R.XMLName.Local = "RuleId"
 }
 
 func (R *RuleId) GetSchema() *Schema {

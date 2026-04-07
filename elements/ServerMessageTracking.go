@@ -10,7 +10,7 @@ type ServerMessageTracking struct {
 }
 
 func (S *ServerMessageTracking) SetForMarshal() {
-	S.XMLName.Local = "t:Server"
+	S.XMLName.Local = "Server"
 }
 
 func (S *ServerMessageTracking) GetSchema() *Schema {

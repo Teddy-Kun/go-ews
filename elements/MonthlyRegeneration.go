@@ -12,7 +12,7 @@ type MonthlyRegeneration struct {
 }
 
 func (M *MonthlyRegeneration) SetForMarshal() {
-	M.XMLName.Local = "t:MonthlyRegeneration"
+	M.XMLName.Local = "MonthlyRegeneration"
 }
 
 func (M *MonthlyRegeneration) GetSchema() *Schema {

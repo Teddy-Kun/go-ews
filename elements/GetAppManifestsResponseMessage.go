@@ -20,7 +20,7 @@ type GetAppManifestsResponseMessage struct {
 }
 
 func (G *GetAppManifestsResponseMessage) SetForMarshal() {
-	G.XMLName.Local = "m:GetAppManifestsResponseMessage"
+	G.XMLName.Local = "GetAppManifestsResponseMessage"
 }
 
 func (G *GetAppManifestsResponseMessage) GetSchema() *Schema {

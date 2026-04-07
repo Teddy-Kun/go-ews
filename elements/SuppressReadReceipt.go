@@ -12,7 +12,7 @@ type SuppressReadReceipt struct {
 }
 
 func (S *SuppressReadReceipt) SetForMarshal() {
-	S.XMLName.Local = "t:SuppressReadReceipt"
+	S.XMLName.Local = "SuppressReadReceipt"
 }
 
 func (S *SuppressReadReceipt) GetSchema() *Schema {

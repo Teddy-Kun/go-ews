@@ -10,7 +10,7 @@ type Intent struct {
 }
 
 func (I *Intent) SetForMarshal() {
-	I.XMLName.Local = "t:Intent"
+	I.XMLName.Local = "Intent"
 }
 
 func (I *Intent) GetSchema() *Schema {

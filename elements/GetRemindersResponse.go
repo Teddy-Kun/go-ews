@@ -12,7 +12,7 @@ type GetRemindersResponse struct {
 }
 
 func (G *GetRemindersResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetRemindersResponse"
+	G.XMLName.Local = "GetRemindersResponse"
 }
 
 func (G *GetRemindersResponse) GetSchema() *Schema {

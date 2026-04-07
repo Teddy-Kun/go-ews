@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsPartiallyIndexed) SetForMarshal() {
-	I.XMLName.Local = "t:IsPartiallyIndexed"
+	I.XMLName.Local = "IsPartiallyIndexed"
 }
 
 func (I *IsPartiallyIndexed) GetSchema() *Schema {

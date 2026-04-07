@@ -2,9 +2,10 @@ package elements
 
 // The StartTime (ReminderMessageDataType) element specifies the starting time of the item that the reminder is for.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/starttime-remindermessagedatatype
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type StartTimeReminderMessageDataType struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type StartTimeReminderMessageDataType struct {
 }
 
 func (S *StartTimeReminderMessageDataType) SetForMarshal() {
-	S.XMLName.Local = "t:StartTime"
+	S.XMLName.Local = "StartTime"
 }
 
 func (S *StartTimeReminderMessageDataType) GetSchema() *Schema {

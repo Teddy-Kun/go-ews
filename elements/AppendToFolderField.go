@@ -10,7 +10,7 @@ type AppendToFolderField struct {
 }
 
 func (A *AppendToFolderField) SetForMarshal() {
-	A.XMLName.Local = "t:AppendToFolderField"
+	A.XMLName.Local = "AppendToFolderField"
 }
 
 func (A *AppendToFolderField) GetSchema() *Schema {

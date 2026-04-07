@@ -42,7 +42,7 @@ type RightsManagementLicenseData struct {
 }
 
 func (R *RightsManagementLicenseData) SetForMarshal() {
-	R.XMLName.Local = "t:RightsManagementLicenseData"
+	R.XMLName.Local = "RightsManagementLicenseData"
 }
 
 func (R *RightsManagementLicenseData) GetSchema() *Schema {

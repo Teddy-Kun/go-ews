@@ -12,7 +12,7 @@ type ExternalReply struct {
 }
 
 func (E *ExternalReply) SetForMarshal() {
-	E.XMLName.Local = "t:ExternalReply"
+	E.XMLName.Local = "ExternalReply"
 }
 
 func (E *ExternalReply) GetSchema() *Schema {

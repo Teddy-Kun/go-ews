@@ -10,7 +10,7 @@ type IsReadReceiptRequested struct {
 }
 
 func (I *IsReadReceiptRequested) SetForMarshal() {
-	I.XMLName.Local = "t:IsReadReceiptRequested"
+	I.XMLName.Local = "IsReadReceiptRequested"
 }
 
 func (I *IsReadReceiptRequested) GetSchema() *Schema {

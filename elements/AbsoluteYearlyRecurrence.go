@@ -14,7 +14,7 @@ type AbsoluteYearlyRecurrence struct {
 }
 
 func (A *AbsoluteYearlyRecurrence) SetForMarshal() {
-	A.XMLName.Local = "t:AbsoluteYearlyRecurrence"
+	A.XMLName.Local = "AbsoluteYearlyRecurrence"
 }
 
 func (A *AbsoluteYearlyRecurrence) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type ApplyConversationActionResponse struct {
 }
 
 func (A *ApplyConversationActionResponse) SetForMarshal() {
-	A.XMLName.Local = "m:ApplyConversationActionResponse"
+	A.XMLName.Local = "ApplyConversationActionResponse"
 }
 
 func (A *ApplyConversationActionResponse) GetSchema() *Schema {

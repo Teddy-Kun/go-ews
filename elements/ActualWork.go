@@ -10,7 +10,7 @@ type ActualWork struct {
 }
 
 func (A *ActualWork) SetForMarshal() {
-	A.XMLName.Local = "t:ActualWork"
+	A.XMLName.Local = "ActualWork"
 }
 
 func (A *ActualWork) GetSchema() *Schema {

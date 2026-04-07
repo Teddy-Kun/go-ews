@@ -2,9 +2,10 @@ package elements
 
 // The DateTimeStamp element indicates the date and time that an instance of a calendar object was created.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/datetimestamp
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type DateTimeStamp struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type DateTimeStamp struct {
 }
 
 func (D *DateTimeStamp) SetForMarshal() {
-	D.XMLName.Local = "t:DateTimeStamp"
+	D.XMLName.Local = "DateTimeStamp"
 }
 
 func (D *DateTimeStamp) GetSchema() *Schema {

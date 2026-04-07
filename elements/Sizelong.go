@@ -10,7 +10,7 @@ type Sizelong struct {
 }
 
 func (S *Sizelong) SetForMarshal() {
-	S.XMLName.Local = "t:Size"
+	S.XMLName.Local = "Size"
 }
 
 func (S *Sizelong) GetSchema() *Schema {

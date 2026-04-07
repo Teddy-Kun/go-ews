@@ -16,7 +16,7 @@ type ActionSetClientExtensionActionType struct {
 }
 
 func (A *ActionSetClientExtensionActionType) SetForMarshal() {
-	A.XMLName.Local = "t:Action"
+	A.XMLName.Local = "Action"
 }
 
 func (A *ActionSetClientExtensionActionType) GetSchema() *Schema {

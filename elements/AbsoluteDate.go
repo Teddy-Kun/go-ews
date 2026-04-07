@@ -13,7 +13,7 @@ type AbsoluteDate struct {
 }
 
 func (A *AbsoluteDate) SetForMarshal() {
-	A.XMLName.Local = "t:AbsoluteDate"
+	A.XMLName.Local = "AbsoluteDate"
 }
 
 func (A *AbsoluteDate) GetSchema() *Schema {

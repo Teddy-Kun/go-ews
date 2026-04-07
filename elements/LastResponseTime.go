@@ -2,9 +2,10 @@ package elements
 
 // The LastResponseTime element represents the date and time of the latest response received.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/lastresponsetime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type LastResponseTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type LastResponseTime struct {
 }
 
 func (L *LastResponseTime) SetForMarshal() {
-	L.XMLName.Local = "t:LastResponseTime"
+	L.XMLName.Local = "LastResponseTime"
 }
 
 func (L *LastResponseTime) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ImContactSipUriAddress struct {
 }
 
 func (I *ImContactSipUriAddress) SetForMarshal() {
-	I.XMLName.Local = "m:ImContactSipUriAddress"
+	I.XMLName.Local = "ImContactSipUriAddress"
 }
 
 func (I *ImContactSipUriAddress) GetSchema() *Schema {

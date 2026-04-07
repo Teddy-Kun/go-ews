@@ -10,7 +10,7 @@ type StartTimeZoneId struct {
 }
 
 func (S *StartTimeZoneId) SetForMarshal() {
-	S.XMLName.Local = "t:StartTimeZoneId"
+	S.XMLName.Local = "StartTimeZoneId"
 }
 
 func (S *StartTimeZoneId) GetSchema() *Schema {

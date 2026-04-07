@@ -10,7 +10,7 @@ type LastModifiedName struct {
 }
 
 func (L *LastModifiedName) SetForMarshal() {
-	L.XMLName.Local = "t:LastModifiedName"
+	L.XMLName.Local = "LastModifiedName"
 }
 
 func (L *LastModifiedName) GetSchema() *Schema {

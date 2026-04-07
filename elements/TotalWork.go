@@ -10,7 +10,7 @@ type TotalWork struct {
 }
 
 func (T *TotalWork) SetForMarshal() {
-	T.XMLName.Local = "t:TotalWork"
+	T.XMLName.Local = "TotalWork"
 }
 
 func (T *TotalWork) GetSchema() *Schema {

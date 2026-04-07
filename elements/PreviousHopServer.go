@@ -10,7 +10,7 @@ type PreviousHopServer struct {
 }
 
 func (P *PreviousHopServer) SetForMarshal() {
-	P.XMLName.Local = "t:PreviousHopServer"
+	P.XMLName.Local = "PreviousHopServer"
 }
 
 func (P *PreviousHopServer) GetSchema() *Schema {

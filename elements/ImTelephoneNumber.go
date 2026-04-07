@@ -10,7 +10,7 @@ type ImTelephoneNumber struct {
 }
 
 func (I *ImTelephoneNumber) SetForMarshal() {
-	I.XMLName.Local = "m:ImTelephoneNumber"
+	I.XMLName.Local = "ImTelephoneNumber"
 }
 
 func (I *ImTelephoneNumber) GetSchema() *Schema {

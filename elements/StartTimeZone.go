@@ -24,7 +24,7 @@ type StartTimeZone struct {
 }
 
 func (S *StartTimeZone) SetForMarshal() {
-	S.XMLName.Local = "t:StartTimeZone"
+	S.XMLName.Local = "StartTimeZone"
 }
 
 func (S *StartTimeZone) GetSchema() *Schema {

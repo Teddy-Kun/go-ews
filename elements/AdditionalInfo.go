@@ -10,7 +10,7 @@ type AdditionalInfo struct {
 }
 
 func (A *AdditionalInfo) SetForMarshal() {
-	A.XMLName.Local = "t:AdditionalInfo"
+	A.XMLName.Local = "AdditionalInfo"
 }
 
 func (A *AdditionalInfo) GetSchema() *Schema {

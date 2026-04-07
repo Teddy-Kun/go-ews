@@ -10,7 +10,7 @@ type ReminderMinutesBeforeStart struct {
 }
 
 func (R *ReminderMinutesBeforeStart) SetForMarshal() {
-	R.XMLName.Local = "t:ReminderMinutesBeforeStart"
+	R.XMLName.Local = "ReminderMinutesBeforeStart"
 }
 
 func (R *ReminderMinutesBeforeStart) GetSchema() *Schema {

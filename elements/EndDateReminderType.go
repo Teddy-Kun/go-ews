@@ -2,9 +2,10 @@ package elements
 
 // The EndDate element specifies the end date of the item the reminder is for.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/enddate-remindertype
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type EndDateReminderType struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type EndDateReminderType struct {
 }
 
 func (E *EndDateReminderType) SetForMarshal() {
-	E.XMLName.Local = "t:EndDate"
+	E.XMLName.Local = "EndDate"
 }
 
 func (E *EndDateReminderType) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (M *Modify) SetForMarshal() {
-	M.XMLName.Local = "t:Modify"
+	M.XMLName.Local = "Modify"
 }
 
 func (M *Modify) GetSchema() *Schema {

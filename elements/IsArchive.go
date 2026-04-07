@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsArchive) SetForMarshal() {
-	I.XMLName.Local = "t:IsArchive"
+	I.XMLName.Local = "IsArchive"
 }
 
 func (I *IsArchive) GetSchema() *Schema {

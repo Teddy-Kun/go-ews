@@ -18,7 +18,7 @@ type EntryEmailAddress struct {
 }
 
 func (E *EntryEmailAddress) SetForMarshal() {
-	E.XMLName.Local = "t:Entry"
+	E.XMLName.Local = "Entry"
 }
 
 func (E *EntryEmailAddress) GetSchema() *Schema {

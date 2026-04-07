@@ -14,7 +14,7 @@ type WithinSizeRange struct {
 }
 
 func (W *WithinSizeRange) SetForMarshal() {
-	W.XMLName.Local = "m:WithinSizeRange"
+	W.XMLName.Local = "WithinSizeRange"
 }
 
 func (W *WithinSizeRange) GetSchema() *Schema {

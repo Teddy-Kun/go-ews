@@ -10,7 +10,7 @@ type Alias struct {
 }
 
 func (A *Alias) SetForMarshal() {
-	A.XMLName.Local = "t:Alias"
+	A.XMLName.Local = "Alias"
 }
 
 func (A *Alias) GetSchema() *Schema {

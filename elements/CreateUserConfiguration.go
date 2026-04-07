@@ -12,7 +12,7 @@ type CreateUserConfiguration struct {
 }
 
 func (C *CreateUserConfiguration) SetForMarshal() {
-	C.XMLName.Local = "m:CreateUserConfiguration"
+	C.XMLName.Local = "CreateUserConfiguration"
 }
 
 func (C *CreateUserConfiguration) GetSchema() *Schema {

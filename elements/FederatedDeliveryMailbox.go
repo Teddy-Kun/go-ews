@@ -20,7 +20,7 @@ type FederatedDeliveryMailbox struct {
 }
 
 func (F *FederatedDeliveryMailbox) SetForMarshal() {
-	F.XMLName.Local = "m:FederatedDeliveryMailbox"
+	F.XMLName.Local = "FederatedDeliveryMailbox"
 }
 
 func (F *FederatedDeliveryMailbox) GetSchema() *Schema {

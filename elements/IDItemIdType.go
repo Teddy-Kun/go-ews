@@ -14,7 +14,7 @@ type IDItemIdType struct {
 }
 
 func (I *IDItemIdType) SetForMarshal() {
-	I.XMLName.Local = "t:ID"
+	I.XMLName.Local = "ID"
 }
 
 func (I *IDItemIdType) GetSchema() *Schema {

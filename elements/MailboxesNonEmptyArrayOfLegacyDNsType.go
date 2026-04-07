@@ -12,7 +12,7 @@ type MailboxesNonEmptyArrayOfLegacyDNsType struct {
 }
 
 func (M *MailboxesNonEmptyArrayOfLegacyDNsType) SetForMarshal() {
-	M.XMLName.Local = "m:Mailboxes"
+	M.XMLName.Local = "Mailboxes"
 }
 
 func (M *MailboxesNonEmptyArrayOfLegacyDNsType) GetSchema() *Schema {

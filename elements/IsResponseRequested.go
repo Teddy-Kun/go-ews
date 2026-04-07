@@ -10,7 +10,7 @@ type IsResponseRequested struct {
 }
 
 func (I *IsResponseRequested) SetForMarshal() {
-	I.XMLName.Local = "t:IsResponseRequested"
+	I.XMLName.Local = "IsResponseRequested"
 }
 
 func (I *IsResponseRequested) GetSchema() *Schema {

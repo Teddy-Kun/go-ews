@@ -18,7 +18,7 @@ type UpdateDelegate struct {
 }
 
 func (U *UpdateDelegate) SetForMarshal() {
-	U.XMLName.Local = "m:UpdateDelegate"
+	U.XMLName.Local = "UpdateDelegate"
 }
 
 func (U *UpdateDelegate) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type PhoneNumbersArrayOfPhoneEntitiesType struct {
 }
 
 func (P *PhoneNumbersArrayOfPhoneEntitiesType) SetForMarshal() {
-	P.XMLName.Local = "t:PhoneNumbers"
+	P.XMLName.Local = "PhoneNumbers"
 }
 
 func (P *PhoneNumbersArrayOfPhoneEntitiesType) GetSchema() *Schema {

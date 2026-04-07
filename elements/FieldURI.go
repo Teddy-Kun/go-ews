@@ -12,7 +12,7 @@ type FieldURI struct {
 }
 
 func (F *FieldURI) SetForMarshal() {
-	F.XMLName.Local = "t:FieldURI"
+	F.XMLName.Local = "FieldURI"
 }
 
 func (F *FieldURI) GetSchema() *Schema {

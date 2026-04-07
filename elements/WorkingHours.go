@@ -14,7 +14,7 @@ type WorkingHours struct {
 }
 
 func (W *WorkingHours) SetForMarshal() {
-	W.XMLName.Local = "t:WorkingHours"
+	W.XMLName.Local = "WorkingHours"
 }
 
 func (W *WorkingHours) GetSchema() *Schema {

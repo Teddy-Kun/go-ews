@@ -14,7 +14,7 @@ type Domain struct {
 }
 
 func (D *Domain) SetForMarshal() {
-	D.XMLName.Local = "t:Domain"
+	D.XMLName.Local = "Domain"
 }
 
 func (D *Domain) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type SyncFolderItemsResponse struct {
 }
 
 func (S *SyncFolderItemsResponse) SetForMarshal() {
-	S.XMLName.Local = "m:SyncFolderItemsResponse"
+	S.XMLName.Local = "SyncFolderItemsResponse"
 }
 
 func (S *SyncFolderItemsResponse) GetSchema() *Schema {

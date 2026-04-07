@@ -12,7 +12,7 @@ type CreateFolderResponse struct {
 }
 
 func (C *CreateFolderResponse) SetForMarshal() {
-	C.XMLName.Local = "m:CreateFolderResponse"
+	C.XMLName.Local = "CreateFolderResponse"
 }
 
 func (C *CreateFolderResponse) GetSchema() *Schema {

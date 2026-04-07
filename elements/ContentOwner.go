@@ -10,7 +10,7 @@ type ContentOwner struct {
 }
 
 func (C *ContentOwner) SetForMarshal() {
-	C.XMLName.Local = "t:ContentOwner"
+	C.XMLName.Local = "ContentOwner"
 }
 
 func (C *ContentOwner) GetSchema() *Schema {

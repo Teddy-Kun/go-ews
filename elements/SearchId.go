@@ -10,7 +10,7 @@ type SearchId struct {
 }
 
 func (S *SearchId) SetForMarshal() {
-	S.XMLName.Local = "t:SearchId"
+	S.XMLName.Local = "SearchId"
 }
 
 func (S *SearchId) GetSchema() *Schema {

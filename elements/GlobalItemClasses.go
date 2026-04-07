@@ -12,7 +12,7 @@ type GlobalItemClasses struct {
 }
 
 func (G *GlobalItemClasses) SetForMarshal() {
-	G.XMLName.Local = "t:GlobalItemClasses"
+	G.XMLName.Local = "GlobalItemClasses"
 }
 
 func (G *GlobalItemClasses) GetSchema() *Schema {

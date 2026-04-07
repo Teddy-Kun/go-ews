@@ -12,7 +12,7 @@ type CcRecipients struct {
 }
 
 func (C *CcRecipients) SetForMarshal() {
-	C.XMLName.Local = "t:CcRecipients"
+	C.XMLName.Local = "CcRecipients"
 }
 
 func (C *CcRecipients) GetSchema() *Schema {

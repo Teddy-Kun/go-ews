@@ -17,7 +17,7 @@ const (
 )
 
 func (H *HasLocationChanged) SetForMarshal() {
-	H.XMLName.Local = "t:HasLocationChanged"
+	H.XMLName.Local = "HasLocationChanged"
 }
 
 func (H *HasLocationChanged) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type IndividualAttendeeConflictData struct {
 }
 
 func (I *IndividualAttendeeConflictData) SetForMarshal() {
-	I.XMLName.Local = "t:IndividualAttendeeConflictData"
+	I.XMLName.Local = "IndividualAttendeeConflictData"
 }
 
 func (I *IndividualAttendeeConflictData) GetSchema() *Schema {

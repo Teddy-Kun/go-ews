@@ -10,7 +10,7 @@ type HomePage struct {
 }
 
 func (H *HomePage) SetForMarshal() {
-	H.XMLName.Local = "t:HomePage"
+	H.XMLName.Local = "HomePage"
 }
 
 func (H *HomePage) GetSchema() *Schema {

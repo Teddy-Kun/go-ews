@@ -18,7 +18,7 @@ type PhoneCallInformation struct {
 }
 
 func (P *PhoneCallInformation) SetForMarshal() {
-	P.XMLName.Local = "m:PhoneCallInformation"
+	P.XMLName.Local = "PhoneCallInformation"
 }
 
 func (P *PhoneCallInformation) GetSchema() *Schema {

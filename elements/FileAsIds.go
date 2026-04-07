@@ -12,7 +12,7 @@ type FileAsIds struct {
 }
 
 func (F *FileAsIds) SetForMarshal() {
-	F.XMLName.Local = "t:FileAsIds"
+	F.XMLName.Local = "FileAsIds"
 }
 
 func (F *FileAsIds) GetSchema() *Schema {

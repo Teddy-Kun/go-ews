@@ -14,7 +14,7 @@ type FoldersToIgnore struct {
 }
 
 func (F *FoldersToIgnore) SetForMarshal() {
-	F.XMLName.Local = "t:FoldersToIgnore"
+	F.XMLName.Local = "FoldersToIgnore"
 }
 
 func (F *FoldersToIgnore) GetSchema() *Schema {

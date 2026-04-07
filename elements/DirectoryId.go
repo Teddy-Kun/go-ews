@@ -10,7 +10,7 @@ type DirectoryId struct {
 }
 
 func (D *DirectoryId) SetForMarshal() {
-	D.XMLName.Local = "t:DirectoryId"
+	D.XMLName.Local = "DirectoryId"
 }
 
 func (D *DirectoryId) GetSchema() *Schema {

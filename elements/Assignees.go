@@ -14,7 +14,7 @@ type Assignees struct {
 }
 
 func (A *Assignees) SetForMarshal() {
-	A.XMLName.Local = "t:Assignees"
+	A.XMLName.Local = "Assignees"
 }
 
 func (A *Assignees) GetSchema() *Schema {

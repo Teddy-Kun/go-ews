@@ -14,7 +14,7 @@ type EncryptedSharedFolderData struct {
 }
 
 func (E *EncryptedSharedFolderData) SetForMarshal() {
-	E.XMLName.Local = "t:EncryptedSharedFolderData"
+	E.XMLName.Local = "EncryptedSharedFolderData"
 }
 
 func (E *EncryptedSharedFolderData) GetSchema() *Schema {

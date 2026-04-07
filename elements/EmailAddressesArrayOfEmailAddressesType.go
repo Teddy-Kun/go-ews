@@ -12,7 +12,7 @@ type EmailAddressesArrayOfEmailAddressesType struct {
 }
 
 func (E *EmailAddressesArrayOfEmailAddressesType) SetForMarshal() {
-	E.XMLName.Local = "t:EmailAddresses"
+	E.XMLName.Local = "EmailAddresses"
 }
 
 func (E *EmailAddressesArrayOfEmailAddressesType) GetSchema() *Schema {

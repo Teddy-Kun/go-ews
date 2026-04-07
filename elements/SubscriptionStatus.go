@@ -10,7 +10,7 @@ type SubscriptionStatus struct {
 }
 
 func (S *SubscriptionStatus) SetForMarshal() {
-	S.XMLName.Local = "m:SubscriptionStatus"
+	S.XMLName.Local = "SubscriptionStatus"
 }
 
 func (S *SubscriptionStatus) GetSchema() *Schema {

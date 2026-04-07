@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsRecurringCalendarEventDetails) SetForMarshal() {
-	I.XMLName.Local = "t:IsRecurring"
+	I.XMLName.Local = "IsRecurring"
 }
 
 func (I *IsRecurringCalendarEventDetails) GetSchema() *Schema {

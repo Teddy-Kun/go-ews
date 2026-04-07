@@ -14,7 +14,7 @@ type MailboxSearchScope struct {
 }
 
 func (M *MailboxSearchScope) SetForMarshal() {
-	M.XMLName.Local = "t:MailboxSearchScope"
+	M.XMLName.Local = "MailboxSearchScope"
 }
 
 func (M *MailboxSearchScope) GetSchema() *Schema {

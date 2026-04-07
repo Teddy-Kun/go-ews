@@ -10,7 +10,7 @@ type GroupIndex struct {
 }
 
 func (G *GroupIndex) SetForMarshal() {
-	G.XMLName.Local = "t:GroupIndex"
+	G.XMLName.Local = "GroupIndex"
 }
 
 func (G *GroupIndex) GetSchema() *Schema {

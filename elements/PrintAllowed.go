@@ -17,7 +17,7 @@ const (
 )
 
 func (P *PrintAllowed) SetForMarshal() {
-	P.XMLName.Local = "t:PrintAllowed"
+	P.XMLName.Local = "PrintAllowed"
 }
 
 func (P *PrintAllowed) GetSchema() *Schema {

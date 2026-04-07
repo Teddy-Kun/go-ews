@@ -12,7 +12,7 @@ type ArchiveItemResponse struct {
 }
 
 func (A *ArchiveItemResponse) SetForMarshal() {
-	A.XMLName.Local = "m:ArchiveItemResponse"
+	A.XMLName.Local = "ArchiveItemResponse"
 }
 
 func (A *ArchiveItemResponse) GetSchema() *Schema {

@@ -21,7 +21,7 @@ const (
 )
 
 func (M *MinimumSuggestionQuality) SetForMarshal() {
-	M.XMLName.Local = "t:MinimumSuggestionQuality"
+	M.XMLName.Local = "MinimumSuggestionQuality"
 }
 
 func (M *MinimumSuggestionQuality) GetSchema() *Schema {

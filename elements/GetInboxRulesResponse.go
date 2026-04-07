@@ -24,7 +24,7 @@ type GetInboxRulesResponse struct {
 }
 
 func (G *GetInboxRulesResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetInboxRulesResponse"
+	G.XMLName.Local = "GetInboxRulesResponse"
 }
 
 func (G *GetInboxRulesResponse) GetSchema() *Schema {

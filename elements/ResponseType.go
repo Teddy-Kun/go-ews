@@ -10,7 +10,7 @@ type ResponseType struct {
 }
 
 func (R *ResponseType) SetForMarshal() {
-	R.XMLName.Local = "t:ResponseType"
+	R.XMLName.Local = "ResponseType"
 }
 
 func (R *ResponseType) GetSchema() *Schema {

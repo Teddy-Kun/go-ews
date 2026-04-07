@@ -14,7 +14,7 @@ type Resolution struct {
 }
 
 func (R *Resolution) SetForMarshal() {
-	R.XMLName.Local = "t:Resolution"
+	R.XMLName.Local = "Resolution"
 }
 
 func (R *Resolution) GetSchema() *Schema {

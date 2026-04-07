@@ -34,7 +34,7 @@ type SearchFolder struct {
 }
 
 func (S *SearchFolder) SetForMarshal() {
-	S.XMLName.Local = "t:SearchFolder"
+	S.XMLName.Local = "SearchFolder"
 }
 
 func (S *SearchFolder) GetSchema() *Schema {

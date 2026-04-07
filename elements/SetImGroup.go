@@ -14,7 +14,7 @@ type SetImGroup struct {
 }
 
 func (S *SetImGroup) SetForMarshal() {
-	S.XMLName.Local = "m:SetImGroup"
+	S.XMLName.Local = "SetImGroup"
 }
 
 func (S *SetImGroup) GetSchema() *Schema {

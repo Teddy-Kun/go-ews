@@ -12,7 +12,7 @@ type PhysicalAddresses struct {
 }
 
 func (P *PhysicalAddresses) SetForMarshal() {
-	P.XMLName.Local = "t:PhysicalAddresses"
+	P.XMLName.Local = "PhysicalAddresses"
 }
 
 func (P *PhysicalAddresses) GetSchema() *Schema {

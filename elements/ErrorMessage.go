@@ -10,7 +10,7 @@ type ErrorMessage struct {
 }
 
 func (E *ErrorMessage) SetForMarshal() {
-	E.XMLName.Local = "m:ErrorMessage"
+	E.XMLName.Local = "ErrorMessage"
 }
 
 func (E *ErrorMessage) GetSchema() *Schema {

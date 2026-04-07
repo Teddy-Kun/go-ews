@@ -12,7 +12,7 @@ type UserRoles struct {
 }
 
 func (U *UserRoles) SetForMarshal() {
-	U.XMLName.Local = "t:UserRoles"
+	U.XMLName.Local = "UserRoles"
 }
 
 func (U *UserRoles) GetSchema() *Schema {

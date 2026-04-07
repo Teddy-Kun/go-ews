@@ -14,7 +14,7 @@ type TimeWindow struct {
 }
 
 func (T *TimeWindow) SetForMarshal() {
-	T.XMLName.Local = "t:TimeWindow"
+	T.XMLName.Local = "TimeWindow"
 }
 
 func (T *TimeWindow) GetSchema() *Schema {

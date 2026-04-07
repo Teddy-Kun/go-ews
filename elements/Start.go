@@ -2,9 +2,10 @@ package elements
 
 // The Start element represents the start of a duration.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/start
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type Start struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type Start struct {
 }
 
 func (S *Start) SetForMarshal() {
-	S.XMLName.Local = "t:Start"
+	S.XMLName.Local = "Start"
 }
 
 func (S *Start) GetSchema() *Schema {

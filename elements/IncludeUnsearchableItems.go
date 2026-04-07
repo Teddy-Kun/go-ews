@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IncludeUnsearchableItems) SetForMarshal() {
-	I.XMLName.Local = "m:IncludeUnsearchableItems"
+	I.XMLName.Local = "IncludeUnsearchableItems"
 }
 
 func (I *IncludeUnsearchableItems) GetSchema() *Schema {

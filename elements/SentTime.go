@@ -2,9 +2,10 @@ package elements
 
 // The SentTime element specifies the time at which the item was sent.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/senttime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type SentTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type SentTime struct {
 }
 
 func (S *SentTime) SetForMarshal() {
-	S.XMLName.Local = "t:SentTime"
+	S.XMLName.Local = "SentTime"
 }
 
 func (S *SentTime) GetSchema() *Schema {

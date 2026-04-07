@@ -10,7 +10,7 @@ type Altitude struct {
 }
 
 func (A *Altitude) SetForMarshal() {
-	A.XMLName.Local = "t:Altitude"
+	A.XMLName.Local = "Altitude"
 }
 
 func (A *Altitude) GetSchema() *Schema {

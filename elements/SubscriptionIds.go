@@ -12,7 +12,7 @@ type SubscriptionIds struct {
 }
 
 func (S *SubscriptionIds) SetForMarshal() {
-	S.XMLName.Local = "m:SubscriptionIds"
+	S.XMLName.Local = "SubscriptionIds"
 }
 
 func (S *SubscriptionIds) GetSchema() *Schema {

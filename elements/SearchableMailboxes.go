@@ -12,7 +12,7 @@ type SearchableMailboxes struct {
 }
 
 func (S *SearchableMailboxes) SetForMarshal() {
-	S.XMLName.Local = "m:SearchableMailboxes"
+	S.XMLName.Local = "SearchableMailboxes"
 }
 
 func (S *SearchableMailboxes) GetSchema() *Schema {

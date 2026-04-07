@@ -14,7 +14,7 @@ type PlayOnPhoneExchangeWebServices struct {
 }
 
 func (P *PlayOnPhoneExchangeWebServices) SetForMarshal() {
-	P.XMLName.Local = "m:PlayOnPhone"
+	P.XMLName.Local = "PlayOnPhone"
 }
 
 func (P *PlayOnPhoneExchangeWebServices) GetSchema() *Schema {

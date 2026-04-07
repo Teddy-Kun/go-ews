@@ -20,7 +20,7 @@ type DeleteItemResponseMessage struct {
 }
 
 func (D *DeleteItemResponseMessage) SetForMarshal() {
-	D.XMLName.Local = "m:DeleteItemResponseMessage"
+	D.XMLName.Local = "DeleteItemResponseMessage"
 }
 
 func (D *DeleteItemResponseMessage) GetSchema() *Schema {

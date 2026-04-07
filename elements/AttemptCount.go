@@ -10,7 +10,7 @@ type AttemptCount struct {
 }
 
 func (A *AttemptCount) SetForMarshal() {
-	A.XMLName.Local = "t:AttemptCount"
+	A.XMLName.Local = "AttemptCount"
 }
 
 func (A *AttemptCount) GetSchema() *Schema {

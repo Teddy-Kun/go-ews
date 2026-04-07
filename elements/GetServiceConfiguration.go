@@ -14,7 +14,7 @@ type GetServiceConfiguration struct {
 }
 
 func (G *GetServiceConfiguration) SetForMarshal() {
-	G.XMLName.Local = "m:GetServiceConfiguration"
+	G.XMLName.Local = "GetServiceConfiguration"
 }
 
 func (G *GetServiceConfiguration) GetSchema() *Schema {

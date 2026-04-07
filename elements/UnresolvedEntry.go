@@ -10,7 +10,7 @@ type UnresolvedEntry struct {
 }
 
 func (U *UnresolvedEntry) SetForMarshal() {
-	U.XMLName.Local = "m:UnresolvedEntry"
+	U.XMLName.Local = "UnresolvedEntry"
 }
 
 func (U *UnresolvedEntry) GetSchema() *Schema {

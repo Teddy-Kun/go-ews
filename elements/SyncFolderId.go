@@ -14,7 +14,7 @@ type SyncFolderId struct {
 }
 
 func (S *SyncFolderId) SetForMarshal() {
-	S.XMLName.Local = "m:SyncFolderId"
+	S.XMLName.Local = "SyncFolderId"
 }
 
 func (S *SyncFolderId) GetSchema() *Schema {

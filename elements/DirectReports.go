@@ -12,7 +12,7 @@ type DirectReports struct {
 }
 
 func (D *DirectReports) SetForMarshal() {
-	D.XMLName.Local = "t:DirectReports"
+	D.XMLName.Local = "DirectReports"
 }
 
 func (D *DirectReports) GetSchema() *Schema {

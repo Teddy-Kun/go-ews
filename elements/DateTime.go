@@ -2,9 +2,10 @@ package elements
 
 // The DateTime element represents the date and time at which the time zone transition occurs.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/datetime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type DateTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type DateTime struct {
 }
 
 func (D *DateTime) SetForMarshal() {
-	D.XMLName.Local = "t:DateTime"
+	D.XMLName.Local = "DateTime"
 }
 
 func (D *DateTime) GetSchema() *Schema {

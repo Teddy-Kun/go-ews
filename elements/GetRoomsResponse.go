@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetRoomsResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetRoomsResponse"
+	G.XMLName.Local = "GetRoomsResponse"
 }
 
 func (G *GetRoomsResponse) GetSchema() *Schema {

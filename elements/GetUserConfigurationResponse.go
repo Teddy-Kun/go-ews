@@ -12,7 +12,7 @@ type GetUserConfigurationResponse struct {
 }
 
 func (G *GetUserConfigurationResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetUserConfigurationResponse"
+	G.XMLName.Local = "GetUserConfigurationResponse"
 }
 
 func (G *GetUserConfigurationResponse) GetSchema() *Schema {

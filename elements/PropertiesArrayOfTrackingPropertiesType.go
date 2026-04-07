@@ -12,7 +12,7 @@ type PropertiesArrayOfTrackingPropertiesType struct {
 }
 
 func (P *PropertiesArrayOfTrackingPropertiesType) SetForMarshal() {
-	P.XMLName.Local = "m:Properties"
+	P.XMLName.Local = "Properties"
 }
 
 func (P *PropertiesArrayOfTrackingPropertiesType) GetSchema() *Schema {

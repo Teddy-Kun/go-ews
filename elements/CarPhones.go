@@ -14,7 +14,7 @@ type CarPhones struct {
 }
 
 func (C *CarPhones) SetForMarshal() {
-	C.XMLName.Local = "t:CarPhones"
+	C.XMLName.Local = "CarPhones"
 }
 
 func (C *CarPhones) GetSchema() *Schema {

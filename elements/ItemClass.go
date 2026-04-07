@@ -10,7 +10,7 @@ type ItemClass struct {
 }
 
 func (I *ItemClass) SetForMarshal() {
-	I.XMLName.Local = "t:ItemClass"
+	I.XMLName.Local = "ItemClass"
 }
 
 func (I *ItemClass) GetSchema() *Schema {

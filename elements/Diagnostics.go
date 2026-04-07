@@ -12,7 +12,7 @@ type Diagnostics struct {
 }
 
 func (D *Diagnostics) SetForMarshal() {
-	D.XMLName.Local = "m:Diagnostics"
+	D.XMLName.Local = "Diagnostics"
 }
 
 func (D *Diagnostics) GetSchema() *Schema {

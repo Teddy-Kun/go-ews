@@ -31,7 +31,7 @@ const (
 )
 
 func (C *ConvertIdResponseMessage) SetForMarshal() {
-	C.XMLName.Local = "m:ConvertIdResponseMessage"
+	C.XMLName.Local = "ConvertIdResponseMessage"
 }
 
 func (C *ConvertIdResponseMessage) GetSchema() *Schema {

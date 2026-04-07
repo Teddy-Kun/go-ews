@@ -31,7 +31,7 @@ const (
 )
 
 func (C *CreateAttachmentResponseMessage) SetForMarshal() {
-	C.XMLName.Local = "m:CreateAttachmentResponseMessage"
+	C.XMLName.Local = "CreateAttachmentResponseMessage"
 }
 
 func (C *CreateAttachmentResponseMessage) GetSchema() *Schema {

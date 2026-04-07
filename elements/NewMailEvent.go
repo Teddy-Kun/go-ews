@@ -18,7 +18,7 @@ type NewMailEvent struct {
 }
 
 func (N *NewMailEvent) SetForMarshal() {
-	N.XMLName.Local = "t:NewMailEvent"
+	N.XMLName.Local = "NewMailEvent"
 }
 
 func (N *NewMailEvent) GetSchema() *Schema {

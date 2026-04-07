@@ -14,7 +14,7 @@ type DictionaryKey struct {
 }
 
 func (D *DictionaryKey) SetForMarshal() {
-	D.XMLName.Local = "t:DictionaryKey"
+	D.XMLName.Local = "DictionaryKey"
 }
 
 func (D *DictionaryKey) GetSchema() *Schema {

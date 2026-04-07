@@ -10,7 +10,7 @@ type Delegator struct {
 }
 
 func (D *Delegator) SetForMarshal() {
-	D.XMLName.Local = "t:Delegator"
+	D.XMLName.Local = "Delegator"
 }
 
 func (D *Delegator) GetSchema() *Schema {

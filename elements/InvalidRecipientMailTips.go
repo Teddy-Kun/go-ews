@@ -17,7 +17,7 @@ const (
 )
 
 func (I *InvalidRecipientMailTips) SetForMarshal() {
-	I.XMLName.Local = "t:InvalidRecipient"
+	I.XMLName.Local = "InvalidRecipient"
 }
 
 func (I *InvalidRecipientMailTips) GetSchema() *Schema {

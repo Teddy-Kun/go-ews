@@ -10,7 +10,7 @@ type IsNotSupported struct {
 }
 
 func (I *IsNotSupported) SetForMarshal() {
-	I.XMLName.Local = "m:IsNotSupported"
+	I.XMLName.Local = "IsNotSupported"
 }
 
 func (I *IsNotSupported) GetSchema() *Schema {

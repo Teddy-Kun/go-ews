@@ -10,7 +10,7 @@ type DisplayCc struct {
 }
 
 func (D *DisplayCc) SetForMarshal() {
-	D.XMLName.Local = "t:DisplayCc"
+	D.XMLName.Local = "DisplayCc"
 }
 
 func (D *DisplayCc) GetSchema() *Schema {

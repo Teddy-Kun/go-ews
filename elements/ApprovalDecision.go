@@ -17,7 +17,7 @@ const (
 )
 
 func (A *ApprovalDecision) SetForMarshal() {
-	A.XMLName.Local = "t:ApprovalDecision"
+	A.XMLName.Local = "ApprovalDecision"
 }
 
 func (A *ApprovalDecision) GetSchema() *Schema {

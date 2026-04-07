@@ -20,7 +20,7 @@ type AddDelegateResponse struct {
 }
 
 func (A *AddDelegateResponse) SetForMarshal() {
-	A.XMLName.Local = "m:AddDelegateResponse"
+	A.XMLName.Local = "AddDelegateResponse"
 }
 
 func (A *AddDelegateResponse) GetSchema() *Schema {

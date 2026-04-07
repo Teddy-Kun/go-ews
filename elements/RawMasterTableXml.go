@@ -10,7 +10,7 @@ type RawMasterTableXml struct {
 }
 
 func (R *RawMasterTableXml) SetForMarshal() {
-	R.XMLName.Local = "m:RawMasterTableXml"
+	R.XMLName.Local = "RawMasterTableXml"
 }
 
 func (R *RawMasterTableXml) GetSchema() *Schema {

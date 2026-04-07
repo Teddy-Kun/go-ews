@@ -18,7 +18,7 @@ type ApprovalRequestData struct {
 }
 
 func (A *ApprovalRequestData) SetForMarshal() {
-	A.XMLName.Local = "t:ApprovalRequestData"
+	A.XMLName.Local = "ApprovalRequestData"
 }
 
 func (A *ApprovalRequestData) GetSchema() *Schema {

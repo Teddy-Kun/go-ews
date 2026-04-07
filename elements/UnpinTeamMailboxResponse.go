@@ -18,7 +18,7 @@ type UnpinTeamMailboxResponse struct {
 }
 
 func (U *UnpinTeamMailboxResponse) SetForMarshal() {
-	U.XMLName.Local = "m:UnpinTeamMailboxResponse"
+	U.XMLName.Local = "UnpinTeamMailboxResponse"
 }
 
 func (U *UnpinTeamMailboxResponse) GetSchema() *Schema {

@@ -37,7 +37,7 @@ const (
 )
 
 func (S *SearchItemKind) SetForMarshal() {
-	S.XMLName.Local = "t:SearchItemKind"
+	S.XMLName.Local = "SearchItemKind"
 }
 
 func (S *SearchItemKind) GetSchema() *Schema {

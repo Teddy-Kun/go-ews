@@ -22,7 +22,7 @@ type DLExpansion struct {
 }
 
 func (D *DLExpansion) SetForMarshal() {
-	D.XMLName.Local = "t:DLExpansion"
+	D.XMLName.Local = "DLExpansion"
 }
 
 func (D *DLExpansion) GetSchema() *Schema {

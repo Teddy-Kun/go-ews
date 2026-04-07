@@ -10,7 +10,7 @@ type SharePointSiteUrl struct {
 }
 
 func (S *SharePointSiteUrl) SetForMarshal() {
-	S.XMLName.Local = "m:SharePointSiteUrl"
+	S.XMLName.Local = "SharePointSiteUrl"
 }
 
 func (S *SharePointSiteUrl) GetSchema() *Schema {

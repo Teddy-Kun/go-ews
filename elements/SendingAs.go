@@ -20,7 +20,7 @@ type SendingAs struct {
 }
 
 func (S *SendingAs) SetForMarshal() {
-	S.XMLName.Local = "m:SendingAs"
+	S.XMLName.Local = "SendingAs"
 }
 
 func (S *SendingAs) GetSchema() *Schema {

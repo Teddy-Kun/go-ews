@@ -18,7 +18,7 @@ type FirstOccurrence struct {
 }
 
 func (F *FirstOccurrence) SetForMarshal() {
-	F.XMLName.Local = "t:FirstOccurrence"
+	F.XMLName.Local = "FirstOccurrence"
 }
 
 func (F *FirstOccurrence) GetSchema() *Schema {

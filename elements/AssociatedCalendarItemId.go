@@ -14,7 +14,7 @@ type AssociatedCalendarItemId struct {
 }
 
 func (A *AssociatedCalendarItemId) SetForMarshal() {
-	A.XMLName.Local = "t:AssociatedCalendarItemId"
+	A.XMLName.Local = "AssociatedCalendarItemId"
 }
 
 func (A *AssociatedCalendarItemId) GetSchema() *Schema {

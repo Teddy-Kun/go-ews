@@ -10,7 +10,7 @@ type IsCancelled struct {
 }
 
 func (I *IsCancelled) SetForMarshal() {
-	I.XMLName.Local = "t:IsCancelled"
+	I.XMLName.Local = "IsCancelled"
 }
 
 func (I *IsCancelled) GetSchema() *Schema {

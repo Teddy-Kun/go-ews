@@ -10,7 +10,7 @@ type IsRecurring struct {
 }
 
 func (I *IsRecurring) SetForMarshal() {
-	I.XMLName.Local = "t:IsRecurring"
+	I.XMLName.Local = "IsRecurring"
 }
 
 func (I *IsRecurring) GetSchema() *Schema {

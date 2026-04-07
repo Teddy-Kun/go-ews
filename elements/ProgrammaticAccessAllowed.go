@@ -17,7 +17,7 @@ const (
 )
 
 func (P *ProgrammaticAccessAllowed) SetForMarshal() {
-	P.XMLName.Local = "t:ProgrammaticAccessAllowed"
+	P.XMLName.Local = "ProgrammaticAccessAllowed"
 }
 
 func (P *ProgrammaticAccessAllowed) GetSchema() *Schema {

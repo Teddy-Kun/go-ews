@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReplyAllAllowed) SetForMarshal() {
-	R.XMLName.Local = "t:ReplyAllAllowed"
+	R.XMLName.Local = "ReplyAllAllowed"
 }
 
 func (R *ReplyAllAllowed) GetSchema() *Schema {

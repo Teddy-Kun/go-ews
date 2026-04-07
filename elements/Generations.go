@@ -12,7 +12,7 @@ type Generations struct {
 }
 
 func (G *Generations) SetForMarshal() {
-	G.XMLName.Local = "t:Generations"
+	G.XMLName.Local = "Generations"
 }
 
 func (G *Generations) GetSchema() *Schema {

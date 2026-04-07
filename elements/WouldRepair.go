@@ -10,7 +10,7 @@ type WouldRepair struct {
 }
 
 func (W *WouldRepair) SetForMarshal() {
-	W.XMLName.Local = "t:WouldRepair"
+	W.XMLName.Local = "WouldRepair"
 }
 
 func (W *WouldRepair) GetSchema() *Schema {

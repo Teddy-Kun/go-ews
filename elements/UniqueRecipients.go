@@ -12,7 +12,7 @@ type UniqueRecipients struct {
 }
 
 func (U *UniqueRecipients) SetForMarshal() {
-	U.XMLName.Local = "m:UniqueRecipients"
+	U.XMLName.Local = "UniqueRecipients"
 }
 
 func (U *UniqueRecipients) GetSchema() *Schema {

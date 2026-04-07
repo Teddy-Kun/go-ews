@@ -10,7 +10,7 @@ type Year struct {
 }
 
 func (Y *Year) SetForMarshal() {
-	Y.XMLName.Local = "t:Year"
+	Y.XMLName.Local = "Year"
 }
 
 func (Y *Year) GetSchema() *Schema {

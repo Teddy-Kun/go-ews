@@ -16,7 +16,7 @@ type InvalidRecipient struct {
 }
 
 func (I *InvalidRecipient) SetForMarshal() {
-	I.XMLName.Local = "t:InvalidRecipient"
+	I.XMLName.Local = "InvalidRecipient"
 }
 
 func (I *InvalidRecipient) GetSchema() *Schema {

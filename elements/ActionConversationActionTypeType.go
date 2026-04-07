@@ -37,7 +37,7 @@ const (
 )
 
 func (A *ActionConversationActionTypeType) SetForMarshal() {
-	A.XMLName.Local = "t:Action"
+	A.XMLName.Local = "Action"
 }
 
 func (A *ActionConversationActionTypeType) GetSchema() *Schema {

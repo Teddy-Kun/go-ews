@@ -10,7 +10,7 @@ type FileAsHeader struct {
 }
 
 func (F *FileAsHeader) SetForMarshal() {
-	F.XMLName.Local = "t:FileAsHeader"
+	F.XMLName.Local = "FileAsHeader"
 }
 
 func (F *FileAsHeader) GetSchema() *Schema {

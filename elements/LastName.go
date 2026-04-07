@@ -10,7 +10,7 @@ type LastName struct {
 }
 
 func (L *LastName) SetForMarshal() {
-	L.XMLName.Local = "t:LastName"
+	L.XMLName.Local = "LastName"
 }
 
 func (L *LastName) GetSchema() *Schema {

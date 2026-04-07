@@ -24,7 +24,7 @@ type EffectiveRights struct {
 }
 
 func (E *EffectiveRights) SetForMarshal() {
-	E.XMLName.Local = "t:EffectiveRights"
+	E.XMLName.Local = "EffectiveRights"
 }
 
 func (E *EffectiveRights) GetSchema() *Schema {

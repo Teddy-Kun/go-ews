@@ -12,7 +12,7 @@ type ItemIdsNonEmptyArrayOfItemIdsType struct {
 }
 
 func (I *ItemIdsNonEmptyArrayOfItemIdsType) SetForMarshal() {
-	I.XMLName.Local = "m:ItemIds"
+	I.XMLName.Local = "ItemIds"
 }
 
 func (I *ItemIdsNonEmptyArrayOfItemIdsType) GetSchema() *Schema {

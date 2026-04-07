@@ -10,7 +10,7 @@ type TimeZoneItem struct {
 }
 
 func (T *TimeZoneItem) SetForMarshal() {
-	T.XMLName.Local = "t:TimeZone"
+	T.XMLName.Local = "TimeZone"
 }
 
 func (T *TimeZoneItem) GetSchema() *Schema {

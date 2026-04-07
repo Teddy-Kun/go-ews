@@ -12,7 +12,7 @@ type AttachmentIds struct {
 }
 
 func (A *AttachmentIds) SetForMarshal() {
-	A.XMLName.Local = "m:AttachmentIds"
+	A.XMLName.Local = "AttachmentIds"
 }
 
 func (A *AttachmentIds) GetSchema() *Schema {

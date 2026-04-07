@@ -12,7 +12,7 @@ type MailboxesArrayOfStringsType struct {
 }
 
 func (M *MailboxesArrayOfStringsType) SetForMarshal() {
-	M.XMLName.Local = "m:Mailboxes"
+	M.XMLName.Local = "Mailboxes"
 }
 
 func (M *MailboxesArrayOfStringsType) GetSchema() *Schema {

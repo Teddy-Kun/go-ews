@@ -12,7 +12,7 @@ type Attendees struct {
 }
 
 func (A *Attendees) SetForMarshal() {
-	A.XMLName.Local = "t:Attendees"
+	A.XMLName.Local = "Attendees"
 }
 
 func (A *Attendees) GetSchema() *Schema {

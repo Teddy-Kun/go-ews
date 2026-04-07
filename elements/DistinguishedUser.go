@@ -17,7 +17,7 @@ const (
 )
 
 func (D *DistinguishedUser) SetForMarshal() {
-	D.XMLName.Local = "t:DistinguishedUser"
+	D.XMLName.Local = "DistinguishedUser"
 }
 
 func (D *DistinguishedUser) GetSchema() *Schema {

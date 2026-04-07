@@ -32,7 +32,7 @@ type CalendarFolder struct {
 }
 
 func (C *CalendarFolder) SetForMarshal() {
-	C.XMLName.Local = "t:CalendarFolder"
+	C.XMLName.Local = "CalendarFolder"
 }
 
 func (C *CalendarFolder) GetSchema() *Schema {

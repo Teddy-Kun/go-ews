@@ -12,7 +12,7 @@ type DisconnectPhoneCall struct {
 }
 
 func (D *DisconnectPhoneCall) SetForMarshal() {
-	D.XMLName.Local = "m:DisconnectPhoneCall"
+	D.XMLName.Local = "DisconnectPhoneCall"
 }
 
 func (D *DisconnectPhoneCall) GetSchema() *Schema {

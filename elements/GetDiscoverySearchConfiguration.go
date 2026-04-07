@@ -14,7 +14,7 @@ type GetDiscoverySearchConfiguration struct {
 }
 
 func (G *GetDiscoverySearchConfiguration) SetForMarshal() {
-	G.XMLName.Local = "m:GetDiscoverySearchConfiguration"
+	G.XMLName.Local = "GetDiscoverySearchConfiguration"
 }
 
 func (G *GetDiscoverySearchConfiguration) GetSchema() *Schema {

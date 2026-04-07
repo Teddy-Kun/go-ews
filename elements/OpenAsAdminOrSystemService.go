@@ -12,7 +12,7 @@ type OpenAsAdminOrSystemService struct {
 }
 
 func (O *OpenAsAdminOrSystemService) SetForMarshal() {
-	O.XMLName.Local = "t:OpenAsAdminOrSystemService"
+	O.XMLName.Local = "OpenAsAdminOrSystemService"
 }
 
 func (O *OpenAsAdminOrSystemService) GetSchema() *Schema {

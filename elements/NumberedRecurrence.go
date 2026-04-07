@@ -14,7 +14,7 @@ type NumberedRecurrence struct {
 }
 
 func (N *NumberedRecurrence) SetForMarshal() {
-	N.XMLName.Local = "t:NumberedRecurrence"
+	N.XMLName.Local = "NumberedRecurrence"
 }
 
 func (N *NumberedRecurrence) GetSchema() *Schema {

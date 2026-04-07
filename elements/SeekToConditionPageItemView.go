@@ -16,7 +16,7 @@ type SeekToConditionPageItemView struct {
 }
 
 func (S *SeekToConditionPageItemView) SetForMarshal() {
-	S.XMLName.Local = "m:SeekToConditionPageItemView"
+	S.XMLName.Local = "SeekToConditionPageItemView"
 }
 
 func (S *SeekToConditionPageItemView) GetSchema() *Schema {

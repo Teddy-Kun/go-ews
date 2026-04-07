@@ -12,7 +12,7 @@ type ServerReplyWithMessage struct {
 }
 
 func (S *ServerReplyWithMessage) SetForMarshal() {
-	S.XMLName.Local = "m:ServerReplyWithMessage"
+	S.XMLName.Local = "ServerReplyWithMessage"
 }
 
 func (S *ServerReplyWithMessage) GetSchema() *Schema {

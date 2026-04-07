@@ -16,7 +16,7 @@ type RelativeYearlyRecurrence struct {
 }
 
 func (R *RelativeYearlyRecurrence) SetForMarshal() {
-	R.XMLName.Local = "t:RelativeYearlyRecurrence"
+	R.XMLName.Local = "RelativeYearlyRecurrence"
 }
 
 func (R *RelativeYearlyRecurrence) GetSchema() *Schema {

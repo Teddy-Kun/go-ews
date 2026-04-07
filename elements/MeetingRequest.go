@@ -218,7 +218,7 @@ type MeetingRequest struct {
 }
 
 func (M *MeetingRequest) SetForMarshal() {
-	M.XMLName.Local = "t:MeetingRequest"
+	M.XMLName.Local = "MeetingRequest"
 }
 
 func (M *MeetingRequest) GetSchema() *Schema {

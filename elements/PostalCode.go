@@ -10,7 +10,7 @@ type PostalCode struct {
 }
 
 func (P *PostalCode) SetForMarshal() {
-	P.XMLName.Local = "t:PostalCode"
+	P.XMLName.Local = "PostalCode"
 }
 
 func (P *PostalCode) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type DayOfWeekWorkingPeriod struct {
 }
 
 func (D *DayOfWeekWorkingPeriod) SetForMarshal() {
-	D.XMLName.Local = "t:DayOfWeek"
+	D.XMLName.Local = "DayOfWeek"
 }
 
 func (D *DayOfWeekWorkingPeriod) GetSchema() *Schema {

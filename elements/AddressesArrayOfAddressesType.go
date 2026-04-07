@@ -12,7 +12,7 @@ type AddressesArrayOfAddressesType struct {
 }
 
 func (A *AddressesArrayOfAddressesType) SetForMarshal() {
-	A.XMLName.Local = "t:Addresses"
+	A.XMLName.Local = "Addresses"
 }
 
 func (A *AddressesArrayOfAddressesType) GetSchema() *Schema {

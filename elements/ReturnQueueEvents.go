@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReturnQueueEvents) SetForMarshal() {
-	R.XMLName.Local = "m:ReturnQueueEvents"
+	R.XMLName.Local = "ReturnQueueEvents"
 }
 
 func (R *ReturnQueueEvents) GetSchema() *Schema {

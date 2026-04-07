@@ -20,7 +20,7 @@ type AndProtectionRuleAndType struct {
 }
 
 func (A *AndProtectionRuleAndType) SetForMarshal() {
-	A.XMLName.Local = "t:And"
+	A.XMLName.Local = "And"
 }
 
 func (A *AndProtectionRuleAndType) GetSchema() *Schema {

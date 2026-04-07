@@ -25,7 +25,7 @@ const (
 )
 
 func (S *SuggestionQuality) SetForMarshal() {
-	S.XMLName.Local = "t:SuggestionQuality"
+	S.XMLName.Local = "SuggestionQuality"
 }
 
 func (S *SuggestionQuality) GetSchema() *Schema {

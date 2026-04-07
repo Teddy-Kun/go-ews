@@ -16,7 +16,7 @@ type StreamingSubscriptionRequest struct {
 }
 
 func (S *StreamingSubscriptionRequest) SetForMarshal() {
-	S.XMLName.Local = "m:StreamingSubscriptionRequest"
+	S.XMLName.Local = "StreamingSubscriptionRequest"
 }
 
 func (S *StreamingSubscriptionRequest) GetSchema() *Schema {

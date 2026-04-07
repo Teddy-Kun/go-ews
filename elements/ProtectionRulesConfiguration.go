@@ -16,7 +16,7 @@ type ProtectionRulesConfiguration struct {
 }
 
 func (P *ProtectionRulesConfiguration) SetForMarshal() {
-	P.XMLName.Local = "m:ProtectionRulesConfiguration"
+	P.XMLName.Local = "ProtectionRulesConfiguration"
 }
 
 func (P *ProtectionRulesConfiguration) GetSchema() *Schema {

@@ -14,7 +14,7 @@ type Offset struct {
 }
 
 func (O *Offset) SetForMarshal() {
-	O.XMLName.Local = "t:Offset"
+	O.XMLName.Local = "Offset"
 }
 
 func (O *Offset) GetSchema() *Schema {

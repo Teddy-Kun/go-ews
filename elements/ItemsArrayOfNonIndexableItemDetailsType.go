@@ -12,7 +12,7 @@ type ItemsArrayOfNonIndexableItemDetailsType struct {
 }
 
 func (I *ItemsArrayOfNonIndexableItemDetailsType) SetForMarshal() {
-	I.XMLName.Local = "t:Items"
+	I.XMLName.Local = "Items"
 }
 
 func (I *ItemsArrayOfNonIndexableItemDetailsType) GetSchema() *Schema {

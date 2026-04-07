@@ -16,7 +16,7 @@ type UpdatesFolder struct {
 }
 
 func (U *UpdatesFolder) SetForMarshal() {
-	U.XMLName.Local = "t:Updates"
+	U.XMLName.Local = "Updates"
 }
 
 func (U *UpdatesFolder) GetSchema() *Schema {

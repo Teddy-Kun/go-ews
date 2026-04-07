@@ -34,7 +34,7 @@ type ClientExtension struct {
 }
 
 func (C *ClientExtension) SetForMarshal() {
-	C.XMLName.Local = "t:ClientExtension"
+	C.XMLName.Local = "ClientExtension"
 }
 
 func (C *ClientExtension) GetSchema() *Schema {

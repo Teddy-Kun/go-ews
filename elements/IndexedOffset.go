@@ -10,7 +10,7 @@ type IndexedOffset struct {
 }
 
 func (I *IndexedOffset) SetForMarshal() {
-	I.XMLName.Local = "m:IndexedOffset"
+	I.XMLName.Local = "IndexedOffset"
 }
 
 func (I *IndexedOffset) GetSchema() *Schema {

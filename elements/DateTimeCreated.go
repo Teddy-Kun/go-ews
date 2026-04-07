@@ -2,9 +2,10 @@ package elements
 
 // The DateTimeCreated element represents the date and time that an item in the mailbox was created.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/datetimecreated
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type DateTimeCreated struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type DateTimeCreated struct {
 }
 
 func (D *DateTimeCreated) SetForMarshal() {
-	D.XMLName.Local = "t:DateTimeCreated"
+	D.XMLName.Local = "DateTimeCreated"
 }
 
 func (D *DateTimeCreated) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type PolicyTag struct {
 }
 
 func (P *PolicyTag) SetForMarshal() {
-	P.XMLName.Local = "t:PolicyTag"
+	P.XMLName.Local = "PolicyTag"
 }
 
 func (P *PolicyTag) GetSchema() *Schema {

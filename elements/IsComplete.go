@@ -10,7 +10,7 @@ type IsComplete struct {
 }
 
 func (I *IsComplete) SetForMarshal() {
-	I.XMLName.Local = "t:IsComplete"
+	I.XMLName.Local = "IsComplete"
 }
 
 func (I *IsComplete) GetSchema() *Schema {

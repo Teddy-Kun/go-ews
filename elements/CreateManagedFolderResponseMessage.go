@@ -31,7 +31,7 @@ const (
 )
 
 func (C *CreateManagedFolderResponseMessage) SetForMarshal() {
-	C.XMLName.Local = "m:CreateManagedFolderResponseMessage"
+	C.XMLName.Local = "CreateManagedFolderResponseMessage"
 }
 
 func (C *CreateManagedFolderResponseMessage) GetSchema() *Schema {

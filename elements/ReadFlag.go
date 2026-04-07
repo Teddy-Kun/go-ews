@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReadFlag) SetForMarshal() {
-	R.XMLName.Local = "m:ReadFlag"
+	R.XMLName.Local = "ReadFlag"
 }
 
 func (R *ReadFlag) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type DisplayNameLastFirst struct {
 }
 
 func (D *DisplayNameLastFirst) SetForMarshal() {
-	D.XMLName.Local = "t:DisplayNameLastFirst"
+	D.XMLName.Local = "DisplayNameLastFirst"
 }
 
 func (D *DisplayNameLastFirst) GetSchema() *Schema {

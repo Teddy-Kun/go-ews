@@ -12,7 +12,7 @@ type Room struct {
 }
 
 func (R *Room) SetForMarshal() {
-	R.XMLName.Local = "t:Room"
+	R.XMLName.Local = "Room"
 }
 
 func (R *Room) GetSchema() *Schema {

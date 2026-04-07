@@ -10,7 +10,7 @@ type PercentComplete struct {
 }
 
 func (P *PercentComplete) SetForMarshal() {
-	P.XMLName.Local = "t:PercentComplete"
+	P.XMLName.Local = "PercentComplete"
 }
 
 func (P *PercentComplete) GetSchema() *Schema {

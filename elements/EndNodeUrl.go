@@ -10,7 +10,7 @@ type EndNodeUrl struct {
 }
 
 func (E *EndNodeUrl) SetForMarshal() {
-	E.XMLName.Local = "t:EndNodeUrl"
+	E.XMLName.Local = "EndNodeUrl"
 }
 
 func (E *EndNodeUrl) GetSchema() *Schema {

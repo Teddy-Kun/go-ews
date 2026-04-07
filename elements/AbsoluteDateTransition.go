@@ -18,7 +18,7 @@ type AbsoluteDateTransition struct {
 }
 
 func (A *AbsoluteDateTransition) SetForMarshal() {
-	A.XMLName.Local = "t:AbsoluteDateTransition"
+	A.XMLName.Local = "AbsoluteDateTransition"
 }
 
 func (A *AbsoluteDateTransition) GetSchema() *Schema {

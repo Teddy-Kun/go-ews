@@ -78,7 +78,7 @@ type Exceptions struct {
 }
 
 func (E *Exceptions) SetForMarshal() {
-	E.XMLName.Local = "t:Exceptions"
+	E.XMLName.Local = "Exceptions"
 }
 
 func (E *Exceptions) GetSchema() *Schema {

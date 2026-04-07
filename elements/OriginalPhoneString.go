@@ -10,7 +10,7 @@ type OriginalPhoneString struct {
 }
 
 func (O *OriginalPhoneString) SetForMarshal() {
-	O.XMLName.Local = "t:OriginalPhoneString"
+	O.XMLName.Local = "OriginalPhoneString"
 }
 
 func (O *OriginalPhoneString) GetSchema() *Schema {

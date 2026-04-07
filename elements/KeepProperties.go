@@ -10,7 +10,7 @@ type KeepProperties struct {
 }
 
 func (K *KeepProperties) SetForMarshal() {
-	K.XMLName.Local = "m:KeepProperties"
+	K.XMLName.Local = "KeepProperties"
 }
 
 func (K *KeepProperties) GetSchema() *Schema {

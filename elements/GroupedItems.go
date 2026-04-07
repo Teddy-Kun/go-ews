@@ -14,7 +14,7 @@ type GroupedItems struct {
 }
 
 func (G *GroupedItems) SetForMarshal() {
-	G.XMLName.Local = "t:GroupedItems"
+	G.XMLName.Local = "GroupedItems"
 }
 
 func (G *GroupedItems) GetSchema() *Schema {

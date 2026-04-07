@@ -29,7 +29,7 @@ const (
 )
 
 func (U *UnsubscribeResponseMessage) SetForMarshal() {
-	U.XMLName.Local = "m:UnsubscribeResponseMessage"
+	U.XMLName.Local = "UnsubscribeResponseMessage"
 }
 
 func (U *UnsubscribeResponseMessage) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type Constant struct {
 }
 
 func (C *Constant) SetForMarshal() {
-	C.XMLName.Local = "t:Constant"
+	C.XMLName.Local = "Constant"
 }
 
 func (C *Constant) GetSchema() *Schema {

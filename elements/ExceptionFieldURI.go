@@ -12,7 +12,7 @@ type ExceptionFieldURI struct {
 }
 
 func (E *ExceptionFieldURI) SetForMarshal() {
-	E.XMLName.Local = "t:ExceptionFieldURI"
+	E.XMLName.Local = "ExceptionFieldURI"
 }
 
 func (E *ExceptionFieldURI) GetSchema() *Schema {

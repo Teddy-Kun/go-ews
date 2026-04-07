@@ -10,7 +10,7 @@ type ReturnNewItemIds struct {
 }
 
 func (R *ReturnNewItemIds) SetForMarshal() {
-	R.XMLName.Local = "m:ReturnNewItemIds"
+	R.XMLName.Local = "ReturnNewItemIds"
 }
 
 func (R *ReturnNewItemIds) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type HomeFaxes struct {
 }
 
 func (H *HomeFaxes) SetForMarshal() {
-	H.XMLName.Local = "t:HomeFaxes"
+	H.XMLName.Local = "HomeFaxes"
 }
 
 func (H *HomeFaxes) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsMeetingCalendarEventDetails) SetForMarshal() {
-	I.XMLName.Local = "t:IsMeeting"
+	I.XMLName.Local = "IsMeeting"
 }
 
 func (I *IsMeetingCalendarEventDetails) GetSchema() *Schema {

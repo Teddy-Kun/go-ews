@@ -12,7 +12,7 @@ type ContainsSubjectStrings struct {
 }
 
 func (C *ContainsSubjectStrings) SetForMarshal() {
-	C.XMLName.Local = "m:ContainsSubjectStrings"
+	C.XMLName.Local = "ContainsSubjectStrings"
 }
 
 func (C *ContainsSubjectStrings) GetSchema() *Schema {

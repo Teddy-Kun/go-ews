@@ -14,7 +14,7 @@ type CreateAttachment struct {
 }
 
 func (C *CreateAttachment) SetForMarshal() {
-	C.XMLName.Local = "m:CreateAttachment"
+	C.XMLName.Local = "CreateAttachment"
 }
 
 func (C *CreateAttachment) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type ErrorCodeItemIndexErrorType struct {
 }
 
 func (E *ErrorCodeItemIndexErrorType) SetForMarshal() {
-	E.XMLName.Local = "t:ErrorCode"
+	E.XMLName.Local = "ErrorCode"
 }
 
 func (E *ErrorCodeItemIndexErrorType) GetSchema() *Schema {

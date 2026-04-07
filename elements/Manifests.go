@@ -12,7 +12,7 @@ type Manifests struct {
 }
 
 func (M *Manifests) SetForMarshal() {
-	M.XMLName.Local = "m:Manifests"
+	M.XMLName.Local = "Manifests"
 }
 
 func (M *Manifests) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type ReminderMessageData struct {
 }
 
 func (R *ReminderMessageData) SetForMarshal() {
-	R.XMLName.Local = "t:ReminderMessageData"
+	R.XMLName.Local = "ReminderMessageData"
 }
 
 func (R *ReminderMessageData) GetSchema() *Schema {

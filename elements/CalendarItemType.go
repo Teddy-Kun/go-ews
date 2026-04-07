@@ -25,7 +25,7 @@ const (
 )
 
 func (C *CalendarItemType) SetForMarshal() {
-	C.XMLName.Local = "t:CalendarItemType"
+	C.XMLName.Local = "CalendarItemType"
 }
 
 func (C *CalendarItemType) GetSchema() *Schema {

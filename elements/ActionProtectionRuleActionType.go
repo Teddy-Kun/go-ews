@@ -14,7 +14,7 @@ type ActionProtectionRuleActionType struct {
 }
 
 func (A *ActionProtectionRuleActionType) SetForMarshal() {
-	A.XMLName.Local = "t:Action"
+	A.XMLName.Local = "Action"
 }
 
 func (A *ActionProtectionRuleActionType) GetSchema() *Schema {

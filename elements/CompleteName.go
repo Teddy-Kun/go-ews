@@ -30,7 +30,7 @@ type CompleteName struct {
 }
 
 func (C *CompleteName) SetForMarshal() {
-	C.XMLName.Local = "t:CompleteName"
+	C.XMLName.Local = "CompleteName"
 }
 
 func (C *CompleteName) GetSchema() *Schema {

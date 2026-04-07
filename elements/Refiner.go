@@ -18,7 +18,7 @@ type Refiner struct {
 }
 
 func (R *Refiner) SetForMarshal() {
-	R.XMLName.Local = "t:Refiner"
+	R.XMLName.Local = "Refiner"
 }
 
 func (R *Refiner) GetSchema() *Schema {

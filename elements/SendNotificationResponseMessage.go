@@ -22,7 +22,7 @@ type SendNotificationResponseMessage struct {
 }
 
 func (S *SendNotificationResponseMessage) SetForMarshal() {
-	S.XMLName.Local = "m:SendNotificationResponseMessage"
+	S.XMLName.Local = "SendNotificationResponseMessage"
 }
 
 func (S *SendNotificationResponseMessage) GetSchema() *Schema {

@@ -22,7 +22,7 @@ type ResolveNamesResponseMessage struct {
 }
 
 func (R *ResolveNamesResponseMessage) SetForMarshal() {
-	R.XMLName.Local = "m:ResolveNamesResponseMessage"
+	R.XMLName.Local = "ResolveNamesResponseMessage"
 }
 
 func (R *ResolveNamesResponseMessage) GetSchema() *Schema {

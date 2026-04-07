@@ -10,7 +10,7 @@ type DiagnosticsLevel struct {
 }
 
 func (D *DiagnosticsLevel) SetForMarshal() {
-	D.XMLName.Local = "m:DiagnosticsLevel"
+	D.XMLName.Local = "DiagnosticsLevel"
 }
 
 func (D *DiagnosticsLevel) GetSchema() *Schema {

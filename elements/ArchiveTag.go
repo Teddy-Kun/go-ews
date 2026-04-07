@@ -12,7 +12,7 @@ type ArchiveTag struct {
 }
 
 func (A *ArchiveTag) SetForMarshal() {
-	A.XMLName.Local = "t:ArchiveTag"
+	A.XMLName.Local = "ArchiveTag"
 }
 
 func (A *ArchiveTag) GetSchema() *Schema {

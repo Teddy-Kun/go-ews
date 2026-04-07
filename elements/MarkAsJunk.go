@@ -16,7 +16,7 @@ type MarkAsJunk struct {
 }
 
 func (M *MarkAsJunk) SetForMarshal() {
-	M.XMLName.Local = "m:MarkAsJunk"
+	M.XMLName.Local = "MarkAsJunk"
 }
 
 func (M *MarkAsJunk) GetSchema() *Schema {

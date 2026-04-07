@@ -10,7 +10,7 @@ type AssistantName struct {
 }
 
 func (A *AssistantName) SetForMarshal() {
-	A.XMLName.Local = "t:AssistantName"
+	A.XMLName.Local = "AssistantName"
 }
 
 func (A *AssistantName) GetSchema() *Schema {

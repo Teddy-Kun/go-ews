@@ -18,7 +18,7 @@ type SetImListMigrationCompletedResponse struct {
 }
 
 func (S *SetImListMigrationCompletedResponse) SetForMarshal() {
-	S.XMLName.Local = "m:SetImListMigrationCompletedResponse"
+	S.XMLName.Local = "SetImListMigrationCompletedResponse"
 }
 
 func (S *SetImListMigrationCompletedResponse) GetSchema() *Schema {

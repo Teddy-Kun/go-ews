@@ -12,7 +12,7 @@ type WeddingAnniversaries struct {
 }
 
 func (W *WeddingAnniversaries) SetForMarshal() {
-	W.XMLName.Local = "t:WeddingAnniversaries"
+	W.XMLName.Local = "WeddingAnniversaries"
 }
 
 func (W *WeddingAnniversaries) GetSchema() *Schema {

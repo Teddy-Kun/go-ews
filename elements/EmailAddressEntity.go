@@ -12,7 +12,7 @@ type EmailAddressEntity struct {
 }
 
 func (E *EmailAddressEntity) SetForMarshal() {
-	E.XMLName.Local = "t:EmailAddressEntity"
+	E.XMLName.Local = "EmailAddressEntity"
 }
 
 func (E *EmailAddressEntity) GetSchema() *Schema {

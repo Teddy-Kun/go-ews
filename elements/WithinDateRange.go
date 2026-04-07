@@ -14,7 +14,7 @@ type WithinDateRange struct {
 }
 
 func (W *WithinDateRange) SetForMarshal() {
-	W.XMLName.Local = "m:WithinDateRange"
+	W.XMLName.Local = "WithinDateRange"
 }
 
 func (W *WithinDateRange) GetSchema() *Schema {

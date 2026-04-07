@@ -10,7 +10,7 @@ type RetentionId struct {
 }
 
 func (R *RetentionId) SetForMarshal() {
-	R.XMLName.Local = "t:RetentionId"
+	R.XMLName.Local = "RetentionId"
 }
 
 func (R *RetentionId) GetSchema() *Schema {

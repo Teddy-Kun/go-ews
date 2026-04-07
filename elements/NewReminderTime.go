@@ -10,7 +10,7 @@ type NewReminderTime struct {
 }
 
 func (N *NewReminderTime) SetForMarshal() {
-	N.XMLName.Local = "t:NewReminderTime"
+	N.XMLName.Local = "NewReminderTime"
 }
 
 func (N *NewReminderTime) GetSchema() *Schema {

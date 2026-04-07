@@ -10,7 +10,7 @@ type Preview struct {
 }
 
 func (P *Preview) SetForMarshal() {
-	P.XMLName.Local = "t:Preview"
+	P.XMLName.Local = "Preview"
 }
 
 func (P *Preview) GetSchema() *Schema {

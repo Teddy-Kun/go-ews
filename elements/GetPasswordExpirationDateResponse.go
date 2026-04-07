@@ -23,7 +23,7 @@ const (
 )
 
 func (G *GetPasswordExpirationDateResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetPasswordExpirationDateResponse"
+	G.XMLName.Local = "GetPasswordExpirationDateResponse"
 }
 
 func (G *GetPasswordExpirationDateResponse) GetSchema() *Schema {

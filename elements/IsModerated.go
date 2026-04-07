@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsModerated) SetForMarshal() {
-	I.XMLName.Local = "t:IsModerated"
+	I.XMLName.Local = "IsModerated"
 }
 
 func (I *IsModerated) GetSchema() *Schema {

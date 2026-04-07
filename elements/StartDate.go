@@ -2,9 +2,10 @@ package elements
 
 // The StartDate element represents the start date of an item.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/startdate
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type StartDate struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type StartDate struct {
 }
 
 func (S *StartDate) SetForMarshal() {
-	S.XMLName.Local = "t:StartDate"
+	S.XMLName.Local = "StartDate"
 }
 
 func (S *StartDate) GetSchema() *Schema {

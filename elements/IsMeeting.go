@@ -10,7 +10,7 @@ type IsMeeting struct {
 }
 
 func (I *IsMeeting) SetForMarshal() {
-	I.XMLName.Local = "t:IsMeeting"
+	I.XMLName.Local = "IsMeeting"
 }
 
 func (I *IsMeeting) GetSchema() *Schema {

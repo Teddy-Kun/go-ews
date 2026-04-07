@@ -10,7 +10,7 @@ type ParentInternetMessageId struct {
 }
 
 func (P *ParentInternetMessageId) SetForMarshal() {
-	P.XMLName.Local = "t:ParentInternetMessageId"
+	P.XMLName.Local = "ParentInternetMessageId"
 }
 
 func (P *ParentInternetMessageId) GetSchema() *Schema {

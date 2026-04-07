@@ -42,7 +42,7 @@ type DeclineItem struct {
 }
 
 func (D *DeclineItem) SetForMarshal() {
-	D.XMLName.Local = "t:DeclineItem"
+	D.XMLName.Local = "DeclineItem"
 }
 
 func (D *DeclineItem) GetSchema() *Schema {

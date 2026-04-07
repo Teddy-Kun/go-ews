@@ -12,7 +12,7 @@ type OptionalAttendees struct {
 }
 
 func (O *OptionalAttendees) SetForMarshal() {
-	O.XMLName.Local = "t:OptionalAttendees"
+	O.XMLName.Local = "OptionalAttendees"
 }
 
 func (O *OptionalAttendees) GetSchema() *Schema {

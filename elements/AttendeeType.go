@@ -23,7 +23,7 @@ const (
 )
 
 func (A *AttendeeType) SetForMarshal() {
-	A.XMLName.Local = "t:AttendeeType"
+	A.XMLName.Local = "AttendeeType"
 }
 
 func (A *AttendeeType) GetSchema() *Schema {

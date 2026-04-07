@@ -14,7 +14,7 @@ type Term struct {
 }
 
 func (T *Term) SetForMarshal() {
-	T.XMLName.Local = "t:Term"
+	T.XMLName.Local = "Term"
 }
 
 func (T *Term) GetSchema() *Schema {

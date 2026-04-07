@@ -27,7 +27,7 @@ const (
 )
 
 func (R *RetentionAction) SetForMarshal() {
-	R.XMLName.Local = "t:RetentionAction"
+	R.XMLName.Local = "RetentionAction"
 }
 
 func (R *RetentionAction) GetSchema() *Schema {

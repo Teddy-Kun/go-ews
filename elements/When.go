@@ -10,7 +10,7 @@ type When struct {
 }
 
 func (W *When) SetForMarshal() {
-	W.XMLName.Local = "t:When"
+	W.XMLName.Local = "When"
 }
 
 func (W *When) GetSchema() *Schema {

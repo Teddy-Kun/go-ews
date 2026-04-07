@@ -10,7 +10,7 @@ type RootAddress struct {
 }
 
 func (R *RootAddress) SetForMarshal() {
-	R.XMLName.Local = "t:RootAddress"
+	R.XMLName.Local = "RootAddress"
 }
 
 func (R *RootAddress) GetSchema() *Schema {

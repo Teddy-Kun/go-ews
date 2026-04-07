@@ -10,7 +10,7 @@ type FieldUriRule struct {
 }
 
 func (F *FieldUriRule) SetForMarshal() {
-	F.XMLName.Local = "m:FieldUri"
+	F.XMLName.Local = "FieldUri"
 }
 
 func (F *FieldUriRule) GetSchema() *Schema {

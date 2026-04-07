@@ -10,7 +10,7 @@ type Timeout struct {
 }
 
 func (T *Timeout) SetForMarshal() {
-	T.XMLName.Local = "t:Timeout"
+	T.XMLName.Local = "Timeout"
 }
 
 func (T *Timeout) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (R *ReminderGroup) SetForMarshal() {
-	R.XMLName.Local = "t:ReminderGroup"
+	R.XMLName.Local = "ReminderGroup"
 }
 
 func (R *ReminderGroup) GetSchema() *Schema {

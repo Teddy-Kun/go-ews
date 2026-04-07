@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsInline) SetForMarshal() {
-	I.XMLName.Local = "t:IsInline"
+	I.XMLName.Local = "IsInline"
 }
 
 func (I *IsInline) GetSchema() *Schema {

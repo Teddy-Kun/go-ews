@@ -10,7 +10,7 @@ type AddressContactType struct {
 }
 
 func (A *AddressContactType) SetForMarshal() {
-	A.XMLName.Local = "t:Address"
+	A.XMLName.Local = "Address"
 }
 
 func (A *AddressContactType) GetSchema() *Schema {

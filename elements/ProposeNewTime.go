@@ -12,7 +12,7 @@ type ProposeNewTime struct {
 }
 
 func (P *ProposeNewTime) SetForMarshal() {
-	P.XMLName.Local = "t:ProposeNewTime"
+	P.XMLName.Local = "ProposeNewTime"
 }
 
 func (P *ProposeNewTime) GetSchema() *Schema {

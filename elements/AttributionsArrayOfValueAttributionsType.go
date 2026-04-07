@@ -12,7 +12,7 @@ type AttributionsArrayOfValueAttributionsType struct {
 }
 
 func (A *AttributionsArrayOfValueAttributionsType) SetForMarshal() {
-	A.XMLName.Local = "t:Attributions"
+	A.XMLName.Local = "Attributions"
 }
 
 func (A *AttributionsArrayOfValueAttributionsType) GetSchema() *Schema {

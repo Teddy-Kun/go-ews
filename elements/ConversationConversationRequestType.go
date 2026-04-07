@@ -14,7 +14,7 @@ type ConversationConversationRequestType struct {
 }
 
 func (C *ConversationConversationRequestType) SetForMarshal() {
-	C.XMLName.Local = "t:Conversation"
+	C.XMLName.Local = "Conversation"
 }
 
 func (C *ConversationConversationRequestType) GetSchema() *Schema {

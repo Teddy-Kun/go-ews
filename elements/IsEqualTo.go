@@ -18,7 +18,7 @@ type IsEqualTo struct {
 }
 
 func (I *IsEqualTo) SetForMarshal() {
-	I.XMLName.Local = "t:IsEqualTo"
+	I.XMLName.Local = "IsEqualTo"
 }
 
 func (I *IsEqualTo) GetSchema() *Schema {

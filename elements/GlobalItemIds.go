@@ -16,7 +16,7 @@ type GlobalItemIds struct {
 }
 
 func (G *GlobalItemIds) SetForMarshal() {
-	G.XMLName.Local = "t:GlobalItemIds"
+	G.XMLName.Local = "GlobalItemIds"
 }
 
 func (G *GlobalItemIds) GetSchema() *Schema {

@@ -28,7 +28,7 @@ type FindConversation struct {
 }
 
 func (F *FindConversation) SetForMarshal() {
-	F.XMLName.Local = "m:FindConversation"
+	F.XMLName.Local = "FindConversation"
 }
 
 func (F *FindConversation) GetSchema() *Schema {

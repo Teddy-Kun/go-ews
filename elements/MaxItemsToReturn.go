@@ -10,7 +10,7 @@ type MaxItemsToReturn struct {
 }
 
 func (M *MaxItemsToReturn) SetForMarshal() {
-	M.XMLName.Local = "m:MaxItemsToReturn"
+	M.XMLName.Local = "MaxItemsToReturn"
 }
 
 func (M *MaxItemsToReturn) GetSchema() *Schema {

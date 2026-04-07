@@ -10,7 +10,7 @@ type TemplateDescription struct {
 }
 
 func (T *TemplateDescription) SetForMarshal() {
-	T.XMLName.Local = "t:TemplateDescription"
+	T.XMLName.Local = "TemplateDescription"
 }
 
 func (T *TemplateDescription) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsHidden) SetForMarshal() {
-	I.XMLName.Local = "t:IsHidden"
+	I.XMLName.Local = "IsHidden"
 }
 
 func (I *IsHidden) GetSchema() *Schema {

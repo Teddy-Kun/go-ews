@@ -10,7 +10,7 @@ type DomainMessageTracking struct {
 }
 
 func (D *DomainMessageTracking) SetForMarshal() {
-	D.XMLName.Local = "m:Domain"
+	D.XMLName.Local = "Domain"
 }
 
 func (D *DomainMessageTracking) GetSchema() *Schema {

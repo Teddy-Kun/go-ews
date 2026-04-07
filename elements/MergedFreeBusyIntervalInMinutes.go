@@ -10,7 +10,7 @@ type MergedFreeBusyIntervalInMinutes struct {
 }
 
 func (M *MergedFreeBusyIntervalInMinutes) SetForMarshal() {
-	M.XMLName.Local = "t:MergedFreeBusyIntervalInMinutes"
+	M.XMLName.Local = "MergedFreeBusyIntervalInMinutes"
 }
 
 func (M *MergedFreeBusyIntervalInMinutes) GetSchema() *Schema {

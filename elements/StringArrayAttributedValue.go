@@ -14,7 +14,7 @@ type StringArrayAttributedValue struct {
 }
 
 func (S *StringArrayAttributedValue) SetForMarshal() {
-	S.XMLName.Local = "t:StringArrayAttributedValue"
+	S.XMLName.Local = "StringArrayAttributedValue"
 }
 
 func (S *StringArrayAttributedValue) GetSchema() *Schema {

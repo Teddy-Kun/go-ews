@@ -17,7 +17,7 @@ const (
 )
 
 func (I *InPlaceHoldConfigurationOnly) SetForMarshal() {
-	I.XMLName.Local = "m:InPlaceHoldConfigurationOnly"
+	I.XMLName.Local = "InPlaceHoldConfigurationOnly"
 }
 
 func (I *InPlaceHoldConfigurationOnly) GetSchema() *Schema {

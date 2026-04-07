@@ -20,7 +20,7 @@ type SenderEmailAddressType struct {
 }
 
 func (S *SenderEmailAddressType) SetForMarshal() {
-	S.XMLName.Local = "t:Sender"
+	S.XMLName.Local = "Sender"
 }
 
 func (S *SenderEmailAddressType) GetSchema() *Schema {

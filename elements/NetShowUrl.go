@@ -10,7 +10,7 @@ type NetShowUrl struct {
 }
 
 func (N *NetShowUrl) SetForMarshal() {
-	N.XMLName.Local = "t:NetShowUrl"
+	N.XMLName.Local = "NetShowUrl"
 }
 
 func (N *NetShowUrl) GetSchema() *Schema {

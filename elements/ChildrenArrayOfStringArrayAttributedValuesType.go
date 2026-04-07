@@ -12,7 +12,7 @@ type ChildrenArrayOfStringArrayAttributedValuesType struct {
 }
 
 func (C *ChildrenArrayOfStringArrayAttributedValuesType) SetForMarshal() {
-	C.XMLName.Local = "t:Children"
+	C.XMLName.Local = "Children"
 }
 
 func (C *ChildrenArrayOfStringArrayAttributedValuesType) GetSchema() *Schema {

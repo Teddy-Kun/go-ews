@@ -12,7 +12,7 @@ type UpdateUserConfiguration struct {
 }
 
 func (U *UpdateUserConfiguration) SetForMarshal() {
-	U.XMLName.Local = "m:UpdateUserConfiguration"
+	U.XMLName.Local = "UpdateUserConfiguration"
 }
 
 func (U *UpdateUserConfiguration) GetSchema() *Schema {

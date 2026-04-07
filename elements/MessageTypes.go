@@ -12,7 +12,7 @@ type MessageTypes struct {
 }
 
 func (M *MessageTypes) SetForMarshal() {
-	M.XMLName.Local = "m:MessageTypes"
+	M.XMLName.Local = "MessageTypes"
 }
 
 func (M *MessageTypes) GetSchema() *Schema {

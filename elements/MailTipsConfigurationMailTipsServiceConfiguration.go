@@ -22,7 +22,7 @@ type MailTipsConfigurationMailTipsServiceConfiguration struct {
 }
 
 func (M *MailTipsConfigurationMailTipsServiceConfiguration) SetForMarshal() {
-	M.XMLName.Local = "m:MailTipsConfiguration"
+	M.XMLName.Local = "MailTipsConfiguration"
 }
 
 func (M *MailTipsConfigurationMailTipsServiceConfiguration) GetSchema() *Schema {

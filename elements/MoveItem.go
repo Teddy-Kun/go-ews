@@ -16,7 +16,7 @@ type MoveItem struct {
 }
 
 func (M *MoveItem) SetForMarshal() {
-	M.XMLName.Local = "m:MoveItem"
+	M.XMLName.Local = "MoveItem"
 }
 
 func (M *MoveItem) GetSchema() *Schema {

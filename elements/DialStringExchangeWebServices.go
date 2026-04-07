@@ -10,7 +10,7 @@ type DialStringExchangeWebServices struct {
 }
 
 func (D *DialStringExchangeWebServices) SetForMarshal() {
-	D.XMLName.Local = "m:DialString"
+	D.XMLName.Local = "DialString"
 }
 
 func (D *DialStringExchangeWebServices) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (P *PermanentDelete) SetForMarshal() {
-	P.XMLName.Local = "m:PermanentDelete"
+	P.XMLName.Local = "PermanentDelete"
 }
 
 func (P *PermanentDelete) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type AddNewImContactToGroupResponse struct {
 }
 
 func (A *AddNewImContactToGroupResponse) SetForMarshal() {
-	A.XMLName.Local = "m:AddNewImContactToGroupResponse"
+	A.XMLName.Local = "AddNewImContactToGroupResponse"
 }
 
 func (A *AddNewImContactToGroupResponse) GetSchema() *Schema {

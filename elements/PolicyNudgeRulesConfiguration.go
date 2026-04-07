@@ -10,7 +10,7 @@ type PolicyNudgeRulesConfiguration struct {
 }
 
 func (P *PolicyNudgeRulesConfiguration) SetForMarshal() {
-	P.XMLName.Local = "m:PolicyNudgeRulesConfiguration"
+	P.XMLName.Local = "PolicyNudgeRulesConfiguration"
 }
 
 func (P *PolicyNudgeRulesConfiguration) GetSchema() *Schema {

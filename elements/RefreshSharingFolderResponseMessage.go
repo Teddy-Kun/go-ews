@@ -29,7 +29,7 @@ const (
 )
 
 func (R *RefreshSharingFolderResponseMessage) SetForMarshal() {
-	R.XMLName.Local = "m:RefreshSharingFolderResponseMessage"
+	R.XMLName.Local = "RefreshSharingFolderResponseMessage"
 }
 
 func (R *RefreshSharingFolderResponseMessage) GetSchema() *Schema {

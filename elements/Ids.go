@@ -12,7 +12,7 @@ type Ids struct {
 }
 
 func (I *Ids) SetForMarshal() {
-	I.XMLName.Local = "m:Ids"
+	I.XMLName.Local = "Ids"
 }
 
 func (I *Ids) GetSchema() *Schema {

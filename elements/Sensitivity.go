@@ -10,7 +10,7 @@ type Sensitivity struct {
 }
 
 func (S *Sensitivity) SetForMarshal() {
-	S.XMLName.Local = "t:Sensitivity"
+	S.XMLName.Local = "Sensitivity"
 }
 
 func (S *Sensitivity) GetSchema() *Schema {

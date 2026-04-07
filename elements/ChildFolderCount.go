@@ -10,7 +10,7 @@ type ChildFolderCount struct {
 }
 
 func (C *ChildFolderCount) SetForMarshal() {
-	C.XMLName.Local = "t:ChildFolderCount"
+	C.XMLName.Local = "ChildFolderCount"
 }
 
 func (C *ChildFolderCount) GetSchema() *Schema {

@@ -10,7 +10,7 @@ type IsOnlineMeeting struct {
 }
 
 func (I *IsOnlineMeeting) SetForMarshal() {
-	I.XMLName.Local = "t:IsOnlineMeeting"
+	I.XMLName.Local = "IsOnlineMeeting"
 }
 
 func (I *IsOnlineMeeting) GetSchema() *Schema {

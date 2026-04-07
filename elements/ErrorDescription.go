@@ -10,7 +10,7 @@ type ErrorDescription struct {
 }
 
 func (E *ErrorDescription) SetForMarshal() {
-	E.XMLName.Local = "t:ErrorDescription"
+	E.XMLName.Local = "ErrorDescription"
 }
 
 func (E *ErrorDescription) GetSchema() *Schema {

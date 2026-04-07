@@ -12,7 +12,7 @@ type MailboxDataArray struct {
 }
 
 func (M *MailboxDataArray) SetForMarshal() {
-	M.XMLName.Local = "m:MailboxDataArray"
+	M.XMLName.Local = "MailboxDataArray"
 }
 
 func (M *MailboxDataArray) GetSchema() *Schema {

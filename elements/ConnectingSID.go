@@ -18,7 +18,7 @@ type ConnectingSID struct {
 }
 
 func (C *ConnectingSID) SetForMarshal() {
-	C.XMLName.Local = "t:ConnectingSID"
+	C.XMLName.Local = "ConnectingSID"
 }
 
 func (C *ConnectingSID) GetSchema() *Schema {

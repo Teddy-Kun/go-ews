@@ -12,7 +12,7 @@ type SuggestionArray struct {
 }
 
 func (S *SuggestionArray) SetForMarshal() {
-	S.XMLName.Local = "t:SuggestionArray"
+	S.XMLName.Local = "SuggestionArray"
 }
 
 func (S *SuggestionArray) GetSchema() *Schema {

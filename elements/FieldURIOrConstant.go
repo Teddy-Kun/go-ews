@@ -18,7 +18,7 @@ type FieldURIOrConstant struct {
 }
 
 func (F *FieldURIOrConstant) SetForMarshal() {
-	F.XMLName.Local = "t:FieldURIOrConstant"
+	F.XMLName.Local = "FieldURIOrConstant"
 }
 
 func (F *FieldURIOrConstant) GetSchema() *Schema {

@@ -37,7 +37,7 @@ const (
 )
 
 func (C *CalendarPermissionLevel) SetForMarshal() {
-	C.XMLName.Local = "t:CalendarPermissionLevel"
+	C.XMLName.Local = "CalendarPermissionLevel"
 }
 
 func (C *CalendarPermissionLevel) GetSchema() *Schema {

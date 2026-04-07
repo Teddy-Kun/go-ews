@@ -14,7 +14,7 @@ type ReadFlagChange struct {
 }
 
 func (R *ReadFlagChange) SetForMarshal() {
-	R.XMLName.Local = "t:ReadFlagChange"
+	R.XMLName.Local = "ReadFlagChange"
 }
 
 func (R *ReadFlagChange) GetSchema() *Schema {

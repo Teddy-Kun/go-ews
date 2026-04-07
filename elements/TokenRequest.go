@@ -14,7 +14,7 @@ type TokenRequest struct {
 }
 
 func (T *TokenRequest) SetForMarshal() {
-	T.XMLName.Local = "t:TokenRequest"
+	T.XMLName.Local = "TokenRequest"
 }
 
 func (T *TokenRequest) GetSchema() *Schema {

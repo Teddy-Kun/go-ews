@@ -10,7 +10,7 @@ type ServerHint struct {
 }
 
 func (S *ServerHint) SetForMarshal() {
-	S.XMLName.Local = "m:ServerHint"
+	S.XMLName.Local = "ServerHint"
 }
 
 func (S *ServerHint) GetSchema() *Schema {

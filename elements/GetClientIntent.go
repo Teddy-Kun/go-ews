@@ -10,7 +10,7 @@ type GetClientIntent struct {
 }
 
 func (G *GetClientIntent) SetForMarshal() {
-	G.XMLName.Local = "m:GetClientIntent"
+	G.XMLName.Local = "GetClientIntent"
 }
 
 func (G *GetClientIntent) GetSchema() *Schema {

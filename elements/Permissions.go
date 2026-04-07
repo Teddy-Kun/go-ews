@@ -12,7 +12,7 @@ type Permissions struct {
 }
 
 func (P *Permissions) SetForMarshal() {
-	P.XMLName.Local = "t:Permissions"
+	P.XMLName.Local = "Permissions"
 }
 
 func (P *Permissions) GetSchema() *Schema {

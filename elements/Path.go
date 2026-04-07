@@ -10,7 +10,7 @@ type Path struct {
 }
 
 func (P *Path) SetForMarshal() {
-	P.XMLName.Local = "t:Path"
+	P.XMLName.Local = "Path"
 }
 
 func (P *Path) GetSchema() *Schema {

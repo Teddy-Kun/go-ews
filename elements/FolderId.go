@@ -14,7 +14,7 @@ type FolderId struct {
 }
 
 func (F *FolderId) SetForMarshal() {
-	F.XMLName.Local = "t:FolderId"
+	F.XMLName.Local = "FolderId"
 }
 
 func (F *FolderId) GetSchema() *Schema {

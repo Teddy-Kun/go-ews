@@ -12,7 +12,7 @@ type ModifiedOccurrences struct {
 }
 
 func (M *ModifiedOccurrences) SetForMarshal() {
-	M.XMLName.Local = "t:ModifiedOccurrences"
+	M.XMLName.Local = "ModifiedOccurrences"
 }
 
 func (M *ModifiedOccurrences) GetSchema() *Schema {

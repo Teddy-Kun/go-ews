@@ -12,7 +12,7 @@ type DisplayNamePrefixes struct {
 }
 
 func (D *DisplayNamePrefixes) SetForMarshal() {
-	D.XMLName.Local = "t:DisplayNamePrefixes"
+	D.XMLName.Local = "DisplayNamePrefixes"
 }
 
 func (D *DisplayNamePrefixes) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SuppressReadReceipts) SetForMarshal() {
-	S.XMLName.Local = "m:SuppressReadReceipts"
+	S.XMLName.Local = "SuppressReadReceipts"
 }
 
 func (S *SuppressReadReceipts) GetSchema() *Schema {

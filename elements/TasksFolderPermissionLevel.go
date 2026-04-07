@@ -23,7 +23,7 @@ const (
 )
 
 func (T *TasksFolderPermissionLevel) SetForMarshal() {
-	T.XMLName.Local = "t:TasksFolderPermissionLevel"
+	T.XMLName.Local = "TasksFolderPermissionLevel"
 }
 
 func (T *TasksFolderPermissionLevel) GetSchema() *Schema {

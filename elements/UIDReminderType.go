@@ -10,7 +10,7 @@ type UIDReminderType struct {
 }
 
 func (U *UIDReminderType) SetForMarshal() {
-	U.XMLName.Local = "t:UID"
+	U.XMLName.Local = "UID"
 }
 
 func (U *UIDReminderType) GetSchema() *Schema {

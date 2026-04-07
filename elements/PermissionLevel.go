@@ -33,7 +33,7 @@ const (
 )
 
 func (P *PermissionLevel) SetForMarshal() {
-	P.XMLName.Local = "t:PermissionLevel"
+	P.XMLName.Local = "PermissionLevel"
 }
 
 func (P *PermissionLevel) GetSchema() *Schema {

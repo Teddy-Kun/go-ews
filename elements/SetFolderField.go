@@ -26,7 +26,7 @@ type SetFolderField struct {
 }
 
 func (S *SetFolderField) SetForMarshal() {
-	S.XMLName.Local = "t:SetFolderField"
+	S.XMLName.Local = "SetFolderField"
 }
 
 func (S *SetFolderField) GetSchema() *Schema {

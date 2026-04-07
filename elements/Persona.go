@@ -206,7 +206,7 @@ type Persona struct {
 }
 
 func (P *Persona) SetForMarshal() {
-	P.XMLName.Local = "m:Persona"
+	P.XMLName.Local = "Persona"
 }
 
 func (P *Persona) GetSchema() *Schema {

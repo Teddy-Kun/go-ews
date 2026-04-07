@@ -10,7 +10,7 @@ type RightsManagedMessageDecryptionStatus struct {
 }
 
 func (R *RightsManagedMessageDecryptionStatus) SetForMarshal() {
-	R.XMLName.Local = "t:RightsManagedMessageDecryptionStatus"
+	R.XMLName.Local = "RightsManagedMessageDecryptionStatus"
 }
 
 func (R *RightsManagedMessageDecryptionStatus) GetSchema() *Schema {

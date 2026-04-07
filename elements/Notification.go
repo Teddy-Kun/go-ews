@@ -32,7 +32,7 @@ type Notification struct {
 }
 
 func (N *Notification) SetForMarshal() {
-	N.XMLName.Local = "t:Notification"
+	N.XMLName.Local = "Notification"
 }
 
 func (N *Notification) GetSchema() *Schema {

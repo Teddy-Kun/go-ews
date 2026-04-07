@@ -12,7 +12,7 @@ type Dictionary struct {
 }
 
 func (D *Dictionary) SetForMarshal() {
-	D.XMLName.Local = "t:Dictionary"
+	D.XMLName.Local = "Dictionary"
 }
 
 func (D *Dictionary) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type TimeZoneDefinitions struct {
 }
 
 func (T *TimeZoneDefinitions) SetForMarshal() {
-	T.XMLName.Local = "m:TimeZoneDefinitions"
+	T.XMLName.Local = "TimeZoneDefinitions"
 }
 
 func (T *TimeZoneDefinitions) GetSchema() *Schema {

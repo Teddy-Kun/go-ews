@@ -19,7 +19,7 @@ const (
 )
 
 func (S *StatusMemberStatusType) SetForMarshal() {
-	S.XMLName.Local = "t:Status"
+	S.XMLName.Local = "Status"
 }
 
 func (S *StatusMemberStatusType) GetSchema() *Schema {

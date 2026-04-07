@@ -27,7 +27,7 @@ const (
 )
 
 func (G *GroupBy) SetForMarshal() {
-	G.XMLName.Local = "m:GroupBy"
+	G.XMLName.Local = "GroupBy"
 }
 
 func (G *GroupBy) GetSchema() *Schema {

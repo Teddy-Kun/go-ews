@@ -12,7 +12,7 @@ type RetentionPolicyTags struct {
 }
 
 func (R *RetentionPolicyTags) SetForMarshal() {
-	R.XMLName.Local = "m:RetentionPolicyTags"
+	R.XMLName.Local = "RetentionPolicyTags"
 }
 
 func (R *RetentionPolicyTags) GetSchema() *Schema {

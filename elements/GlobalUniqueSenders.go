@@ -12,7 +12,7 @@ type GlobalUniqueSenders struct {
 }
 
 func (G *GlobalUniqueSenders) SetForMarshal() {
-	G.XMLName.Local = "t:GlobalUniqueSenders"
+	G.XMLName.Local = "GlobalUniqueSenders"
 }
 
 func (G *GlobalUniqueSenders) GetSchema() *Schema {

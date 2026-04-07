@@ -10,7 +10,7 @@ type PhoneticLastName struct {
 }
 
 func (P *PhoneticLastName) SetForMarshal() {
-	P.XMLName.Local = "t:PhoneticLastName"
+	P.XMLName.Local = "PhoneticLastName"
 }
 
 func (P *PhoneticLastName) GetSchema() *Schema {

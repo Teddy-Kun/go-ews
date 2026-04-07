@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetServiceConfigurationResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetServiceConfigurationResponse"
+	G.XMLName.Local = "GetServiceConfigurationResponse"
 }
 
 func (G *GetServiceConfigurationResponse) GetSchema() *Schema {

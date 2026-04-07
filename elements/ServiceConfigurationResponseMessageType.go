@@ -35,7 +35,7 @@ const (
 )
 
 func (S *ServiceConfigurationResponseMessageType) SetForMarshal() {
-	S.XMLName.Local = "m:ServiceConfigurationResponseMessageType"
+	S.XMLName.Local = "ServiceConfigurationResponseMessageType"
 }
 
 func (S *ServiceConfigurationResponseMessageType) GetSchema() *Schema {

@@ -21,7 +21,7 @@ const (
 )
 
 func (S *SharingEffectiveRightsCalendarPermissionReadAccessType) SetForMarshal() {
-	S.XMLName.Local = "t:SharingEffectiveRights"
+	S.XMLName.Local = "SharingEffectiveRights"
 }
 
 func (S *SharingEffectiveRightsCalendarPermissionReadAccessType) GetSchema() *Schema {

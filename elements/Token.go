@@ -10,7 +10,7 @@ type Token struct {
 }
 
 func (T *Token) SetForMarshal() {
-	T.XMLName.Local = "t:Token"
+	T.XMLName.Local = "Token"
 }
 
 func (T *Token) GetSchema() *Schema {

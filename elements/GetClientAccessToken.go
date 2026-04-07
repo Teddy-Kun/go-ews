@@ -12,7 +12,7 @@ type GetClientAccessToken struct {
 }
 
 func (G *GetClientAccessToken) SetForMarshal() {
-	G.XMLName.Local = "m:GetClientAccessToken"
+	G.XMLName.Local = "GetClientAccessToken"
 }
 
 func (G *GetClientAccessToken) GetSchema() *Schema {

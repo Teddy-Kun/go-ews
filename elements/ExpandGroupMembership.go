@@ -17,7 +17,7 @@ const (
 )
 
 func (E *ExpandGroupMembership) SetForMarshal() {
-	E.XMLName.Local = "m:ExpandGroupMembership"
+	E.XMLName.Local = "ExpandGroupMembership"
 }
 
 func (E *ExpandGroupMembership) GetSchema() *Schema {

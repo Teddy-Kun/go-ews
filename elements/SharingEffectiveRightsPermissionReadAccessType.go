@@ -17,7 +17,7 @@ const (
 )
 
 func (S *SharingEffectiveRightsPermissionReadAccessType) SetForMarshal() {
-	S.XMLName.Local = "t:SharingEffectiveRights"
+	S.XMLName.Local = "SharingEffectiveRights"
 }
 
 func (S *SharingEffectiveRightsPermissionReadAccessType) GetSchema() *Schema {

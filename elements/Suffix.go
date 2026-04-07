@@ -10,7 +10,7 @@ type Suffix struct {
 }
 
 func (S *Suffix) SetForMarshal() {
-	S.XMLName.Local = "t:Suffix"
+	S.XMLName.Local = "Suffix"
 }
 
 func (S *Suffix) GetSchema() *Schema {

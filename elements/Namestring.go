@@ -10,7 +10,7 @@ type Namestring struct {
 }
 
 func (N *Namestring) SetForMarshal() {
-	N.XMLName.Local = "t:Name"
+	N.XMLName.Local = "Name"
 }
 
 func (N *Namestring) GetSchema() *Schema {

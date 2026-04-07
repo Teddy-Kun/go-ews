@@ -10,7 +10,7 @@ type UnknownAttendeeConflictData struct {
 }
 
 func (U *UnknownAttendeeConflictData) SetForMarshal() {
-	U.XMLName.Local = "t:UnknownAttendeeConflictData"
+	U.XMLName.Local = "UnknownAttendeeConflictData"
 }
 
 func (U *UnknownAttendeeConflictData) GetSchema() *Schema {

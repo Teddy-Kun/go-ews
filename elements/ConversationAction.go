@@ -49,7 +49,7 @@ const (
 )
 
 func (C *ConversationAction) SetForMarshal() {
-	C.XMLName.Local = "t:ConversationAction"
+	C.XMLName.Local = "ConversationAction"
 }
 
 func (C *ConversationAction) GetSchema() *Schema {

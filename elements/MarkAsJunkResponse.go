@@ -12,7 +12,7 @@ type MarkAsJunkResponse struct {
 }
 
 func (M *MarkAsJunkResponse) SetForMarshal() {
-	M.XMLName.Local = "m:MarkAsJunkResponse"
+	M.XMLName.Local = "MarkAsJunkResponse"
 }
 
 func (M *MarkAsJunkResponse) GetSchema() *Schema {

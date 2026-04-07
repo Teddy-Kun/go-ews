@@ -12,7 +12,7 @@ type FolderIdsArrayOfFolderIdType struct {
 }
 
 func (F *FolderIdsArrayOfFolderIdType) SetForMarshal() {
-	F.XMLName.Local = "t:FolderIds"
+	F.XMLName.Local = "FolderIds"
 }
 
 func (F *FolderIdsArrayOfFolderIdType) GetSchema() *Schema {

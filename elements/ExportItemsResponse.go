@@ -12,7 +12,7 @@ type ExportItemsResponse struct {
 }
 
 func (E *ExportItemsResponse) SetForMarshal() {
-	E.XMLName.Local = "m:ExportItemsResponse"
+	E.XMLName.Local = "ExportItemsResponse"
 }
 
 func (E *ExportItemsResponse) GetSchema() *Schema {

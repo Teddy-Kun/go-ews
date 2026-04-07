@@ -10,7 +10,7 @@ type CanCreateItems struct {
 }
 
 func (C *CanCreateItems) SetForMarshal() {
-	C.XMLName.Local = "t:CanCreateItems"
+	C.XMLName.Local = "CanCreateItems"
 }
 
 func (C *CanCreateItems) GetSchema() *Schema {

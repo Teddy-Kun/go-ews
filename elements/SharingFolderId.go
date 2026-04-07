@@ -14,7 +14,7 @@ type SharingFolderId struct {
 }
 
 func (S *SharingFolderId) SetForMarshal() {
-	S.XMLName.Local = "m:SharingFolderId"
+	S.XMLName.Local = "SharingFolderId"
 }
 
 func (S *SharingFolderId) GetSchema() *Schema {

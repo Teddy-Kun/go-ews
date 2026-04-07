@@ -2,9 +2,10 @@ package elements
 
 // The DateTimeSent element represents the date and time at which an item in a mailbox was sent.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/datetimesent
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type DateTimeSent struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type DateTimeSent struct {
 }
 
 func (D *DateTimeSent) SetForMarshal() {
-	D.XMLName.Local = "t:DateTimeSent"
+	D.XMLName.Local = "DateTimeSent"
 }
 
 func (D *DateTimeSent) GetSchema() *Schema {

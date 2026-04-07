@@ -10,7 +10,7 @@ type OperationIndex struct {
 }
 
 func (O *OperationIndex) SetForMarshal() {
-	O.XMLName.Local = "m:OperationIndex"
+	O.XMLName.Local = "OperationIndex"
 }
 
 func (O *OperationIndex) GetSchema() *Schema {

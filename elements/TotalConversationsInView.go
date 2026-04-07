@@ -10,7 +10,7 @@ type TotalConversationsInView struct {
 }
 
 func (T *TotalConversationsInView) SetForMarshal() {
-	T.XMLName.Local = "m:TotalConversationsInView"
+	T.XMLName.Local = "TotalConversationsInView"
 }
 
 func (T *TotalConversationsInView) GetSchema() *Schema {

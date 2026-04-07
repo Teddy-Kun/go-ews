@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsContactPhoto) SetForMarshal() {
-	I.XMLName.Local = "t:IsContactPhoto"
+	I.XMLName.Local = "IsContactPhoto"
 }
 
 func (I *IsContactPhoto) GetSchema() *Schema {

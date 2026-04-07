@@ -17,7 +17,7 @@ const (
 )
 
 func (F *FilterHtmlContent) SetForMarshal() {
-	F.XMLName.Local = "t:FilterHtmlContent"
+	F.XMLName.Local = "FilterHtmlContent"
 }
 
 func (F *FilterHtmlContent) GetSchema() *Schema {

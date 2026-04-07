@@ -14,7 +14,7 @@ type DeleteFromFolderStateDefinition struct {
 }
 
 func (D *DeleteFromFolderStateDefinition) SetForMarshal() {
-	D.XMLName.Local = "t:DeleteFromFolderStateDefinition"
+	D.XMLName.Local = "DeleteFromFolderStateDefinition"
 }
 
 func (D *DeleteFromFolderStateDefinition) GetSchema() *Schema {

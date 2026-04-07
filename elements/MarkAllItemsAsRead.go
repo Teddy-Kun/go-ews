@@ -16,7 +16,7 @@ type MarkAllItemsAsRead struct {
 }
 
 func (M *MarkAllItemsAsRead) SetForMarshal() {
-	M.XMLName.Local = "m:MarkAllItemsAsRead"
+	M.XMLName.Local = "MarkAllItemsAsRead"
 }
 
 func (M *MarkAllItemsAsRead) GetSchema() *Schema {

@@ -20,7 +20,7 @@ type InstallAppResponse struct {
 }
 
 func (I *InstallAppResponse) SetForMarshal() {
-	I.XMLName.Local = "m:InstallAppResponse"
+	I.XMLName.Local = "InstallAppResponse"
 }
 
 func (I *InstallAppResponse) GetSchema() *Schema {

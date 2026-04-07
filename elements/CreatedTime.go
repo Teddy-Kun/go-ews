@@ -2,9 +2,10 @@ package elements
 
 // The CreatedTime element specifies the time at which the item was created.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createdtime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type CreatedTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type CreatedTime struct {
 }
 
 func (C *CreatedTime) SetForMarshal() {
-	C.XMLName.Local = "t:CreatedTime"
+	C.XMLName.Local = "CreatedTime"
 }
 
 func (C *CreatedTime) GetSchema() *Schema {

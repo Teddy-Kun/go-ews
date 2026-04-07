@@ -23,7 +23,7 @@ const (
 )
 
 func (G *GetDelegate) SetForMarshal() {
-	G.XMLName.Local = "m:GetDelegate"
+	G.XMLName.Local = "GetDelegate"
 }
 
 func (G *GetDelegate) GetSchema() *Schema {

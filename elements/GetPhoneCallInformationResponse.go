@@ -31,7 +31,7 @@ const (
 )
 
 func (G *GetPhoneCallInformationResponse) SetForMarshal() {
-	G.XMLName.Local = "m:GetPhoneCallInformationResponse"
+	G.XMLName.Local = "GetPhoneCallInformationResponse"
 }
 
 func (G *GetPhoneCallInformationResponse) GetSchema() *Schema {

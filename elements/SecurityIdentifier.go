@@ -10,7 +10,7 @@ type SecurityIdentifier struct {
 }
 
 func (S *SecurityIdentifier) SetForMarshal() {
-	S.XMLName.Local = "t:SecurityIdentifier"
+	S.XMLName.Local = "SecurityIdentifier"
 }
 
 func (S *SecurityIdentifier) GetSchema() *Schema {

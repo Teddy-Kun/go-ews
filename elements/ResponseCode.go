@@ -931,7 +931,7 @@ const (
 )
 
 func (R *ResponseCode) SetForMarshal() {
-	R.XMLName.Local = "m:ResponseCode"
+	R.XMLName.Local = "ResponseCode"
 }
 
 func (R *ResponseCode) GetSchema() *Schema {

@@ -2,9 +2,10 @@ package elements
 
 // The LastAttemptTime element contains the time and date at which the last attempt to index the item was made.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/lastattempttime
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type LastAttemptTime struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type LastAttemptTime struct {
 }
 
 func (L *LastAttemptTime) SetForMarshal() {
-	L.XMLName.Local = "t:LastAttemptTime"
+	L.XMLName.Local = "LastAttemptTime"
 }
 
 func (L *LastAttemptTime) GetSchema() *Schema {

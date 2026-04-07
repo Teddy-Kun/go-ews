@@ -14,7 +14,7 @@ type TrackingPropertyType struct {
 }
 
 func (T *TrackingPropertyType) SetForMarshal() {
-	T.XMLName.Local = "m:TrackingPropertyType"
+	T.XMLName.Local = "TrackingPropertyType"
 }
 
 func (T *TrackingPropertyType) GetSchema() *Schema {

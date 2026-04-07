@@ -12,7 +12,7 @@ type Resources struct {
 }
 
 func (R *Resources) SetForMarshal() {
-	R.XMLName.Local = "t:Resources"
+	R.XMLName.Local = "Resources"
 }
 
 func (R *Resources) GetSchema() *Schema {

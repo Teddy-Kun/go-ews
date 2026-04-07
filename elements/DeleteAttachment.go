@@ -12,7 +12,7 @@ type DeleteAttachment struct {
 }
 
 func (D *DeleteAttachment) SetForMarshal() {
-	D.XMLName.Local = "m:DeleteAttachment"
+	D.XMLName.Local = "DeleteAttachment"
 }
 
 func (D *DeleteAttachment) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type RecipientTrackingEvents struct {
 }
 
 func (R *RecipientTrackingEvents) SetForMarshal() {
-	R.XMLName.Local = "t:RecipientTrackingEvents"
+	R.XMLName.Local = "RecipientTrackingEvents"
 }
 
 func (R *RecipientTrackingEvents) GetSchema() *Schema {

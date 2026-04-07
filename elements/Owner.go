@@ -10,7 +10,7 @@ type Owner struct {
 }
 
 func (O *Owner) SetForMarshal() {
-	O.XMLName.Local = "t:Owner"
+	O.XMLName.Local = "Owner"
 }
 
 func (O *Owner) GetSchema() *Schema {

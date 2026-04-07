@@ -10,7 +10,7 @@ type NumberOfMembersWithNoData struct {
 }
 
 func (N *NumberOfMembersWithNoData) SetForMarshal() {
-	N.XMLName.Local = "t:NumberOfMembersWithNoData"
+	N.XMLName.Local = "NumberOfMembersWithNoData"
 }
 
 func (N *NumberOfMembersWithNoData) GetSchema() *Schema {

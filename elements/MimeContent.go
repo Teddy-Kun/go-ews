@@ -12,7 +12,7 @@ type MimeContent struct {
 }
 
 func (M *MimeContent) SetForMarshal() {
-	M.XMLName.Local = "t:MimeContent"
+	M.XMLName.Local = "MimeContent"
 }
 
 func (M *MimeContent) GetSchema() *Schema {

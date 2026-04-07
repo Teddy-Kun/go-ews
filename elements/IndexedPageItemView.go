@@ -16,7 +16,7 @@ type IndexedPageItemView struct {
 }
 
 func (I *IndexedPageItemView) SetForMarshal() {
-	I.XMLName.Local = "m:IndexedPageItemView"
+	I.XMLName.Local = "IndexedPageItemView"
 }
 
 func (I *IndexedPageItemView) GetSchema() *Schema {

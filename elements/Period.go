@@ -16,7 +16,7 @@ type Period struct {
 }
 
 func (P *Period) SetForMarshal() {
-	P.XMLName.Local = "t:Period"
+	P.XMLName.Local = "Period"
 }
 
 func (P *Period) GetSchema() *Schema {

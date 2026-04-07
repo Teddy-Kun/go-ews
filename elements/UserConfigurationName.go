@@ -16,7 +16,7 @@ type UserConfigurationName struct {
 }
 
 func (U *UserConfigurationName) SetForMarshal() {
-	U.XMLName.Local = "t:UserConfigurationName"
+	U.XMLName.Local = "UserConfigurationName"
 }
 
 func (U *UserConfigurationName) GetSchema() *Schema {

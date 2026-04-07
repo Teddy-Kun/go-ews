@@ -16,7 +16,7 @@ type UninstallAppResponse struct {
 }
 
 func (U *UninstallAppResponse) SetForMarshal() {
-	U.XMLName.Local = "m:UninstallAppResponse"
+	U.XMLName.Local = "UninstallAppResponse"
 }
 
 func (U *UninstallAppResponse) GetSchema() *Schema {

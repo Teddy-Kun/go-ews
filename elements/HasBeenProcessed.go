@@ -10,7 +10,7 @@ type HasBeenProcessed struct {
 }
 
 func (H *HasBeenProcessed) SetForMarshal() {
-	H.XMLName.Local = "t:HasBeenProcessed"
+	H.XMLName.Local = "HasBeenProcessed"
 }
 
 func (H *HasBeenProcessed) GetSchema() *Schema {

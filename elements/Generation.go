@@ -10,7 +10,7 @@ type Generation struct {
 }
 
 func (G *Generation) SetForMarshal() {
-	G.XMLName.Local = "t:Generation"
+	G.XMLName.Local = "Generation"
 }
 
 func (G *Generation) GetSchema() *Schema {

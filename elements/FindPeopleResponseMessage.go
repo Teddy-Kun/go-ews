@@ -22,7 +22,7 @@ type FindPeopleResponseMessage struct {
 }
 
 func (F *FindPeopleResponseMessage) SetForMarshal() {
-	F.XMLName.Local = "m:FindPeopleResponseMessage"
+	F.XMLName.Local = "FindPeopleResponseMessage"
 }
 
 func (F *FindPeopleResponseMessage) GetSchema() *Schema {

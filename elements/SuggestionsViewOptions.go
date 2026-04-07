@@ -26,7 +26,7 @@ type SuggestionsViewOptions struct {
 }
 
 func (S *SuggestionsViewOptions) SetForMarshal() {
-	S.XMLName.Local = "t:SuggestionsViewOptions"
+	S.XMLName.Local = "SuggestionsViewOptions"
 }
 
 func (S *SuggestionsViewOptions) GetSchema() *Schema {

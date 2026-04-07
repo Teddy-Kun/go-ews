@@ -17,7 +17,7 @@ const (
 )
 
 func (I *IsEncrypted) SetForMarshal() {
-	I.XMLName.Local = "m:IsEncrypted"
+	I.XMLName.Local = "IsEncrypted"
 }
 
 func (I *IsEncrypted) GetSchema() *Schema {

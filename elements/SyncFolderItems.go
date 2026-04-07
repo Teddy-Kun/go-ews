@@ -22,7 +22,7 @@ type SyncFolderItems struct {
 }
 
 func (G *SyncFolderItems) SetForMarshal() {
-	G.XMLName.Local = "m:SyncFolderItems"
+	G.XMLName.Local = "SyncFolderItems"
 }
 
 func (G *SyncFolderItems) GetSchema() *Schema {

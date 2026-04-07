@@ -16,7 +16,7 @@ type IndexedPageFolderView struct {
 }
 
 func (I *IndexedPageFolderView) SetForMarshal() {
-	I.XMLName.Local = "m:IndexedPageFolderView"
+	I.XMLName.Local = "IndexedPageFolderView"
 }
 
 func (I *IndexedPageFolderView) GetSchema() *Schema {

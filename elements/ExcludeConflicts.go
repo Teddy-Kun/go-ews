@@ -17,7 +17,7 @@ const (
 )
 
 func (E *ExcludeConflicts) SetForMarshal() {
-	E.XMLName.Local = "t:ExcludeConflicts"
+	E.XMLName.Local = "ExcludeConflicts"
 }
 
 func (E *ExcludeConflicts) GetSchema() *Schema {

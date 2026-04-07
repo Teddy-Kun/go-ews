@@ -10,7 +10,7 @@ type IsAssociated struct {
 }
 
 func (I *IsAssociated) SetForMarshal() {
-	I.XMLName.Local = "t:IsAssociated"
+	I.XMLName.Local = "IsAssociated"
 }
 
 func (I *IsAssociated) GetSchema() *Schema {

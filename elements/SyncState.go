@@ -10,7 +10,7 @@ type SyncState struct {
 }
 
 func (S *SyncState) SetForMarshal() {
-	S.XMLName.Local = "m:SyncState"
+	S.XMLName.Local = "SyncState"
 }
 
 func (S *SyncState) GetSchema() *Schema {

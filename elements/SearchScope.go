@@ -19,7 +19,7 @@ const (
 )
 
 func (S *SearchScope) SetForMarshal() {
-	S.XMLName.Local = "t:SearchScope"
+	S.XMLName.Local = "SearchScope"
 }
 
 func (S *SearchScope) GetSchema() *Schema {

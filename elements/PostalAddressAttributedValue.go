@@ -14,7 +14,7 @@ type PostalAddressAttributedValue struct {
 }
 
 func (P *PostalAddressAttributedValue) SetForMarshal() {
-	P.XMLName.Local = "t:PostalAddressAttributedValue"
+	P.XMLName.Local = "PostalAddressAttributedValue"
 }
 
 func (P *PostalAddressAttributedValue) GetSchema() *Schema {

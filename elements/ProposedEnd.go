@@ -2,9 +2,10 @@ package elements
 
 // The ProposedEnd element specifies the proposed end time of a meeting.
 // https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/proposedend
-import "time"
-
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 type ProposedEnd struct {
 	XMLName xml.Name
@@ -12,7 +13,7 @@ type ProposedEnd struct {
 }
 
 func (P *ProposedEnd) SetForMarshal() {
-	P.XMLName.Local = "t:ProposedEnd"
+	P.XMLName.Local = "ProposedEnd"
 }
 
 func (P *ProposedEnd) GetSchema() *Schema {

@@ -12,7 +12,7 @@ type RecipientsArrayOfRecipientsType struct {
 }
 
 func (R *RecipientsArrayOfRecipientsType) SetForMarshal() {
-	R.XMLName.Local = "t:Recipients"
+	R.XMLName.Local = "Recipients"
 }
 
 func (R *RecipientsArrayOfRecipientsType) GetSchema() *Schema {

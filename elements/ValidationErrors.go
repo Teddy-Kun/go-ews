@@ -12,7 +12,7 @@ type ValidationErrors struct {
 }
 
 func (V *ValidationErrors) SetForMarshal() {
-	V.XMLName.Local = "m:ValidationErrors"
+	V.XMLName.Local = "ValidationErrors"
 }
 
 func (V *ValidationErrors) GetSchema() *Schema {

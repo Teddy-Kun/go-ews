@@ -14,7 +14,7 @@ type FolderShape struct {
 }
 
 func (F *FolderShape) SetForMarshal() {
-	F.XMLName.Local = "m:FolderShape"
+	F.XMLName.Local = "FolderShape"
 }
 
 func (F *FolderShape) GetSchema() *Schema {

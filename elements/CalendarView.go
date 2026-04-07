@@ -16,7 +16,7 @@ type CalendarView struct {
 }
 
 func (C *CalendarView) SetForMarshal() {
-	C.XMLName.Local = "m:CalendarView"
+	C.XMLName.Local = "CalendarView"
 }
 
 func (C *CalendarView) GetSchema() *Schema {

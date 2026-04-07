@@ -10,7 +10,7 @@ type DisplayTo struct {
 }
 
 func (D *DisplayTo) SetForMarshal() {
-	D.XMLName.Local = "t:DisplayTo"
+	D.XMLName.Local = "DisplayTo"
 }
 
 func (D *DisplayTo) GetSchema() *Schema {

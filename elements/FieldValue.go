@@ -10,7 +10,7 @@ type FieldValue struct {
 }
 
 func (F *FieldValue) SetForMarshal() {
-	F.XMLName.Local = "m:FieldValue"
+	F.XMLName.Local = "FieldValue"
 }
 
 func (F *FieldValue) GetSchema() *Schema {

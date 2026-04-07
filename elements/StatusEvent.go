@@ -12,7 +12,7 @@ type StatusEvent struct {
 }
 
 func (S *StatusEvent) SetForMarshal() {
-	S.XMLName.Local = "t:StatusEvent"
+	S.XMLName.Local = "StatusEvent"
 }
 
 func (S *StatusEvent) GetSchema() *Schema {

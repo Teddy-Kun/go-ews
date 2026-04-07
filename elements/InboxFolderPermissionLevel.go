@@ -23,7 +23,7 @@ const (
 )
 
 func (I *InboxFolderPermissionLevel) SetForMarshal() {
-	I.XMLName.Local = "t:InboxFolderPermissionLevel"
+	I.XMLName.Local = "InboxFolderPermissionLevel"
 }
 
 func (I *InboxFolderPermissionLevel) GetSchema() *Schema {

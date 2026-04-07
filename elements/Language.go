@@ -10,7 +10,7 @@ type Language struct {
 }
 
 func (L *Language) SetForMarshal() {
-	L.XMLName.Local = "m:Language"
+	L.XMLName.Local = "Language"
 }
 
 func (L *Language) GetSchema() *Schema {

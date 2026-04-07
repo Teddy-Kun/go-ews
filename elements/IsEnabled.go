@@ -10,7 +10,7 @@ type IsEnabled struct {
 }
 
 func (I *IsEnabled) SetForMarshal() {
-	I.XMLName.Local = "m:IsEnabled"
+	I.XMLName.Local = "IsEnabled"
 }
 
 func (I *IsEnabled) GetSchema() *Schema {

@@ -17,7 +17,7 @@ const (
 )
 
 func (M *ModifyRecipientsAllowed) SetForMarshal() {
-	M.XMLName.Local = "t:ModifyRecipientsAllowed"
+	M.XMLName.Local = "ModifyRecipientsAllowed"
 }
 
 func (M *ModifyRecipientsAllowed) GetSchema() *Schema {

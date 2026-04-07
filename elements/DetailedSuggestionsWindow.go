@@ -14,7 +14,7 @@ type DetailedSuggestionsWindow struct {
 }
 
 func (D *DetailedSuggestionsWindow) SetForMarshal() {
-	D.XMLName.Local = "t:DetailedSuggestionsWindow"
+	D.XMLName.Local = "DetailedSuggestionsWindow"
 }
 
 func (D *DetailedSuggestionsWindow) GetSchema() *Schema {

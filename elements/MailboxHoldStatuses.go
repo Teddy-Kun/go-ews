@@ -12,7 +12,7 @@ type MailboxHoldStatuses struct {
 }
 
 func (M *MailboxHoldStatuses) SetForMarshal() {
-	M.XMLName.Local = "t:MailboxHoldStatuses"
+	M.XMLName.Local = "MailboxHoldStatuses"
 }
 
 func (M *MailboxHoldStatuses) GetSchema() *Schema {

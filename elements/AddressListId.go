@@ -12,7 +12,7 @@ type AddressListId struct {
 }
 
 func (A *AddressListId) SetForMarshal() {
-	A.XMLName.Local = "t:AddressListId"
+	A.XMLName.Local = "AddressListId"
 }
 
 func (A *AddressListId) GetSchema() *Schema {

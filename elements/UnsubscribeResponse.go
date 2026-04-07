@@ -12,7 +12,7 @@ type UnsubscribeResponse struct {
 }
 
 func (U *UnsubscribeResponse) SetForMarshal() {
-	U.XMLName.Local = "m:UnsubscribeResponse"
+	U.XMLName.Local = "UnsubscribeResponse"
 }
 
 func (U *UnsubscribeResponse) GetSchema() *Schema {

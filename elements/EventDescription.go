@@ -65,7 +65,7 @@ const (
 )
 
 func (E *EventDescription) SetForMarshal() {
-	E.XMLName.Local = "t:EventDescription"
+	E.XMLName.Local = "EventDescription"
 }
 
 func (E *EventDescription) GetSchema() *Schema {

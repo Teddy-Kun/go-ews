@@ -16,7 +16,7 @@ type NonIndexableItemStatistic struct {
 }
 
 func (N *NonIndexableItemStatistic) SetForMarshal() {
-	N.XMLName.Local = "m:NonIndexableItemStatistic"
+	N.XMLName.Local = "NonIndexableItemStatistic"
 }
 
 func (N *NonIndexableItemStatistic) GetSchema() *Schema {

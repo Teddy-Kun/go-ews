@@ -10,7 +10,7 @@ type Priority struct {
 }
 
 func (P *Priority) SetForMarshal() {
-	P.XMLName.Local = "m:Priority"
+	P.XMLName.Local = "Priority"
 }
 
 func (P *Priority) GetSchema() *Schema {

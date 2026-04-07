@@ -14,7 +14,7 @@ type UrlEntity struct {
 }
 
 func (U *UrlEntity) SetForMarshal() {
-	U.XMLName.Local = "t:UrlEntity"
+	U.XMLName.Local = "UrlEntity"
 }
 
 func (U *UrlEntity) GetSchema() *Schema {

@@ -16,7 +16,7 @@ type AdditionalProperties struct {
 }
 
 func (A *AdditionalProperties) SetForMarshal() {
-	A.XMLName.Local = "t:AdditionalProperties"
+	A.XMLName.Local = "AdditionalProperties"
 }
 
 func (A *AdditionalProperties) GetSchema() *Schema {

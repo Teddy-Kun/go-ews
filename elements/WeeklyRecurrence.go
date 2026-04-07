@@ -16,7 +16,7 @@ type WeeklyRecurrence struct {
 }
 
 func (W *WeeklyRecurrence) SetForMarshal() {
-	W.XMLName.Local = "t:WeeklyRecurrence"
+	W.XMLName.Local = "WeeklyRecurrence"
 }
 
 func (W *WeeklyRecurrence) GetSchema() *Schema {

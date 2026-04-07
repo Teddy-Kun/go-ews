@@ -16,7 +16,7 @@ type OnlineMeetingSettings struct {
 }
 
 func (O *OnlineMeetingSettings) SetForMarshal() {
-	O.XMLName.Local = "t:OnlineMeetingSettings"
+	O.XMLName.Local = "OnlineMeetingSettings"
 }
 
 func (O *OnlineMeetingSettings) GetSchema() *Schema {

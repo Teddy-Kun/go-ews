@@ -12,7 +12,7 @@ type SearchQueries struct {
 }
 
 func (S *SearchQueries) SetForMarshal() {
-	S.XMLName.Local = "m:SearchQueries"
+	S.XMLName.Local = "SearchQueries"
 }
 
 func (S *SearchQueries) GetSchema() *Schema {

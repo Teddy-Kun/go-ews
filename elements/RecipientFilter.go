@@ -20,7 +20,7 @@ type RecipientFilter struct {
 }
 
 func (R *RecipientFilter) SetForMarshal() {
-	R.XMLName.Local = "m:RecipientFilter"
+	R.XMLName.Local = "RecipientFilter"
 }
 
 func (R *RecipientFilter) GetSchema() *Schema {
