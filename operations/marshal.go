@@ -16,6 +16,7 @@ type EnvelopeRequest struct {
 	Soap     *Schema `xml:"xmlns:soap,attr"`
 	Type     *Schema `xml:"xmlns:t,attr"`
 	Messages *Schema `xml:"xmlns:m,attr"`
+	Header   *Header `xml:"soap:Header,omitempty"`
 	Body     *Body
 }
 
@@ -23,9 +24,18 @@ func (e *EnvelopeRequest) SetForMarshal() {
 	e.XMLName.Local = `soap:Envelope`
 }
 
+type Header struct {
+	XMLName xml.Name `xml:"soap:Header"`
+	Header  any      `xml:",any"`
+}
+
+func (h *Header) SetForMarshal() {
+	h.XMLName.Local = `soap:Header`
+}
+
 type Body struct {
 	XMLName xml.Name
-	Body    interface{}
+	Body    any
 }
 
 func (b *Body) SetForMarshal() {
@@ -36,7 +46,7 @@ type Element interface {
 	SetForMarshal()
 }
 
-func NewEnvelopeMarshal(body interface{}, schemas ...*Schema) (*EnvelopeRequest, error) {
+func NewEnvelopeMarshal(body any, schemas ...*Schema) (*EnvelopeRequest, error) {
 	reTagXMLElement(body)
 	res := &EnvelopeRequest{
 		Soap: getPTR(SchemaSOAP),
@@ -59,9 +69,16 @@ func NewEnvelopeMarshal(body interface{}, schemas ...*Schema) (*EnvelopeRequest,
 	return res, nil
 }
 
-func reTagXMLElement(target interface{}) {
+func (e *EnvelopeRequest) AddHeader(header any) {
+	reTagXMLElement(header)
+	e.Header = &Header{
+		Header: header,
+	}
+}
+
+func reTagXMLElement(target any) {
 	addrValue := reflect.ValueOf(target)
-	if addrValue.Kind() != reflect.Ptr {
+	if addrValue.Kind() != reflect.Pointer {
 		return
 	}
 	targetValue := addrValue.Elem()
@@ -70,7 +87,7 @@ func reTagXMLElement(target interface{}) {
 	}
 	targetType := targetValue.Type()
 
-	if targetType.Kind() == reflect.Ptr && !targetValue.IsNil() {
+	if targetType.Kind() == reflect.Pointer && !targetValue.IsNil() {
 		targetValue = targetValue.Elem()
 		if !targetValue.IsValid() {
 			return
